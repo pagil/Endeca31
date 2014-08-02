@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><Graph author="oracle" created="Fri Aug 01 11:38:33 EDT 2014" guiVersion="3.4.1.P" id="1406908549334" licenseType="Commercial" modified="Fri Aug 01 11:58:52 EDT 2014" modifiedBy="oracle" name="ResetDataStore" revision="1.1" showComponentDetails="true">
+<Global>
+<Property fileURL="workspace.prm" id="GraphParameter0"/>
+<Dictionary/>
+</Global>
+<Phase number="0">
+<Node dataDomainName="BikeStore" enabled="enabled" endecaServerContextRoot="/endeca-server" endecaServerHost="localhost" endecaServerPort="8001" guiName="Reset Data Domain" guiX="248" guiY="120" id="RESET_DATA_DOMAIN" type="ENDECA_RESET_DATA_DOMAIN"/>
+</Phase>
+</Graph>

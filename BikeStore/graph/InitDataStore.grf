@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><Graph author="oracle" created="Thu Jul 31 09:21:43 EDT 2014" guiVersion="3.4.1.P" id="1406814056422" licenseType="Commercial" modified="Fri Aug 01 11:50:26 EDT 2014" modifiedBy="oracle" name="InitDataStore" revision="1.6" showComponentDetails="true">
+<Global>
+<Metadata id="Metadata0" previewAttachment="${DATAIN_DIR}/FactSales.csv" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="," label="FactSales.csv" name="FactSales" previewAttachment="${DATAIN_DIR}/FactSales.csv" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\r\n" skipSourceRows="0" type="delimited">
+<Field name="FactSales_ProductKey" type="integer"/>
+<Field name="FactSales_OrderDateKey" type="integer"/>
+<Field name="FactSales_DueDateKey" type="integer"/>
+<Field name="FactSales_ShipDateKey" type="integer"/>
+<Field name="FactSales_ResellerKey" type="integer"/>
+<Field name="FactSales_EmployeeKey" type="integer"/>
+<Field name="FactSales_PromotionKey" type="integer"/>
+<Field name="FactSales_CurrencyKey" type="integer"/>
+<Field name="FactSales_SalesTerritoryKey" type="integer"/>
+<Field name="FactSales_SalesOrderNumber" type="string"/>
+<Field name="FactSales_SalesOrderLineNumber" type="integer"/>
+<Field name="FactSales_RevisionNumber" type="integer"/>
+<Field name="FactSales_OrderQuantity" type="integer"/>
+<Field name="FactSales_UnitPrice" type="number"/>
+<Field name="FactSales_ExtendedAmount" type="number"/>
+<Field name="FactSales_UnitPriceDiscountPct" type="number"/>
+<Field name="FactSales_DiscountAmount" type="number"/>
+<Field name="FactSales_ProductStandardCost" type="number"/>
+<Field name="FactSales_TotalProductCost" type="number"/>
+<Field name="FactSales_SalesAmount" type="number"/>
+<Field name="FactSales_TaxAmt" type="number"/>
+<Field name="FactSales_Freight" type="number"/>
+<Field name="FactSales_CarrierTrackingNumber" type="string"/>
+<Field eofAsDelimiter="false" name="FactSales_CustomerPONumer" type="string"/>
+</Record>
+</Metadata>
+<Property fileURL="workspace.prm" id="GraphParameter0"/>
+<Dictionary/>
+</Global>
+<Phase number="0">
+<Node enabled="enabled" guiName="Create Data Domain" guiX="79" guiY="59" id="CREATE_DATA_DOMAIN" operationName="{http://www.endeca.com/endeca-server/manage/2}manage#managePort#createDataDomain" type="WEB_SERVICE_CLIENT" wsdlURL="http://${ENDECA_SERVER_HOST}:${ENDECA_SERVER_PORT}/${ENDECA_SERVER_CONTEXT}/ws/manage?wsdl">
+<attr name="namespaceBindings"><![CDATA[0=http\://www.endeca.com/endeca-server/manage/2/0
+XMLS=http\://www.w3.org/2001/XMLSchema
+incl=http\://www.w3.org/2004/08/xop/include
+]]></attr>
+<attr name="faultMapping"><![CDATA[<Mappings>
+	<Mapping element="faultstring" outPort="1">
+	</Mapping>
+</Mappings>
+]]></attr>
+<attr name="requestStructure"><![CDATA[<ns:createDataDomain xmlns:ns="http://www.endeca.com/endeca-server/manage/2/0">
+  <ns:name>${DATA_DOMAIN_NAME}</ns:name>
+  <ns:ddProfileName>default</ns:ddProfileName>
+  <ns:enabled>true</ns:enabled>
+</ns:createDataDomain>
+]]></attr>
+<attr name="responseMapping"><![CDATA[<Mappings>
+	<Mapping element="0:createDataDomainResponse">
+	</Mapping>
+</Mappings>
+]]></attr>
+</Node>
+</Phase>
+</Graph>

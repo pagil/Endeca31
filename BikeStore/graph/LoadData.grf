@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?><Graph author="oracle" created="Fri Aug 01 11:28:41 EDT 2014" guiVersion="3.4.1.P" id="1406907332316" licenseType="Commercial" modified="Sat Aug 02 08:31:45 EDT 2014" modifiedBy="oracle" name="LoadData" revision="1.40" showComponentDetails="true">
+<Global>
+<Metadata id="Metadata2" previewAttachment="${DATAIN_DIR}/DimEmployee.csv" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="," label="DimEmployee.csv" name="DimEmployee" previewAttachment="${DATAIN_DIR}/DimEmployee.csv" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\r\n" skipSourceRows="0" type="delimited">
+<Field name="DimEmployee_EmployeeKey" type="integer"/>
+<Field name="DimEmployee_EmployeeNationalIDAlternateKey" type="string"/>
+<Field name="DimEmployee_SalesTerritoryKey" type="integer"/>
+<Field name="DimEmployee_FirstName" type="string"/>
+<Field name="DimEmployee_LastName" type="string"/>
+<Field name="DimEmployee_MiddleName" type="string"/>
+<Field name="DimEmployee_Title" type="string"/>
+<Field format="MM/dd/yyyy HH:mm" name="DimEmployee_HireDate" type="date"/>
+<Field format="MM/dd/yyyy HH:mm" name="DimEmployee_BirthDate" type="date"/>
+<Field name="DimEmployee_EmailAddress" type="string"/>
+<Field name="DimEmployee_Phone" type="string"/>
+<Field name="DimEmployee_MaritalStatus" type="string"/>
+<Field name="DimEmployee_SalariedFlag" type="integer"/>
+<Field name="DimEmployee_Gender" type="string"/>
+<Field name="DimEmployee_BaseRate" type="number"/>
+<Field name="DimEmployee_CurrentFlag" type="integer"/>
+<Field name="DimEmployee_SalesPersonFlag" type="integer"/>
+<Field name="DimEmployee_DepartmentName" type="string"/>
+<Field format="MM/dd/yyyy HH:mm" name="DimEmployee_StartDate" type="date"/>
+<Field format="MM/dd/yyyy HH:mm" name="DimEmployee_EndDateKey" type="date"/>
+<Field eofAsDelimiter="false" name="DimEmployee_Status" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata0" previewAttachment="${DATAIN_DIR}/FactSales.csv" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="," label="FactSales.csv" name="FactSales" previewAttachment="${DATAIN_DIR}/FactSales.csv" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\r\n" skipSourceRows="0" type="delimited">
+<Field name="FactSales_ProductKey" type="integer"/>
+<Field name="FactSales_OrderDateKey" type="integer"/>
+<Field name="FactSales_DueDateKey" type="integer"/>
+<Field name="FactSales_ShipDateKey" type="integer"/>
+<Field name="FactSales_ResellerKey" type="integer"/>
+<Field name="FactSales_EmployeeKey" type="integer"/>
+<Field name="FactSales_PromotionKey" type="integer"/>
+<Field name="FactSales_CurrencyKey" type="integer"/>
+<Field name="FactSales_SalesTerritoryKey" type="integer"/>
+<Field name="FactSales_SalesOrderNumber" type="string"/>
+<Field name="FactSales_SalesOrderLineNumber" type="integer"/>
+<Field name="FactSales_RevisionNumber" type="integer"/>
+<Field name="FactSales_OrderQuantity" type="integer"/>
+<Field name="FactSales_UnitPrice" type="number"/>
+<Field name="FactSales_ExtendedAmount" type="number"/>
+<Field name="FactSales_UnitPriceDiscountPct" type="number"/>
+<Field name="FactSales_DiscountAmount" type="number"/>
+<Field name="FactSales_ProductStandardCost" type="number"/>
+<Field name="FactSales_TotalProductCost" type="number"/>
+<Field name="FactSales_SalesAmount" type="number"/>
+<Field name="FactSales_TaxAmt" type="number"/>
+<Field name="FactSales_Freight" type="number"/>
+<Field name="FactSales_CarrierTrackingNumber" type="string"/>
+<Field eofAsDelimiter="false" name="FactSales_CustomerPONumer" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata1" previewAttachment="${DATAIN_DIR}/FactSales.csv" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="," label="FactSales.csv" name="FactSalesSpec" previewAttachment="${DATAIN_DIR}/FactSales.csv" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\r\n" skipSourceRows="0" type="delimited">
+<Field name="FactSales_ProductKey" type="integer"/>
+<Field name="FactSales_OrderDateKey" type="integer"/>
+<Field name="FactSales_DueDateKey" type="integer"/>
+<Field name="FactSales_ShipDateKey" type="integer"/>
+<Field name="FactSales_ResellerKey" type="integer"/>
+<Field name="FactSales_EmployeeKey" type="integer"/>
+<Field name="FactSales_PromotionKey" type="integer"/>
+<Field name="FactSales_CurrencyKey" type="integer"/>
+<Field name="FactSales_SalesTerritoryKey" type="integer"/>
+<Field name="FactSales_SalesOrderNumber" type="string"/>
+<Field name="FactSales_SalesOrderLineNumber" type="integer"/>
+<Field name="FactSales_RevisionNumber" type="integer"/>
+<Field name="FactSales_OrderQuantity" type="integer"/>
+<Field name="FactSales_UnitPrice" type="number"/>
+<Field name="FactSales_ExtendedAmount" type="number"/>
+<Field name="FactSales_UnitPriceDiscountPct" type="number"/>
+<Field name="FactSales_DiscountAmount" type="number"/>
+<Field name="FactSales_ProductStandardCost" type="number"/>
+<Field name="FactSales_TotalProductCost" type="number"/>
+<Field name="FactSales_SalesAmount" type="number"/>
+<Field name="FactSales_TaxAmt" type="number"/>
+<Field name="FactSales_Freight" type="number"/>
+<Field name="FactSales_CarrierTrackingNumber" type="string"/>
+<Field eofAsDelimiter="false" name="FactSales_CustomerPONumer" type="string"/>
+<Field name="FactSales_RecordSpec" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata3">
+<Record fieldDelimiter="|" name="SalesRecord" recordDelimiter="\n" type="delimited">
+<Field eofAsDelimiter="false" name="FactSales_ProductKey" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="FactSales_OrderDateKey" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="FactSales_DueDateKey" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="FactSales_ShipDateKey" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="FactSales_ResellerKey" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="FactSales_EmployeeKey" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="FactSales_PromotionKey" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="FactSales_CurrencyKey" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="FactSales_SalesTerritoryKey" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="FactSales_SalesOrderNumber" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="FactSales_SalesOrderLineNumber" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="FactSales_RevisionNumber" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="FactSales_OrderQuantity" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="FactSales_UnitPrice" nullable="true" shift="0" size="0" type="number"/>
+<Field eofAsDelimiter="false" name="FactSales_ExtendedAmount" nullable="true" shift="0" size="0" type="number"/>
+<Field eofAsDelimiter="false" name="FactSales_UnitPriceDiscountPct" nullable="true" shift="0" size="0" type="number"/>
+<Field eofAsDelimiter="false" name="FactSales_DiscountAmount" nullable="true" shift="0" size="0" type="number"/>
+<Field eofAsDelimiter="false" name="FactSales_ProductStandardCost" nullable="true" shift="0" size="0" type="number"/>
+<Field eofAsDelimiter="false" name="FactSales_TotalProductCost" nullable="true" shift="0" size="0" type="number"/>
+<Field eofAsDelimiter="false" name="FactSales_SalesAmount" nullable="true" shift="0" size="0" type="number"/>
+<Field eofAsDelimiter="false" name="FactSales_TaxAmt" nullable="true" shift="0" size="0" type="number"/>
+<Field eofAsDelimiter="false" name="FactSales_Freight" nullable="true" shift="0" size="0" type="number"/>
+<Field eofAsDelimiter="false" name="FactSales_CarrierTrackingNumber" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="FactSales_CustomerPONumer" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="FactSales_RecordSpec" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimEmployee_EmployeeKey" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="DimEmployee_EmployeeNationalIDAlternateKey" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimEmployee_SalesTerritoryKey" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="DimEmployee_FirstName" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimEmployee_LastName" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimEmployee_MiddleName" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimEmployee_Title" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" format="MM/dd/yyyy HH:mm" name="DimEmployee_HireDate" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" format="MM/dd/yyyy HH:mm" name="DimEmployee_BirthDate" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" name="DimEmployee_EmailAddress" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimEmployee_Phone" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimEmployee_MaritalStatus" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimEmployee_SalariedFlag" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="DimEmployee_Gender" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimEmployee_BaseRate" nullable="true" shift="0" size="0" type="number"/>
+<Field eofAsDelimiter="false" name="DimEmployee_CurrentFlag" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="DimEmployee_SalesPersonFlag" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="DimEmployee_DepartmentName" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" format="MM/dd/yyyy HH:mm" name="DimEmployee_StartDate" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" format="MM/dd/yyyy HH:mm" name="DimEmployee_EndDateKey" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" name="DimEmployee_Status" nullable="true" shift="0" size="0" type="string"/>
+<Field name="DimEmployee_FullName" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata5">
+<Record fieldDelimiter="|" name="SalesRecord" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" name="FactSales_ProductKey" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="FactSales_OrderDateKey" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="FactSales_DueDateKey" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="FactSales_ShipDateKey" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="FactSales_ResellerKey" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="FactSales_EmployeeKey" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="FactSales_PromotionKey" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="FactSales_CurrencyKey" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="FactSales_SalesTerritoryKey" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="FactSales_SalesOrderNumber" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="FactSales_SalesOrderLineNumber" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="FactSales_RevisionNumber" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="FactSales_OrderQuantity" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="FactSales_UnitPrice" nullable="true" shift="0" size="0" type="number"/>
+<Field eofAsDelimiter="false" name="FactSales_ExtendedAmount" nullable="true" shift="0" size="0" type="number"/>
+<Field eofAsDelimiter="false" name="FactSales_UnitPriceDiscountPct" nullable="true" shift="0" size="0" type="number"/>
+<Field eofAsDelimiter="false" name="FactSales_DiscountAmount" nullable="true" shift="0" size="0" type="number"/>
+<Field eofAsDelimiter="false" name="FactSales_ProductStandardCost" nullable="true" shift="0" size="0" type="number"/>
+<Field eofAsDelimiter="false" name="FactSales_TotalProductCost" nullable="true" shift="0" size="0" type="number"/>
+<Field eofAsDelimiter="false" name="FactSales_SalesAmount" nullable="true" shift="0" size="0" type="number"/>
+<Field eofAsDelimiter="false" name="FactSales_TaxAmt" nullable="true" shift="0" size="0" type="number"/>
+<Field eofAsDelimiter="false" name="FactSales_Freight" nullable="true" shift="0" size="0" type="number"/>
+<Field eofAsDelimiter="false" name="FactSales_CarrierTrackingNumber" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="FactSales_CustomerPONumer" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="FactSales_RecordSpec" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimEmployee_EmployeeKey" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="DimEmployee_EmployeeNationalIDAlternateKey" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimEmployee_SalesTerritoryKey" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="DimEmployee_FirstName" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimEmployee_LastName" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimEmployee_MiddleName" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimEmployee_Title" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" format="MM/dd/yyyy HH:mm" name="DimEmployee_HireDate" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" format="MM/dd/yyyy HH:mm" name="DimEmployee_BirthDate" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" name="DimEmployee_EmailAddress" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimEmployee_Phone" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimEmployee_MaritalStatus" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimEmployee_SalariedFlag" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="DimEmployee_Gender" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimEmployee_BaseRate" nullable="true" shift="0" size="0" type="number"/>
+<Field eofAsDelimiter="false" name="DimEmployee_CurrentFlag" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="DimEmployee_SalesPersonFlag" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="DimEmployee_DepartmentName" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" format="MM/dd/yyyy HH:mm" name="DimEmployee_StartDate" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" format="MM/dd/yyyy HH:mm" name="DimEmployee_EndDateKey" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" name="DimEmployee_Status" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimEmployee_FullName" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="SalesOrderNumber" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="SurveyResponse" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="SurveyTerms" nullable="true" shift="0" size="0" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata4" previewAttachment="${DATAIN_DIR}/SurveyResponses.csv" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="|" label="SurveyResponses.csv" name="SurveyResponses" previewAttachment="${DATAIN_DIR}/SurveyResponses.csv" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" skipSourceRows="0" type="delimited">
+<Field name="SalesOrderNumber" type="string"/>
+<Field eofAsDelimiter="false" name="SurveyResponse" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata7" previewAttachment="${DATAIN_DIR}/SurveyResponses.csv" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="|" label="SurveyResponses.csv" name="SurveyResponsesTagged" previewAttachment="${DATAIN_DIR}/SurveyResponses.csv" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" skipSourceRows="0" type="delimited">
+<Field name="SalesOrderNumber" type="string"/>
+<Field eofAsDelimiter="false" name="SurveyResponse" type="string"/>
+<Field name="SurveyTerms" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata6" previewAttachment="${DATAIN_DIR}/SurveyWhitelist.csv" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="," label="SurveyWhitelist.csv" name="SurveyWhitelist" previewAttachment="${DATAIN_DIR}/SurveyWhitelist.csv" previewAttachmentCharset="ISO-8859-1" quotedStrings="false" recordDelimiter="\n" skipSourceRows="0" type="delimited">
+<Field name="SearchTerm" type="string"/>
+<Field eofAsDelimiter="false" name="TagValue" type="string"/>
+</Record>
+</Metadata>
+<Property fileURL="workspace.prm" id="GraphParameter0"/>
+<Dictionary/>
+</Global>
+<Phase number="0">
+<Node collectionName="SalesCollectionKey" dataDomainName="BikeStore" enabled="enabled" endecaServerContextRoot="/endeca-server" endecaServerHost="localhost" endecaServerPort="8001" guiName="Bulk Load to Data Store" guiX="1070" guiY="27" id="BULK_LOAD_TO_DATA_STORE" milliSecondsTimeout="90000" multiAssignDelimiter="" specProperty="FactSales_RecordSpec" type="ENDECA_BULK_ADD_OR_REPLACE_RECORDS"/>
+<Node enabled="enabled" guiName="Create Spec" guiX="311" guiY="12" id="CREATE_SPEC" type="REFORMAT">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {
+	$out.0.FactSales_ProductKey = $in.0.FactSales_ProductKey;
+	$out.0.FactSales_OrderDateKey = $in.0.FactSales_OrderDateKey;
+	$out.0.FactSales_DueDateKey = $in.0.FactSales_DueDateKey;
+	$out.0.FactSales_ShipDateKey = $in.0.FactSales_ShipDateKey;
+	$out.0.FactSales_ResellerKey = $in.0.FactSales_ResellerKey;
+	$out.0.FactSales_EmployeeKey = $in.0.FactSales_EmployeeKey;
+	$out.0.FactSales_PromotionKey = $in.0.FactSales_PromotionKey;
+	$out.0.FactSales_CurrencyKey = $in.0.FactSales_CurrencyKey;
+	$out.0.FactSales_SalesTerritoryKey = $in.0.FactSales_SalesTerritoryKey;
+	$out.0.FactSales_SalesOrderNumber = $in.0.FactSales_SalesOrderNumber;
+	$out.0.FactSales_SalesOrderLineNumber = $in.0.FactSales_SalesOrderLineNumber;
+	$out.0.FactSales_RevisionNumber = $in.0.FactSales_RevisionNumber;
+	$out.0.FactSales_OrderQuantity = $in.0.FactSales_OrderQuantity;
+	$out.0.FactSales_UnitPrice = $in.0.FactSales_UnitPrice;
+	$out.0.FactSales_ExtendedAmount = $in.0.FactSales_ExtendedAmount;
+	$out.0.FactSales_UnitPriceDiscountPct = $in.0.FactSales_UnitPriceDiscountPct;
+	$out.0.FactSales_DiscountAmount = $in.0.FactSales_DiscountAmount;
+	$out.0.FactSales_ProductStandardCost = $in.0.FactSales_ProductStandardCost;
+	$out.0.FactSales_TotalProductCost = $in.0.FactSales_TotalProductCost;
+	$out.0.FactSales_SalesAmount = $in.0.FactSales_SalesAmount;
+	$out.0.FactSales_TaxAmt = $in.0.FactSales_TaxAmt;
+	$out.0.FactSales_Freight = $in.0.FactSales_Freight;
+	$out.0.FactSales_CarrierTrackingNumber = $in.0.FactSales_CarrierTrackingNumber;
+	$out.0.FactSales_CustomerPONumer = $in.0.FactSales_CustomerPONumer;
+	$out.0.FactSales_RecordSpec = $in.0.FactSales_SalesOrderNumber+"-"+$in.0.FactSales_SalesOrderLineNumber;
+
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+</Node>
+<Node enabled="enabled" fileURL="${DATAIN_DIR}/DimEmployee.csv" guiName="Employee Dim" guiX="18" guiY="130" id="EMPLOYEE_DIM" skipRows="1" type="DATA_READER"/>
+<Node enabled="enabled" guiName="Join Dims to Facts" guiX="569" guiY="80" id="JOIN_DIMS_TO_FACTS" joinKey="$FactSales_EmployeeKey=$DimEmployee_EmployeeKey" joinType="leftOuter" type="EXT_HASH_JOIN">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {
+	$out.0.FactSales_ProductKey = $in.0.FactSales_ProductKey;
+	$out.0.FactSales_OrderDateKey = $in.0.FactSales_OrderDateKey;
+	$out.0.FactSales_DueDateKey = $in.0.FactSales_DueDateKey;
+	$out.0.FactSales_ShipDateKey = $in.0.FactSales_ShipDateKey;
+	$out.0.FactSales_ResellerKey = $in.0.FactSales_ResellerKey;
+	$out.0.FactSales_EmployeeKey = $in.0.FactSales_EmployeeKey;
+	$out.0.FactSales_PromotionKey = $in.0.FactSales_PromotionKey;
+	$out.0.FactSales_CurrencyKey = $in.0.FactSales_CurrencyKey;
+	$out.0.FactSales_SalesTerritoryKey = $in.0.FactSales_SalesTerritoryKey;
+	$out.0.FactSales_SalesOrderNumber = $in.0.FactSales_SalesOrderNumber;
+	$out.0.FactSales_SalesOrderLineNumber = $in.0.FactSales_SalesOrderLineNumber;
+	$out.0.FactSales_RevisionNumber = $in.0.FactSales_RevisionNumber;
+	$out.0.FactSales_OrderQuantity = $in.0.FactSales_OrderQuantity;
+	$out.0.FactSales_UnitPrice = $in.0.FactSales_UnitPrice;
+	$out.0.FactSales_ExtendedAmount = $in.0.FactSales_ExtendedAmount;
+	$out.0.FactSales_UnitPriceDiscountPct = $in.0.FactSales_UnitPriceDiscountPct;
+	$out.0.FactSales_DiscountAmount = $in.0.FactSales_DiscountAmount;
+	$out.0.FactSales_ProductStandardCost = $in.0.FactSales_ProductStandardCost;
+	$out.0.FactSales_TotalProductCost = $in.0.FactSales_TotalProductCost;
+	$out.0.FactSales_SalesAmount = $in.0.FactSales_SalesAmount;
+	$out.0.FactSales_TaxAmt = $in.0.FactSales_TaxAmt;
+	$out.0.FactSales_Freight = $in.0.FactSales_Freight;
+	$out.0.FactSales_CarrierTrackingNumber = $in.0.FactSales_CarrierTrackingNumber;
+	$out.0.FactSales_CustomerPONumer = $in.0.FactSales_CustomerPONumer;
+	$out.0.FactSales_RecordSpec = $in.0.FactSales_RecordSpec;
+	$out.0.DimEmployee_EmployeeKey = $in.1.DimEmployee_EmployeeKey;
+	$out.0.DimEmployee_EmployeeNationalIDAlternateKey = $in.1.DimEmployee_EmployeeNationalIDAlternateKey;
+	$out.0.DimEmployee_SalesTerritoryKey = $in.1.DimEmployee_SalesTerritoryKey;
+	$out.0.DimEmployee_FirstName = $in.1.DimEmployee_FirstName;
+	$out.0.DimEmployee_LastName = $in.1.DimEmployee_LastName;
+	$out.0.DimEmployee_MiddleName = $in.1.DimEmployee_MiddleName;
+	$out.0.DimEmployee_Title = $in.1.DimEmployee_Title;
+	$out.0.DimEmployee_HireDate = $in.1.DimEmployee_HireDate;
+	$out.0.DimEmployee_BirthDate = $in.1.DimEmployee_BirthDate;
+	$out.0.DimEmployee_EmailAddress = $in.1.DimEmployee_EmailAddress;
+	$out.0.DimEmployee_Phone = $in.1.DimEmployee_Phone;
+	$out.0.DimEmployee_MaritalStatus = $in.1.DimEmployee_MaritalStatus;
+	$out.0.DimEmployee_SalariedFlag = $in.1.DimEmployee_SalariedFlag;
+	$out.0.DimEmployee_Gender = $in.1.DimEmployee_Gender;
+	$out.0.DimEmployee_BaseRate = $in.1.DimEmployee_BaseRate;
+	$out.0.DimEmployee_CurrentFlag = $in.1.DimEmployee_CurrentFlag;
+	$out.0.DimEmployee_SalesPersonFlag = $in.1.DimEmployee_SalesPersonFlag;
+	$out.0.DimEmployee_DepartmentName = $in.1.DimEmployee_DepartmentName;
+	$out.0.DimEmployee_StartDate = $in.1.DimEmployee_StartDate;
+	$out.0.DimEmployee_EndDateKey = $in.1.DimEmployee_EndDateKey;
+	$out.0.DimEmployee_Status = $in.1.DimEmployee_Status;
+	$out.0.DimEmployee_FullName = $in.1.DimEmployee_FirstName+"-"+$in.1.DimEmployee_LastName;
+
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+</Node>
+<Node enabled="enabled" guiName="Join Survey Responses" guiX="805" guiY="257" id="JOIN_SURVEY_RESPONSES" joinKey="$FactSales_SalesOrderNumber=$SalesOrderNumber" joinType="leftOuter" type="EXT_HASH_JOIN">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {
+	$out.0.FactSales_ProductKey = $in.0.FactSales_ProductKey;
+	$out.0.FactSales_OrderDateKey = $in.0.FactSales_OrderDateKey;
+	$out.0.FactSales_DueDateKey = $in.0.FactSales_DueDateKey;
+	$out.0.FactSales_ShipDateKey = $in.0.FactSales_ShipDateKey;
+	$out.0.FactSales_ResellerKey = $in.0.FactSales_ResellerKey;
+	$out.0.FactSales_EmployeeKey = $in.0.FactSales_EmployeeKey;
+	$out.0.FactSales_PromotionKey = $in.0.FactSales_PromotionKey;
+	$out.0.FactSales_CurrencyKey = $in.0.FactSales_CurrencyKey;
+	$out.0.FactSales_SalesTerritoryKey = $in.0.FactSales_SalesTerritoryKey;
+	$out.0.FactSales_SalesOrderNumber = $in.0.FactSales_SalesOrderNumber;
+	$out.0.FactSales_SalesOrderLineNumber = $in.0.FactSales_SalesOrderLineNumber;
+	$out.0.FactSales_RevisionNumber = $in.0.FactSales_RevisionNumber;
+	$out.0.FactSales_OrderQuantity = $in.0.FactSales_OrderQuantity;
+	$out.0.FactSales_UnitPrice = $in.0.FactSales_UnitPrice;
+	$out.0.FactSales_ExtendedAmount = $in.0.FactSales_ExtendedAmount;
+	$out.0.FactSales_UnitPriceDiscountPct = $in.0.FactSales_UnitPriceDiscountPct;
+	$out.0.FactSales_DiscountAmount = $in.0.FactSales_DiscountAmount;
+	$out.0.FactSales_ProductStandardCost = $in.0.FactSales_ProductStandardCost;
+	$out.0.FactSales_TotalProductCost = $in.0.FactSales_TotalProductCost;
+	$out.0.FactSales_SalesAmount = $in.0.FactSales_SalesAmount;
+	$out.0.FactSales_TaxAmt = $in.0.FactSales_TaxAmt;
+	$out.0.FactSales_Freight = $in.0.FactSales_Freight;
+	$out.0.FactSales_CarrierTrackingNumber = $in.0.FactSales_CarrierTrackingNumber;
+	$out.0.FactSales_CustomerPONumer = $in.0.FactSales_CustomerPONumer;
+	$out.0.FactSales_RecordSpec = $in.0.FactSales_RecordSpec;
+	$out.0.DimEmployee_EmployeeKey = $in.0.DimEmployee_EmployeeKey;
+	$out.0.DimEmployee_EmployeeNationalIDAlternateKey = $in.0.DimEmployee_EmployeeNationalIDAlternateKey;
+	$out.0.DimEmployee_SalesTerritoryKey = $in.0.DimEmployee_SalesTerritoryKey;
+	$out.0.DimEmployee_FirstName = $in.0.DimEmployee_FirstName;
+	$out.0.DimEmployee_LastName = $in.0.DimEmployee_LastName;
+	$out.0.DimEmployee_MiddleName = $in.0.DimEmployee_MiddleName;
+	$out.0.DimEmployee_Title = $in.0.DimEmployee_Title;
+	$out.0.DimEmployee_HireDate = $in.0.DimEmployee_HireDate;
+	$out.0.DimEmployee_BirthDate = $in.0.DimEmployee_BirthDate;
+	$out.0.DimEmployee_EmailAddress = $in.0.DimEmployee_EmailAddress;
+	$out.0.DimEmployee_Phone = $in.0.DimEmployee_Phone;
+	$out.0.DimEmployee_MaritalStatus = $in.0.DimEmployee_MaritalStatus;
+	$out.0.DimEmployee_SalariedFlag = $in.0.DimEmployee_SalariedFlag;
+	$out.0.DimEmployee_Gender = $in.0.DimEmployee_Gender;
+	$out.0.DimEmployee_BaseRate = $in.0.DimEmployee_BaseRate;
+	$out.0.DimEmployee_CurrentFlag = $in.0.DimEmployee_CurrentFlag;
+	$out.0.DimEmployee_SalesPersonFlag = $in.0.DimEmployee_SalesPersonFlag;
+	$out.0.DimEmployee_DepartmentName = $in.0.DimEmployee_DepartmentName;
+	$out.0.DimEmployee_StartDate = $in.0.DimEmployee_StartDate;
+	$out.0.DimEmployee_EndDateKey = $in.0.DimEmployee_EndDateKey;
+	$out.0.DimEmployee_Status = $in.0.DimEmployee_Status;
+	$out.0.DimEmployee_FullName = $in.0.DimEmployee_FullName;
+	$out.0.SalesOrderNumber = $in.1.SalesOrderNumber;
+	$out.0.SurveyResponse = $in.1.SurveyResponse;
+	$out.0.SurveyTerms = $in.1.SurveyTerms;
+
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+</Node>
+<Node enabled="enabled" fileURL="${DATAIN_DIR}/FactSales.csv" guiName="Sales Facts" guiX="18" guiY="12" id="SALES_FACTS" quotedStrings="false" skipRows="1" type="DATA_READER"/>
+<Node enabled="enabled" fileURL="${DATAIN_DIR}/SurveyResponses.csv" guiName="Survey Responses" guiX="18" guiY="249" id="SURVEY_RESPONSES" skipRows="1" type="DATA_READER"/>
+<Node enabled="disabled" fileURL="${DATAIN_DIR}/SurveyWhitelist.csv" guiName="Survey Whitelist" guiX="18" guiY="375" id="SURVEY_WHITELIST" quotedStrings="true" skipRows="1" type="DATA_READER"/>
+<Node enabled="enabled" fileURL="${DATAIN_DIR}/SurveyWhitelistFull.csv" guiName="Survey Whitelist Full" guiX="18" guiY="494" id="SURVEY_WHITELIST_FULL" skipRows="1" type="DATA_READER"/>
+<Node caseSensitive="false" enabled="enabled" guiName="Text Tagger - Whitelist" guiX="311" guiY="341" id="TEXT_TAGGER_WHITELIST" multiAssignDelimiter="||" overwriteTargetField="false" searchTermMaxCharLength="100" sourceField="SurveyResponse" targetField="SurveyTerms" threads="1" type="TEXT_TAGGER_WHITELIST"/>
+<Edge fromNode="CREATE_SPEC:0" guiBendpoints="" guiRouter="Manhattan" id="Edge1" inPort="Port 0 (driver)" metadata="Metadata1" outPort="Port 0 (out)" toNode="JOIN_DIMS_TO_FACTS:0"/>
+<Edge fromNode="EMPLOYEE_DIM:0" guiBendpoints="" guiRouter="Manhattan" id="Edge2" inPort="Port 1 (slave)" metadata="Metadata2" outPort="Port 0 (output)" toNode="JOIN_DIMS_TO_FACTS:1"/>
+<Edge fromNode="JOIN_DIMS_TO_FACTS:0" guiBendpoints="" guiRouter="Manhattan" id="Edge3" inPort="Port 0 (driver)" metadata="Metadata3" outPort="Port 0 (out)" toNode="JOIN_SURVEY_RESPONSES:0"/>
+<Edge fromNode="JOIN_SURVEY_RESPONSES:0" guiBendpoints="" guiRouter="Manhattan" id="Edge6" inPort="Port 0 (in)" metadata="Metadata5" outPort="Port 0 (out)" toNode="BULK_LOAD_TO_DATA_STORE:0"/>
+<Edge debugMode="true" fromNode="SALES_FACTS:0" guiBendpoints="" guiRouter="Manhattan" id="Edge0" inPort="Port 0 (in)" metadata="Metadata0" outPort="Port 0 (output)" toNode="CREATE_SPEC:0"/>
+<Edge fromNode="SURVEY_RESPONSES:0" guiBendpoints="" guiRouter="Manhattan" id="Edge4" inPort="Port 0 (Records Input Port)" metadata="Metadata4" outPort="Port 0 (output)" toNode="TEXT_TAGGER_WHITELIST:0"/>
+<Edge fromNode="SURVEY_WHITELIST_FULL:0" guiBendpoints="" guiRouter="Manhattan" id="Edge7" inPort="Port 1 (Tag Rules Input Port)" metadata="Metadata6" outPort="Port 0 (output)" toNode="TEXT_TAGGER_WHITELIST:1"/>
+<Edge debugMode="true" fromNode="TEXT_TAGGER_WHITELIST:0" guiBendpoints="" guiRouter="Manhattan" id="Edge8" inPort="Port 1 (slave)" metadata="Metadata7" outPort="Port 0 (out)" toNode="JOIN_SURVEY_RESPONSES:1"/>
+</Phase>
+</Graph>
