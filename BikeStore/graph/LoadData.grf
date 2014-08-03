@@ -402,7 +402,6 @@ function integer transform() {
 	$out.0.DimDate_FiscalQuarter = "Q" + $in.3.DimDate_FiscalQuarter;
 	$out.0.DimDate_FiscalYear = $in.3.DimDate_FiscalYear;
 	$out.0.DimDate_FiscalSemester = $in.3.DimDate_FiscalSemester;
-
 	return ALL;
 }
 
@@ -499,7 +498,6 @@ function integer transform() {
 	$out.0.DimDate_FiscalQuarter = $in.0.DimDate_FiscalQuarter;
 	$out.0.DimDate_FiscalYear = $in.0.DimDate_FiscalYear;
 	$out.0.DimDate_FiscalSemester = $in.0.DimDate_FiscalSemester;
-
 	return ALL;
 }
 
