@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><Graph author="oracle" created="Fri Aug 01 11:28:41 EDT 2014" guiVersion="3.4.1.P" id="1406907332316" licenseType="Commercial" modified="Sat Aug 02 08:31:45 EDT 2014" modifiedBy="oracle" name="LoadData" revision="1.40" showComponentDetails="true">
+<?xml version="1.0" encoding="UTF-8"?><Graph author="oracle" created="Fri Aug 01 11:28:41 EDT 2014" guiVersion="3.4.1.P" id="1406907332316" licenseType="Commercial" modified="Sat Aug 02 23:04:23 EDT 2014" modifiedBy="oracle" name="LoadData" revision="1.47" showComponentDetails="true">
 <Global>
 <Metadata id="Metadata2" previewAttachment="${DATAIN_DIR}/DimEmployee.csv" previewAttachmentCharset="ISO-8859-1">
 <Record fieldDelimiter="," label="DimEmployee.csv" name="DimEmployee" previewAttachment="${DATAIN_DIR}/DimEmployee.csv" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\r\n" skipSourceRows="0" type="delimited">
@@ -23,6 +23,14 @@
 <Field format="MM/dd/yyyy HH:mm" name="DimEmployee_StartDate" type="date"/>
 <Field format="MM/dd/yyyy HH:mm" name="DimEmployee_EndDateKey" type="date"/>
 <Field eofAsDelimiter="false" name="DimEmployee_Status" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata8" previewAttachment="${DATAIN_DIR}/DimSalesTerritory.csv" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="," label="DimSalesTerritory.csv" name="DimSalesTerritory" previewAttachment="${DATAIN_DIR}/DimSalesTerritory.csv" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\r\n" skipSourceRows="0" type="delimited">
+<Field name="DimSalesTerritory_SalesTerritoryKey" type="integer"/>
+<Field name="DimSalesTerritory_SalesTerritoryRegion" type="string"/>
+<Field name="DimSalesTerritory_SalesTerritoryCountry" type="string"/>
+<Field eofAsDelimiter="false" name="DimSalesTerritory_SalesTerritoryGroup" type="string"/>
 </Record>
 </Metadata>
 <Metadata id="Metadata0" previewAttachment="${DATAIN_DIR}/FactSales.csv" previewAttachmentCharset="ISO-8859-1">
@@ -82,59 +90,8 @@
 <Field name="FactSales_RecordSpec" type="string"/>
 </Record>
 </Metadata>
-<Metadata id="Metadata3">
-<Record fieldDelimiter="|" name="SalesRecord" recordDelimiter="\n" type="delimited">
-<Field eofAsDelimiter="false" name="FactSales_ProductKey" nullable="true" shift="0" size="0" type="integer"/>
-<Field eofAsDelimiter="false" name="FactSales_OrderDateKey" nullable="true" shift="0" size="0" type="integer"/>
-<Field eofAsDelimiter="false" name="FactSales_DueDateKey" nullable="true" shift="0" size="0" type="integer"/>
-<Field eofAsDelimiter="false" name="FactSales_ShipDateKey" nullable="true" shift="0" size="0" type="integer"/>
-<Field eofAsDelimiter="false" name="FactSales_ResellerKey" nullable="true" shift="0" size="0" type="integer"/>
-<Field eofAsDelimiter="false" name="FactSales_EmployeeKey" nullable="true" shift="0" size="0" type="integer"/>
-<Field eofAsDelimiter="false" name="FactSales_PromotionKey" nullable="true" shift="0" size="0" type="integer"/>
-<Field eofAsDelimiter="false" name="FactSales_CurrencyKey" nullable="true" shift="0" size="0" type="integer"/>
-<Field eofAsDelimiter="false" name="FactSales_SalesTerritoryKey" nullable="true" shift="0" size="0" type="integer"/>
-<Field eofAsDelimiter="false" name="FactSales_SalesOrderNumber" nullable="true" shift="0" size="0" type="string"/>
-<Field eofAsDelimiter="false" name="FactSales_SalesOrderLineNumber" nullable="true" shift="0" size="0" type="integer"/>
-<Field eofAsDelimiter="false" name="FactSales_RevisionNumber" nullable="true" shift="0" size="0" type="integer"/>
-<Field eofAsDelimiter="false" name="FactSales_OrderQuantity" nullable="true" shift="0" size="0" type="integer"/>
-<Field eofAsDelimiter="false" name="FactSales_UnitPrice" nullable="true" shift="0" size="0" type="number"/>
-<Field eofAsDelimiter="false" name="FactSales_ExtendedAmount" nullable="true" shift="0" size="0" type="number"/>
-<Field eofAsDelimiter="false" name="FactSales_UnitPriceDiscountPct" nullable="true" shift="0" size="0" type="number"/>
-<Field eofAsDelimiter="false" name="FactSales_DiscountAmount" nullable="true" shift="0" size="0" type="number"/>
-<Field eofAsDelimiter="false" name="FactSales_ProductStandardCost" nullable="true" shift="0" size="0" type="number"/>
-<Field eofAsDelimiter="false" name="FactSales_TotalProductCost" nullable="true" shift="0" size="0" type="number"/>
-<Field eofAsDelimiter="false" name="FactSales_SalesAmount" nullable="true" shift="0" size="0" type="number"/>
-<Field eofAsDelimiter="false" name="FactSales_TaxAmt" nullable="true" shift="0" size="0" type="number"/>
-<Field eofAsDelimiter="false" name="FactSales_Freight" nullable="true" shift="0" size="0" type="number"/>
-<Field eofAsDelimiter="false" name="FactSales_CarrierTrackingNumber" nullable="true" shift="0" size="0" type="string"/>
-<Field eofAsDelimiter="false" name="FactSales_CustomerPONumer" nullable="true" shift="0" size="0" type="string"/>
-<Field eofAsDelimiter="false" name="FactSales_RecordSpec" nullable="true" shift="0" size="0" type="string"/>
-<Field eofAsDelimiter="false" name="DimEmployee_EmployeeKey" nullable="true" shift="0" size="0" type="integer"/>
-<Field eofAsDelimiter="false" name="DimEmployee_EmployeeNationalIDAlternateKey" nullable="true" shift="0" size="0" type="string"/>
-<Field eofAsDelimiter="false" name="DimEmployee_SalesTerritoryKey" nullable="true" shift="0" size="0" type="integer"/>
-<Field eofAsDelimiter="false" name="DimEmployee_FirstName" nullable="true" shift="0" size="0" type="string"/>
-<Field eofAsDelimiter="false" name="DimEmployee_LastName" nullable="true" shift="0" size="0" type="string"/>
-<Field eofAsDelimiter="false" name="DimEmployee_MiddleName" nullable="true" shift="0" size="0" type="string"/>
-<Field eofAsDelimiter="false" name="DimEmployee_Title" nullable="true" shift="0" size="0" type="string"/>
-<Field eofAsDelimiter="false" format="MM/dd/yyyy HH:mm" name="DimEmployee_HireDate" nullable="true" shift="0" size="0" type="date"/>
-<Field eofAsDelimiter="false" format="MM/dd/yyyy HH:mm" name="DimEmployee_BirthDate" nullable="true" shift="0" size="0" type="date"/>
-<Field eofAsDelimiter="false" name="DimEmployee_EmailAddress" nullable="true" shift="0" size="0" type="string"/>
-<Field eofAsDelimiter="false" name="DimEmployee_Phone" nullable="true" shift="0" size="0" type="string"/>
-<Field eofAsDelimiter="false" name="DimEmployee_MaritalStatus" nullable="true" shift="0" size="0" type="string"/>
-<Field eofAsDelimiter="false" name="DimEmployee_SalariedFlag" nullable="true" shift="0" size="0" type="integer"/>
-<Field eofAsDelimiter="false" name="DimEmployee_Gender" nullable="true" shift="0" size="0" type="string"/>
-<Field eofAsDelimiter="false" name="DimEmployee_BaseRate" nullable="true" shift="0" size="0" type="number"/>
-<Field eofAsDelimiter="false" name="DimEmployee_CurrentFlag" nullable="true" shift="0" size="0" type="integer"/>
-<Field eofAsDelimiter="false" name="DimEmployee_SalesPersonFlag" nullable="true" shift="0" size="0" type="integer"/>
-<Field eofAsDelimiter="false" name="DimEmployee_DepartmentName" nullable="true" shift="0" size="0" type="string"/>
-<Field eofAsDelimiter="false" format="MM/dd/yyyy HH:mm" name="DimEmployee_StartDate" nullable="true" shift="0" size="0" type="date"/>
-<Field eofAsDelimiter="false" format="MM/dd/yyyy HH:mm" name="DimEmployee_EndDateKey" nullable="true" shift="0" size="0" type="date"/>
-<Field eofAsDelimiter="false" name="DimEmployee_Status" nullable="true" shift="0" size="0" type="string"/>
-<Field name="DimEmployee_FullName" type="string"/>
-</Record>
-</Metadata>
-<Metadata id="Metadata5">
-<Record fieldDelimiter="|" name="SalesRecord" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Metadata id="Metadata3" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="|" name="SalesRecord" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" recordSize="-1" type="delimited">
 <Field eofAsDelimiter="false" name="FactSales_ProductKey" nullable="true" shift="0" size="0" type="integer"/>
 <Field eofAsDelimiter="false" name="FactSales_OrderDateKey" nullable="true" shift="0" size="0" type="integer"/>
 <Field eofAsDelimiter="false" name="FactSales_DueDateKey" nullable="true" shift="0" size="0" type="integer"/>
@@ -182,6 +139,65 @@
 <Field eofAsDelimiter="false" format="MM/dd/yyyy HH:mm" name="DimEmployee_EndDateKey" nullable="true" shift="0" size="0" type="date"/>
 <Field eofAsDelimiter="false" name="DimEmployee_Status" nullable="true" shift="0" size="0" type="string"/>
 <Field eofAsDelimiter="false" name="DimEmployee_FullName" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimSalesTerritory_SalesTerritoryKey" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="DimSalesTerritory_SalesTerritoryRegion" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimSalesTerritory_SalesTerritoryCountry" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimSalesTerritory_SalesTerritoryGroup" nullable="true" shift="0" size="0" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata5" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="|" name="SalesRecord" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" name="FactSales_ProductKey" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="FactSales_OrderDateKey" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="FactSales_DueDateKey" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="FactSales_ShipDateKey" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="FactSales_ResellerKey" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="FactSales_EmployeeKey" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="FactSales_PromotionKey" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="FactSales_CurrencyKey" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="FactSales_SalesTerritoryKey" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="FactSales_SalesOrderNumber" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="FactSales_SalesOrderLineNumber" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="FactSales_RevisionNumber" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="FactSales_OrderQuantity" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="FactSales_UnitPrice" nullable="true" shift="0" size="0" type="number"/>
+<Field eofAsDelimiter="false" name="FactSales_ExtendedAmount" nullable="true" shift="0" size="0" type="number"/>
+<Field eofAsDelimiter="false" name="FactSales_UnitPriceDiscountPct" nullable="true" shift="0" size="0" type="number"/>
+<Field eofAsDelimiter="false" name="FactSales_DiscountAmount" nullable="true" shift="0" size="0" type="number"/>
+<Field eofAsDelimiter="false" name="FactSales_ProductStandardCost" nullable="true" shift="0" size="0" type="number"/>
+<Field eofAsDelimiter="false" name="FactSales_TotalProductCost" nullable="true" shift="0" size="0" type="number"/>
+<Field eofAsDelimiter="false" name="FactSales_SalesAmount" nullable="true" shift="0" size="0" type="number"/>
+<Field eofAsDelimiter="false" name="FactSales_TaxAmt" nullable="true" shift="0" size="0" type="number"/>
+<Field eofAsDelimiter="false" name="FactSales_Freight" nullable="true" shift="0" size="0" type="number"/>
+<Field eofAsDelimiter="false" name="FactSales_CarrierTrackingNumber" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="FactSales_CustomerPONumer" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="FactSales_RecordSpec" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimEmployee_EmployeeKey" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="DimEmployee_EmployeeNationalIDAlternateKey" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimEmployee_SalesTerritoryKey" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="DimEmployee_FirstName" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimEmployee_LastName" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimEmployee_MiddleName" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimEmployee_Title" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" format="MM/dd/yyyy HH:mm" name="DimEmployee_HireDate" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" format="MM/dd/yyyy HH:mm" name="DimEmployee_BirthDate" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" name="DimEmployee_EmailAddress" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimEmployee_Phone" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimEmployee_MaritalStatus" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimEmployee_SalariedFlag" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="DimEmployee_Gender" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimEmployee_BaseRate" nullable="true" shift="0" size="0" type="number"/>
+<Field eofAsDelimiter="false" name="DimEmployee_CurrentFlag" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="DimEmployee_SalesPersonFlag" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="DimEmployee_DepartmentName" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" format="MM/dd/yyyy HH:mm" name="DimEmployee_StartDate" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" format="MM/dd/yyyy HH:mm" name="DimEmployee_EndDateKey" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" name="DimEmployee_Status" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimEmployee_FullName" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimSalesTerritory_SalesTerritoryKey" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="DimSalesTerritory_SalesTerritoryRegion" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimSalesTerritory_SalesTerritoryCountry" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimSalesTerritory_SalesTerritoryGroup" nullable="true" shift="0" size="0" type="string"/>
 <Field eofAsDelimiter="false" name="SalesOrderNumber" nullable="true" shift="0" size="0" type="string"/>
 <Field eofAsDelimiter="false" name="SurveyResponse" nullable="true" shift="0" size="0" type="string"/>
 <Field eofAsDelimiter="false" name="SurveyTerms" nullable="true" shift="0" size="0" type="string"/>
@@ -265,7 +281,7 @@ function integer transform() {
 ]]></attr>
 </Node>
 <Node enabled="enabled" fileURL="${DATAIN_DIR}/DimEmployee.csv" guiName="Employee Dim" guiX="18" guiY="130" id="EMPLOYEE_DIM" skipRows="1" type="DATA_READER"/>
-<Node enabled="enabled" guiName="Join Dims to Facts" guiX="569" guiY="80" id="JOIN_DIMS_TO_FACTS" joinKey="$FactSales_EmployeeKey=$DimEmployee_EmployeeKey" joinType="leftOuter" type="EXT_HASH_JOIN">
+<Node enabled="enabled" guiName="Join Dims to Facts" guiX="569" guiY="80" id="JOIN_DIMS_TO_FACTS" joinKey="$FactSales_EmployeeKey=$DimEmployee_EmployeeKey#$FactSales_SalesTerritoryKey=$DimSalesTerritory_SalesTerritoryKey" joinType="leftOuter" type="EXT_HASH_JOIN">
 <attr name="transform"><![CDATA[//#CTL2
 
 // Transforms input record into output record.
@@ -317,6 +333,10 @@ function integer transform() {
 	$out.0.DimEmployee_EndDateKey = $in.1.DimEmployee_EndDateKey;
 	$out.0.DimEmployee_Status = $in.1.DimEmployee_Status;
 	$out.0.DimEmployee_FullName = $in.1.DimEmployee_FirstName+"-"+$in.1.DimEmployee_LastName;
+	$out.0.DimSalesTerritory_SalesTerritoryKey = $in.2.DimSalesTerritory_SalesTerritoryKey;
+	$out.0.DimSalesTerritory_SalesTerritoryRegion = $in.2.DimSalesTerritory_SalesTerritoryRegion;
+	$out.0.DimSalesTerritory_SalesTerritoryCountry = $in.2.DimSalesTerritory_SalesTerritoryCountry;
+	$out.0.DimSalesTerritory_SalesTerritoryGroup = $in.2.DimSalesTerritory_SalesTerritoryGroup;
 
 	return ALL;
 }
@@ -395,6 +415,10 @@ function integer transform() {
 	$out.0.SalesOrderNumber = $in.1.SalesOrderNumber;
 	$out.0.SurveyResponse = $in.1.SurveyResponse;
 	$out.0.SurveyTerms = $in.1.SurveyTerms;
+	$out.0.DimSalesTerritory_SalesTerritoryKey = $in.0.DimSalesTerritory_SalesTerritoryKey;
+	$out.0.DimSalesTerritory_SalesTerritoryRegion = $in.0.DimSalesTerritory_SalesTerritoryRegion;
+	$out.0.DimSalesTerritory_SalesTerritoryCountry = $in.0.DimSalesTerritory_SalesTerritoryCountry;
+	$out.0.DimSalesTerritory_SalesTerritoryGroup = $in.0.DimSalesTerritory_SalesTerritoryGroup;
 
 	return ALL;
 }
@@ -419,15 +443,17 @@ function integer transform() {
 ]]></attr>
 </Node>
 <Node enabled="enabled" fileURL="${DATAIN_DIR}/FactSales.csv" guiName="Sales Facts" guiX="18" guiY="12" id="SALES_FACTS" quotedStrings="false" skipRows="1" type="DATA_READER"/>
-<Node enabled="enabled" fileURL="${DATAIN_DIR}/SurveyResponses.csv" guiName="Survey Responses" guiX="18" guiY="249" id="SURVEY_RESPONSES" skipRows="1" type="DATA_READER"/>
-<Node enabled="disabled" fileURL="${DATAIN_DIR}/SurveyWhitelist.csv" guiName="Survey Whitelist" guiX="18" guiY="375" id="SURVEY_WHITELIST" quotedStrings="true" skipRows="1" type="DATA_READER"/>
-<Node enabled="enabled" fileURL="${DATAIN_DIR}/SurveyWhitelistFull.csv" guiName="Survey Whitelist Full" guiX="18" guiY="494" id="SURVEY_WHITELIST_FULL" skipRows="1" type="DATA_READER"/>
-<Node caseSensitive="false" enabled="enabled" guiName="Text Tagger - Whitelist" guiX="311" guiY="341" id="TEXT_TAGGER_WHITELIST" multiAssignDelimiter="||" overwriteTargetField="false" searchTermMaxCharLength="100" sourceField="SurveyResponse" targetField="SurveyTerms" threads="1" type="TEXT_TAGGER_WHITELIST"/>
+<Node enabled="enabled" fileURL="${DATAIN_DIR}/DimSalesTerritory.csv" guiName="Sales Territory Dim" guiX="18" guiY="239" id="SALES_TERRITORY_DIM" quotedStrings="true" skipRows="1" type="DATA_READER"/>
+<Node enabled="enabled" fileURL="${DATAIN_DIR}/SurveyResponses.csv" guiName="Survey Responses" guiX="18" guiY="355" id="SURVEY_RESPONSES" skipRows="1" type="DATA_READER"/>
+<Node enabled="disabled" fileURL="${DATAIN_DIR}/SurveyWhitelist.csv" guiName="Survey Whitelist" guiX="18" guiY="475" id="SURVEY_WHITELIST" quotedStrings="true" skipRows="1" type="DATA_READER"/>
+<Node enabled="enabled" fileURL="${DATAIN_DIR}/SurveyWhitelistFull.csv" guiName="Survey Whitelist Full" guiX="18" guiY="597" id="SURVEY_WHITELIST_FULL" skipRows="1" type="DATA_READER"/>
+<Node caseSensitive="false" enabled="enabled" guiName="Text Tagger - Whitelist" guiX="273" guiY="573" id="TEXT_TAGGER_WHITELIST" multiAssignDelimiter="||" overwriteTargetField="false" searchTermMaxCharLength="100" sourceField="SurveyResponse" targetField="SurveyTerms" threads="1" type="TEXT_TAGGER_WHITELIST"/>
 <Edge fromNode="CREATE_SPEC:0" guiBendpoints="" guiRouter="Manhattan" id="Edge1" inPort="Port 0 (driver)" metadata="Metadata1" outPort="Port 0 (out)" toNode="JOIN_DIMS_TO_FACTS:0"/>
 <Edge fromNode="EMPLOYEE_DIM:0" guiBendpoints="" guiRouter="Manhattan" id="Edge2" inPort="Port 1 (slave)" metadata="Metadata2" outPort="Port 0 (output)" toNode="JOIN_DIMS_TO_FACTS:1"/>
 <Edge fromNode="JOIN_DIMS_TO_FACTS:0" guiBendpoints="" guiRouter="Manhattan" id="Edge3" inPort="Port 0 (driver)" metadata="Metadata3" outPort="Port 0 (out)" toNode="JOIN_SURVEY_RESPONSES:0"/>
 <Edge fromNode="JOIN_SURVEY_RESPONSES:0" guiBendpoints="" guiRouter="Manhattan" id="Edge6" inPort="Port 0 (in)" metadata="Metadata5" outPort="Port 0 (out)" toNode="BULK_LOAD_TO_DATA_STORE:0"/>
 <Edge debugMode="true" fromNode="SALES_FACTS:0" guiBendpoints="" guiRouter="Manhattan" id="Edge0" inPort="Port 0 (in)" metadata="Metadata0" outPort="Port 0 (output)" toNode="CREATE_SPEC:0"/>
+<Edge fromNode="SALES_TERRITORY_DIM:0" guiBendpoints="" guiRouter="Manhattan" id="Edge5" inPort="Port 2 (slave)" metadata="Metadata8" outPort="Port 0 (output)" toNode="JOIN_DIMS_TO_FACTS:2"/>
 <Edge fromNode="SURVEY_RESPONSES:0" guiBendpoints="" guiRouter="Manhattan" id="Edge4" inPort="Port 0 (Records Input Port)" metadata="Metadata4" outPort="Port 0 (output)" toNode="TEXT_TAGGER_WHITELIST:0"/>
 <Edge fromNode="SURVEY_WHITELIST_FULL:0" guiBendpoints="" guiRouter="Manhattan" id="Edge7" inPort="Port 1 (Tag Rules Input Port)" metadata="Metadata6" outPort="Port 0 (output)" toNode="TEXT_TAGGER_WHITELIST:1"/>
 <Edge debugMode="true" fromNode="TEXT_TAGGER_WHITELIST:0" guiBendpoints="" guiRouter="Manhattan" id="Edge8" inPort="Port 1 (slave)" metadata="Metadata7" outPort="Port 0 (out)" toNode="JOIN_SURVEY_RESPONSES:1"/>
