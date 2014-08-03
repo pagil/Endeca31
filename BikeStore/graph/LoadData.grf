@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><Graph author="oracle" created="Fri Aug 01 11:28:41 EDT 2014" guiVersion="3.4.1.P" id="1406907332316" licenseType="Commercial" modified="Sun Aug 03 01:10:15 EDT 2014" modifiedBy="oracle" name="LoadData" revision="1.56" showComponentDetails="true">
+<?xml version="1.0" encoding="UTF-8"?><Graph author="oracle" created="Fri Aug 01 11:28:41 EDT 2014" guiVersion="3.4.1.P" id="1406907332316" licenseType="Commercial" modified="Sun Aug 03 08:14:23 EDT 2014" modifiedBy="oracle" name="LoadData" revision="1.75" showComponentDetails="true">
 <Global>
 <Metadata id="Metadata9" previewAttachment="${DATAIN_DIR}/DimDate.csv" previewAttachmentCharset="ISO-8859-1">
 <Record fieldDelimiter="," label="DimDate.csv" name="DimDate" previewAttachment="${DATAIN_DIR}/DimDate.csv" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\r\n" skipSourceRows="0" type="delimited">
@@ -42,6 +42,43 @@
 <Field format="MM/dd/yyyy HH:mm" name="DimEmployee_StartDate" type="date"/>
 <Field format="MM/dd/yyyy HH:mm" name="DimEmployee_EndDateKey" type="date"/>
 <Field eofAsDelimiter="false" name="DimEmployee_Status" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata11" previewAttachment="${DATAIN_DIR}/DimGeography.csv" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="," label="DimGeography.csv" name="DimGeography" previewAttachment="${DATAIN_DIR}/DimGeography.csv" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\r\n" skipSourceRows="0" type="delimited">
+<Field name="DimGeography_GeographyKey" type="string"/>
+<Field name="DimGeography_City" type="string"/>
+<Field name="DimGeography_StateProvinceCode" type="string"/>
+<Field name="DimGeography_StateProvinceName" type="string"/>
+<Field name="DimGeography_CountryRegionCode" type="string"/>
+<Field name="DimGeography_CountryRegionName" type="string"/>
+<Field name="DimGeography_PostalCode" type="string"/>
+<Field name="DimGeography_SalesTerritoryKey" type="string"/>
+<Field eofAsDelimiter="false" name="DimGeography_LatLong" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata10" previewAttachment="${DATAIN_DIR}/DimReseller.csv" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="," label="DimReseller.csv" name="DimReseller" previewAttachment="${DATAIN_DIR}/DimReseller.csv" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\r\n" skipSourceRows="0" type="delimited">
+<Field name="DimReseller_ResellerKey" type="integer"/>
+<Field name="DimReseller_GeographyKey" type="string"/>
+<Field name="DimReseller_ResellerAlternateKey" type="string"/>
+<Field name="DimReseller_Phone" type="string"/>
+<Field name="DimReseller_BusinessType" type="string"/>
+<Field name="DimReseller_ResellerName" type="string"/>
+<Field name="DimReseller_NumberEmployees" type="string"/>
+<Field name="DimReseller_OrderFrequency" type="string"/>
+<Field name="DimReseller_OrderMonth" type="string"/>
+<Field name="DimReseller_FirstOrderYear" type="string"/>
+<Field name="DimReseller_LastOrderYear" type="string"/>
+<Field name="DimReseller_ProductLine" type="string"/>
+<Field name="DimReseller_AddressLineOne" type="string"/>
+<Field name="DimReseller_AddressLineTwo" type="string"/>
+<Field name="DimReseller_AnnualSales" type="string"/>
+<Field name="DimReseller_BankName" type="string"/>
+<Field name="DimReseller_MinPaymentType" type="string"/>
+<Field name="DimReseller_MinPaymentAmount" type="string"/>
+<Field name="DimReseller_AnnualRevenue" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_YearOpened" type="string"/>
 </Record>
 </Metadata>
 <Metadata id="Metadata8" previewAttachment="${DATAIN_DIR}/DimSalesTerritory.csv" previewAttachmentCharset="ISO-8859-1">
@@ -107,6 +144,39 @@
 <Field name="FactSales_CarrierTrackingNumber" type="string"/>
 <Field eofAsDelimiter="false" name="FactSales_CustomerPONumer" type="string"/>
 <Field name="FactSales_RecordSpec" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata12" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="|" name="ResellerRecord" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" name="DimReseller_ResellerKey" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="DimReseller_GeographyKey" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_ResellerAlternateKey" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_Phone" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_BusinessType" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_ResellerName" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_NumberEmployees" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_OrderFrequency" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_OrderMonth" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_FirstOrderYear" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_LastOrderYear" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_ProductLine" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_AddressLineOne" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_AddressLineTwo" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_AnnualSales" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_BankName" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_MinPaymentType" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_MinPaymentAmount" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_AnnualRevenue" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_YearOpened" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimGeography_GeographyKey" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimGeography_City" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimGeography_StateProvinceCode" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimGeography_StateProvinceName" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimGeography_CountryRegionCode" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimGeography_CountryRegionName" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimGeography_PostalCode" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimGeography_SalesTerritoryKey" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimGeography_LatLong" nullable="true" shift="0" size="0" type="string"/>
 </Record>
 </Metadata>
 <Metadata id="Metadata3" previewAttachmentCharset="ISO-8859-1">
@@ -177,6 +247,35 @@
 <Field eofAsDelimiter="false" name="DimDate_FiscalQuarter" nullable="true" shift="0" size="0" type="string"/>
 <Field eofAsDelimiter="false" name="DimDate_FiscalYear" nullable="true" shift="0" size="0" type="integer"/>
 <Field eofAsDelimiter="false" name="DimDate_FiscalSemester" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="DimReseller_ResellerKey" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="DimReseller_GeographyKey" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_ResellerAlternateKey" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_Phone" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_BusinessType" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_ResellerName" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_NumberEmployees" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_OrderFrequency" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_OrderMonth" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_FirstOrderYear" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_LastOrderYear" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_ProductLine" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_AddressLineOne" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_AddressLineTwo" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_AnnualSales" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_BankName" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_MinPaymentType" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_MinPaymentAmount" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_AnnualRevenue" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_YearOpened" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimGeography_GeographyKey" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimGeography_City" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimGeography_StateProvinceCode" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimGeography_StateProvinceName" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimGeography_CountryRegionCode" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimGeography_CountryRegionName" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimGeography_PostalCode" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimGeography_SalesTerritoryKey" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimGeography_LatLong" nullable="true" shift="0" size="0" type="string"/>
 </Record>
 </Metadata>
 <Metadata id="Metadata5" previewAttachmentCharset="ISO-8859-1">
@@ -247,6 +346,35 @@
 <Field eofAsDelimiter="false" name="DimDate_FiscalQuarter" nullable="true" shift="0" size="0" type="string"/>
 <Field eofAsDelimiter="false" name="DimDate_FiscalYear" nullable="true" shift="0" size="0" type="integer"/>
 <Field eofAsDelimiter="false" name="DimDate_FiscalSemester" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="DimReseller_ResellerKey" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="DimReseller_GeographyKey" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_ResellerAlternateKey" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_Phone" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_BusinessType" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_ResellerName" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_NumberEmployees" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_OrderFrequency" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_OrderMonth" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_FirstOrderYear" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_LastOrderYear" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_ProductLine" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_AddressLineOne" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_AddressLineTwo" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_AnnualSales" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_BankName" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_MinPaymentType" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_MinPaymentAmount" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_AnnualRevenue" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_YearOpened" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimGeography_GeographyKey" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimGeography_City" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimGeography_StateProvinceCode" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimGeography_StateProvinceName" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimGeography_CountryRegionCode" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimGeography_CountryRegionName" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimGeography_PostalCode" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimGeography_SalesTerritoryKey" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DimGeography_LatLong" nullable="true" shift="0" size="0" type="string"/>
 <Field eofAsDelimiter="false" name="SalesOrderNumber" nullable="true" shift="0" size="0" type="string"/>
 <Field eofAsDelimiter="false" name="SurveyResponse" nullable="true" shift="0" size="0" type="string"/>
 <Field eofAsDelimiter="false" name="SurveyTerms" nullable="true" shift="0" size="0" type="string"/>
@@ -330,8 +458,9 @@ function integer transform() {
 ]]></attr>
 </Node>
 <Node enabled="enabled" fileURL="${DATAIN_DIR}/DimDate.csv" guiName="Date Dim" guiX="18" guiY="355" id="DATE_DIM" skipRows="1" type="DATA_READER"/>
-<Node enabled="enabled" fileURL="${DATAIN_DIR}/DimEmployee.csv" guiName="Employee Dim" guiX="18" guiY="130" id="EMPLOYEE_DIM" skipRows="1" type="DATA_READER"/>
-<Node enabled="enabled" guiName="Join Dims to Facts" guiX="569" guiY="80" id="JOIN_DIMS_TO_FACTS" joinKey="$FactSales_EmployeeKey=$DimEmployee_EmployeeKey#$FactSales_SalesTerritoryKey=$DimSalesTerritory_SalesTerritoryKey#$FactSales_OrderDateKey=$DimDate_DateKey" joinType="leftOuter" type="EXT_HASH_JOIN">
+<Node enabled="enabled" fileURL="${DATAIN_DIR}/DimEmployee.csv" guiName="Employee Dim" guiX="23" guiY="120" id="EMPLOYEE_DIM" skipRows="1" type="DATA_READER"/>
+<Node enabled="enabled" fileURL="${DATAIN_DIR}/DimGeography.csv" guiName="Geography Dim" guiX="18" guiY="568" id="GEOGRAPHY_DIM" skipRows="1" type="DATA_READER"/>
+<Node enabled="enabled" guiName="Join Dims to Facts" guiX="651" guiY="218" id="JOIN_DIMS_TO_FACTS" joinKey="$FactSales_EmployeeKey=$DimEmployee_EmployeeKey#$FactSales_SalesTerritoryKey=$DimSalesTerritory_SalesTerritoryKey#$FactSales_OrderDateKey=$DimDate_DateKey#$FactSales_ResellerKey=$DimReseller_ResellerKey" joinType="leftOuter" type="EXT_HASH_JOIN">
 <attr name="transform"><![CDATA[//#CTL2
 
 // Transforms input record into output record.
@@ -402,6 +531,36 @@ function integer transform() {
 	$out.0.DimDate_FiscalQuarter = "Q" + $in.3.DimDate_FiscalQuarter;
 	$out.0.DimDate_FiscalYear = $in.3.DimDate_FiscalYear;
 	$out.0.DimDate_FiscalSemester = $in.3.DimDate_FiscalSemester;
+	$out.0.DimReseller_ResellerKey = $in.4.DimReseller_ResellerKey;
+	$out.0.DimReseller_GeographyKey = $in.4.DimReseller_GeographyKey;
+	$out.0.DimReseller_ResellerAlternateKey = $in.4.DimReseller_ResellerAlternateKey;
+	$out.0.DimReseller_Phone = $in.4.DimReseller_Phone;
+	$out.0.DimReseller_BusinessType = $in.4.DimReseller_BusinessType;
+	$out.0.DimReseller_ResellerName = $in.4.DimReseller_ResellerName;
+	$out.0.DimReseller_NumberEmployees = $in.4.DimReseller_NumberEmployees;
+	$out.0.DimReseller_OrderFrequency = $in.4.DimReseller_OrderFrequency;
+	$out.0.DimReseller_OrderMonth = $in.4.DimReseller_OrderMonth;
+	$out.0.DimReseller_FirstOrderYear = $in.4.DimReseller_FirstOrderYear;
+	$out.0.DimReseller_LastOrderYear = $in.4.DimReseller_LastOrderYear;
+	$out.0.DimReseller_ProductLine = $in.4.DimReseller_ProductLine;
+	$out.0.DimReseller_AddressLineOne = $in.4.DimReseller_AddressLineOne;
+	$out.0.DimReseller_AddressLineTwo = $in.4.DimReseller_AddressLineTwo;
+	$out.0.DimReseller_AnnualSales = $in.4.DimReseller_AnnualSales;
+	$out.0.DimReseller_BankName = $in.4.DimReseller_BankName;
+	$out.0.DimReseller_MinPaymentType = $in.4.DimReseller_MinPaymentType;
+	$out.0.DimReseller_MinPaymentAmount = $in.4.DimReseller_MinPaymentAmount;
+	$out.0.DimReseller_AnnualRevenue = $in.4.DimReseller_AnnualRevenue;
+	$out.0.DimReseller_YearOpened = $in.4.DimReseller_YearOpened;
+	$out.0.DimGeography_GeographyKey = $in.4.DimGeography_GeographyKey;
+	$out.0.DimGeography_City = $in.4.DimGeography_City;
+	$out.0.DimGeography_StateProvinceCode = $in.4.DimGeography_StateProvinceCode;
+	$out.0.DimGeography_StateProvinceName = $in.4.DimGeography_StateProvinceName;
+	$out.0.DimGeography_CountryRegionCode = $in.4.DimGeography_CountryRegionCode;
+	$out.0.DimGeography_CountryRegionName = $in.4.DimGeography_CountryRegionName;
+	$out.0.DimGeography_PostalCode = $in.4.DimGeography_PostalCode;
+	$out.0.DimGeography_SalesTerritoryKey = $in.4.DimGeography_SalesTerritoryKey;
+	$out.0.DimGeography_LatLong = $in.4.DimGeography_LatLong;
+
 	return ALL;
 }
 
@@ -424,7 +583,64 @@ function integer transform() {
 // function string getMessage() {}
 ]]></attr>
 </Node>
-<Node enabled="enabled" guiName="Join Survey Responses" guiX="805" guiY="257" id="JOIN_SURVEY_RESPONSES" joinKey="$FactSales_SalesOrderNumber=$SalesOrderNumber" joinType="leftOuter" type="EXT_HASH_JOIN">
+<Node enabled="enabled" guiName="Join Geography to Reseller" guiX="331" guiY="522" id="JOIN_GEOGRAPHY_TO_RESELLER" joinKey="$DimReseller_GeographyKey=$DimGeography_GeographyKey" type="EXT_HASH_JOIN">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {
+	$out.0.DimReseller_ResellerKey = $in.0.DimReseller_ResellerKey;
+	$out.0.DimReseller_GeographyKey = $in.0.DimReseller_GeographyKey;
+	$out.0.DimReseller_ResellerAlternateKey = $in.0.DimReseller_ResellerAlternateKey;
+	$out.0.DimReseller_Phone = $in.0.DimReseller_Phone;
+	$out.0.DimReseller_BusinessType = $in.0.DimReseller_BusinessType;
+	$out.0.DimReseller_ResellerName = $in.0.DimReseller_ResellerName;
+	$out.0.DimReseller_NumberEmployees = $in.0.DimReseller_NumberEmployees;
+	$out.0.DimReseller_OrderFrequency = $in.0.DimReseller_OrderFrequency;
+	$out.0.DimReseller_OrderMonth = $in.0.DimReseller_OrderMonth;
+	$out.0.DimReseller_FirstOrderYear = $in.0.DimReseller_FirstOrderYear;
+	$out.0.DimReseller_LastOrderYear = $in.0.DimReseller_LastOrderYear;
+	$out.0.DimReseller_ProductLine = $in.0.DimReseller_ProductLine;
+	$out.0.DimReseller_AddressLineOne = $in.0.DimReseller_AddressLineOne;
+	$out.0.DimReseller_AddressLineTwo = $in.0.DimReseller_AddressLineTwo;
+	$out.0.DimReseller_AnnualSales = $in.0.DimReseller_AnnualSales;
+	$out.0.DimReseller_BankName = $in.0.DimReseller_BankName;
+	$out.0.DimReseller_MinPaymentType = $in.0.DimReseller_MinPaymentType;
+	$out.0.DimReseller_MinPaymentAmount = $in.0.DimReseller_MinPaymentAmount;
+	$out.0.DimReseller_AnnualRevenue = $in.0.DimReseller_AnnualRevenue;
+	$out.0.DimReseller_YearOpened = $in.0.DimReseller_YearOpened;
+	$out.0.DimGeography_GeographyKey = $in.1.DimGeography_GeographyKey;
+	$out.0.DimGeography_City = $in.1.DimGeography_City;
+	$out.0.DimGeography_StateProvinceCode = $in.1.DimGeography_StateProvinceCode;
+	$out.0.DimGeography_StateProvinceName = $in.1.DimGeography_StateProvinceName;
+	$out.0.DimGeography_CountryRegionCode = $in.1.DimGeography_CountryRegionCode;
+	$out.0.DimGeography_CountryRegionName = $in.1.DimGeography_CountryRegionName;
+	$out.0.DimGeography_PostalCode = $in.1.DimGeography_PostalCode;
+	$out.0.DimGeography_SalesTerritoryKey = $in.1.DimGeography_SalesTerritoryKey;
+	$out.0.DimGeography_LatLong = $in.1.DimGeography_LatLong;
+
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+</Node>
+<Node enabled="enabled" guiName="Join Survey Responses" guiX="968" guiY="590" id="JOIN_SURVEY_RESPONSES" joinKey="$FactSales_SalesOrderNumber=$SalesOrderNumber" joinType="leftOuter" type="EXT_HASH_JOIN">
 <attr name="transform"><![CDATA[//#CTL2
 
 // Transforms input record into output record.
@@ -498,6 +714,36 @@ function integer transform() {
 	$out.0.DimDate_FiscalQuarter = $in.0.DimDate_FiscalQuarter;
 	$out.0.DimDate_FiscalYear = $in.0.DimDate_FiscalYear;
 	$out.0.DimDate_FiscalSemester = $in.0.DimDate_FiscalSemester;
+	$out.0.DimReseller_ResellerKey = $in.0.DimReseller_ResellerKey;
+	$out.0.DimReseller_GeographyKey = $in.0.DimReseller_GeographyKey;
+	$out.0.DimReseller_ResellerAlternateKey = $in.0.DimReseller_ResellerAlternateKey;
+	$out.0.DimReseller_Phone = $in.0.DimReseller_Phone;
+	$out.0.DimReseller_BusinessType = $in.0.DimReseller_BusinessType;
+	$out.0.DimReseller_ResellerName = $in.0.DimReseller_ResellerName;
+	$out.0.DimReseller_NumberEmployees = $in.0.DimReseller_NumberEmployees;
+	$out.0.DimReseller_OrderFrequency = $in.0.DimReseller_OrderFrequency;
+	$out.0.DimReseller_OrderMonth = $in.0.DimReseller_OrderMonth;
+	$out.0.DimReseller_FirstOrderYear = $in.0.DimReseller_FirstOrderYear;
+	$out.0.DimReseller_LastOrderYear = $in.0.DimReseller_LastOrderYear;
+	$out.0.DimReseller_ProductLine = $in.0.DimReseller_ProductLine;
+	$out.0.DimReseller_AddressLineOne = $in.0.DimReseller_AddressLineOne;
+	$out.0.DimReseller_AddressLineTwo = $in.0.DimReseller_AddressLineTwo;
+	$out.0.DimReseller_AnnualSales = $in.0.DimReseller_AnnualSales;
+	$out.0.DimReseller_BankName = $in.0.DimReseller_BankName;
+	$out.0.DimReseller_MinPaymentType = $in.0.DimReseller_MinPaymentType;
+	$out.0.DimReseller_MinPaymentAmount = $in.0.DimReseller_MinPaymentAmount;
+	$out.0.DimReseller_AnnualRevenue = $in.0.DimReseller_AnnualRevenue;
+	$out.0.DimReseller_YearOpened = $in.0.DimReseller_YearOpened;
+	$out.0.DimGeography_GeographyKey = $in.0.DimGeography_GeographyKey;
+	$out.0.DimGeography_City = $in.0.DimGeography_City;
+	$out.0.DimGeography_StateProvinceCode = $in.0.DimGeography_StateProvinceCode;
+	$out.0.DimGeography_StateProvinceName = $in.0.DimGeography_StateProvinceName;
+	$out.0.DimGeography_CountryRegionCode = $in.0.DimGeography_CountryRegionCode;
+	$out.0.DimGeography_CountryRegionName = $in.0.DimGeography_CountryRegionName;
+	$out.0.DimGeography_PostalCode = $in.0.DimGeography_PostalCode;
+	$out.0.DimGeography_SalesTerritoryKey = $in.0.DimGeography_SalesTerritoryKey;
+	$out.0.DimGeography_LatLong = $in.0.DimGeography_LatLong;
+
 	return ALL;
 }
 
@@ -520,17 +766,21 @@ function integer transform() {
 // function string getMessage() {}
 ]]></attr>
 </Node>
+<Node enabled="enabled" fileURL="${DATAIN_DIR}/DimReseller.csv" guiName="Reseller Dim" guiX="18" guiY="461" id="RESELLER_DIM" quotedStrings="true" skipRows="1" type="DATA_READER"/>
 <Node enabled="enabled" fileURL="${DATAIN_DIR}/FactSales.csv" guiName="Sales Facts" guiX="18" guiY="12" id="SALES_FACTS" quotedStrings="false" skipRows="1" type="DATA_READER"/>
-<Node enabled="enabled" fileURL="${DATAIN_DIR}/DimSalesTerritory.csv" guiName="Sales Territory Dim" guiX="18" guiY="239" id="SALES_TERRITORY_DIM" quotedStrings="true" skipRows="1" type="DATA_READER"/>
-<Node enabled="enabled" fileURL="${DATAIN_DIR}/SurveyResponses.csv" guiName="Survey Responses" guiX="22" guiY="555" id="SURVEY_RESPONSES" skipRows="1" type="DATA_READER"/>
-<Node enabled="disabled" fileURL="${DATAIN_DIR}/SurveyWhitelist.csv" guiName="Survey Whitelist" guiX="22" guiY="659" id="SURVEY_WHITELIST" quotedStrings="true" skipRows="1" type="DATA_READER"/>
-<Node enabled="enabled" fileURL="${DATAIN_DIR}/SurveyWhitelistFull.csv" guiName="Survey Whitelist Full" guiX="22" guiY="768" id="SURVEY_WHITELIST_FULL" skipRows="1" type="DATA_READER"/>
-<Node caseSensitive="false" enabled="enabled" guiName="Text Tagger - Whitelist" guiX="311" guiY="674" id="TEXT_TAGGER_WHITELIST" multiAssignDelimiter="||" overwriteTargetField="false" searchTermMaxCharLength="100" sourceField="SurveyResponse" targetField="SurveyTerms" threads="1" type="TEXT_TAGGER_WHITELIST"/>
+<Node enabled="enabled" fileURL="${DATAIN_DIR}/DimSalesTerritory.csv" guiName="Sales Territory Dim" guiX="18" guiY="235" id="SALES_TERRITORY_DIM" quotedStrings="true" skipRows="1" type="DATA_READER"/>
+<Node enabled="enabled" fileURL="${DATAIN_DIR}/SurveyResponses.csv" guiName="Survey Responses" guiX="22" guiY="702" id="SURVEY_RESPONSES" skipRows="1" type="DATA_READER"/>
+<Node enabled="disabled" fileURL="${DATAIN_DIR}/SurveyWhitelist.csv" guiName="Survey Whitelist" guiX="22" guiY="806" id="SURVEY_WHITELIST" quotedStrings="true" skipRows="1" type="DATA_READER"/>
+<Node enabled="enabled" fileURL="${DATAIN_DIR}/SurveyWhitelistFull.csv" guiName="Survey Whitelist Full" guiX="22" guiY="913" id="SURVEY_WHITELIST_FULL" skipRows="1" type="DATA_READER"/>
+<Node caseSensitive="false" enabled="enabled" guiName="Text Tagger - Whitelist" guiX="331" guiY="748" id="TEXT_TAGGER_WHITELIST" multiAssignDelimiter="||" overwriteTargetField="false" searchTermMaxCharLength="100" sourceField="SurveyResponse" targetField="SurveyTerms" threads="1" type="TEXT_TAGGER_WHITELIST"/>
 <Edge fromNode="CREATE_SPEC:0" guiBendpoints="" guiRouter="Manhattan" id="Edge1" inPort="Port 0 (driver)" metadata="Metadata1" outPort="Port 0 (out)" toNode="JOIN_DIMS_TO_FACTS:0"/>
 <Edge fromNode="DATE_DIM:0" guiBendpoints="" guiRouter="Manhattan" id="Edge10" inPort="Port 3 (slave)" metadata="Metadata9" outPort="Port 0 (output)" toNode="JOIN_DIMS_TO_FACTS:3"/>
 <Edge fromNode="EMPLOYEE_DIM:0" guiBendpoints="" guiRouter="Manhattan" id="Edge2" inPort="Port 1 (slave)" metadata="Metadata2" outPort="Port 0 (output)" toNode="JOIN_DIMS_TO_FACTS:1"/>
+<Edge fromNode="GEOGRAPHY_DIM:0" guiBendpoints="" guiRouter="Manhattan" id="Edge11" inPort="Port 1 (slave)" metadata="Metadata11" outPort="Port 0 (output)" toNode="JOIN_GEOGRAPHY_TO_RESELLER:1"/>
 <Edge fromNode="JOIN_DIMS_TO_FACTS:0" guiBendpoints="" guiRouter="Manhattan" id="Edge3" inPort="Port 0 (driver)" metadata="Metadata3" outPort="Port 0 (out)" toNode="JOIN_SURVEY_RESPONSES:0"/>
+<Edge fromNode="JOIN_GEOGRAPHY_TO_RESELLER:0" guiBendpoints="" guiRouter="Manhattan" id="Edge12" inPort="Port 4 (slave)" metadata="Metadata12" outPort="Port 0 (out)" toNode="JOIN_DIMS_TO_FACTS:4"/>
 <Edge fromNode="JOIN_SURVEY_RESPONSES:0" guiBendpoints="" guiRouter="Manhattan" id="Edge6" inPort="Port 0 (in)" metadata="Metadata5" outPort="Port 0 (out)" toNode="BULK_LOAD_TO_DATA_STORE:0"/>
+<Edge debugMode="true" fromNode="RESELLER_DIM:0" guiBendpoints="" guiRouter="Manhattan" id="Edge9" inPort="Port 0 (driver)" metadata="Metadata10" outPort="Port 0 (output)" toNode="JOIN_GEOGRAPHY_TO_RESELLER:0"/>
 <Edge debugMode="true" fromNode="SALES_FACTS:0" guiBendpoints="" guiRouter="Manhattan" id="Edge0" inPort="Port 0 (in)" metadata="Metadata0" outPort="Port 0 (output)" toNode="CREATE_SPEC:0"/>
 <Edge fromNode="SALES_TERRITORY_DIM:0" guiBendpoints="" guiRouter="Manhattan" id="Edge5" inPort="Port 2 (slave)" metadata="Metadata8" outPort="Port 0 (output)" toNode="JOIN_DIMS_TO_FACTS:2"/>
 <Edge fromNode="SURVEY_RESPONSES:0" guiBendpoints="" guiRouter="Manhattan" id="Edge4" inPort="Port 0 (Records Input Port)" metadata="Metadata4" outPort="Port 0 (output)" toNode="TEXT_TAGGER_WHITELIST:0"/>

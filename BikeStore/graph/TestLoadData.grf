@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><Graph author="oracle" created="Sun Aug 03 07:15:27 EDT 2014" guiVersion="3.4.1.P" id="1407066400685" licenseType="Commercial" modified="Sun Aug 03 08:06:40 EDT 2014" modifiedBy="oracle" name="TestLoadData" revision="1.11" showComponentDetails="true">
+<Global>
+<Metadata id="Metadata0" previewAttachment="${DATAIN_DIR}/DimReseller.csv" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="," label="DimReseller.csv" name="DimReseller" previewAttachment="${DATAIN_DIR}/DimReseller.csv" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\r\n" skipSourceRows="0" type="delimited">
+<Field name="DimReseller_ResellerKey" type="integer"/>
+<Field name="DimReseller_GeographyKey" type="integer"/>
+<Field name="DimReseller_ResellerAlternateKey" type="string"/>
+<Field name="DimReseller_Phone" type="string"/>
+<Field name="DimReseller_BusinessType" type="string"/>
+<Field name="DimReseller_ResellerName" type="string"/>
+<Field name="DimReseller_NumberEmployees" type="string"/>
+<Field name="DimReseller_OrderFrequency" type="string"/>
+<Field name="DimReseller_OrderMonth" type="string"/>
+<Field name="DimReseller_FirstOrderYear" type="string"/>
+<Field name="DimReseller_LastOrderYear" type="string"/>
+<Field name="DimReseller_ProductLine" type="string"/>
+<Field name="DimReseller_AddressLineOne" type="string"/>
+<Field name="DimReseller_AddressLineTwo" type="string"/>
+<Field name="DimReseller_AnnualSales" type="string"/>
+<Field name="DimReseller_BankName" type="string"/>
+<Field name="DimReseller_MinPaymentType" type="string"/>
+<Field name="DimReseller_MinPaymentAmount" type="string"/>
+<Field name="DimReseller_AnnualRevenue" type="string"/>
+<Field eofAsDelimiter="false" name="DimReseller_YearOpened" type="string"/>
+</Record>
+</Metadata>
+<Property fileURL="workspace.prm" id="GraphParameter0"/>
+<Note alignment="1" backgroundColorB="225" backgroundColorG="255" backgroundColorR="255" enabled="true" folded="false" height="354" id="Note0" textColorB="0" textColorG="0" textColorR="0" textFontSize="8" title="Note about &quot;Quoted strings&quot;" titleColorB="0" titleColorG="0" titleColorR="0" titleFontSize="10" width="619" x="13" y="12">
+<attr name="text"><![CDATA[This example demonstrates that it is better to set "Quoted strings" to true.
+Otherwise I had a problem with loading DimReseller.csv because it had the following value:
+"7033, Rue de Longchamp" ]]></attr>
+</Note>
+<Dictionary/>
+</Global>
+<Phase number="0">
+<Node enabled="enabled" fileURL="${DATAIN_DIR}/DimReseller.csv" guiName="Receller Dim" guiX="34" guiY="124" id="RECELLER_DIM" quotedStrings="true" skipRows="1" type="DATA_READER"/>
+<Node enabled="enabled" guiName="Trash" guiX="431" guiY="124" id="TRASH" type="TRASH"/>
+<Edge debugMode="true" fromNode="RECELLER_DIM:0" guiBendpoints="" guiRouter="Manhattan" id="Edge0" inPort="Port 0 (in)" metadata="Metadata0" outPort="Port 0 (output)" toNode="TRASH:0"/>
+</Phase>
+</Graph>
