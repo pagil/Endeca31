@@ -1,0 +1,656 @@
+DimGeography_GeographyKey,DimGeography_City,DimGeography_StateProvinceCode,DimGeography_StateProvinceName,DimGeography_CountryRegionCode,DimGeography_CountryRegionName,DimGeography_PostalCode,DimGeography_SalesTerritoryKey,DimGeography_LatLong
+1,Alexandria,NSW,New South Wales,AU,Australia,2015,9,38.8048355 -77.0469214
+2,Coffs Harbour,NSW,New South Wales,AU,Australia,2450,9,-30.2900241 153.0971875
+3,Darlinghurst,NSW,New South Wales,AU,Australia,2010,9,-33.8806799 151.2186198
+4,Goulburn,NSW,New South Wales,AU,Australia,2580,9,-34.7548346 149.7186486
+5,Lane Cove,NSW,New South Wales,AU,Australia,1597,9,-33.8145564 151.1698948
+6,Lavender Bay,NSW,New South Wales,AU,Australia,2060,9,-33.8460894 151.2080586
+7,Malabar,NSW,New South Wales,AU,Australia,2036,9,28.0036298 -80.5656089
+8,Matraville,NSW,New South Wales,AU,Australia,2036,9,-33.9574511 151.231124
+9,Milsons Point,NSW,New South Wales,AU,Australia,2061,9,-33.8462085 151.2113341
+10,Newcastle,NSW,New South Wales,AU,Australia,2300,9,54.978252 -1.61778
+11,North Ryde,NSW,New South Wales,AU,Australia,2113,9,-33.7958673 151.1231712
+12,North Sydney,NSW,New South Wales,AU,Australia,2055,9,-33.8386344 151.2071142
+13,Port Macquarie,NSW,New South Wales,AU,Australia,2444,9,-31.4312703 152.9081313
+14,Rhodes,NSW,New South Wales,AU,Australia,2138,9,36.4349631 28.2174829
+15,Silverwater,NSW,New South Wales,AU,Australia,2264,9,-33.837853 151.046666
+16,Springwood,NSW,New South Wales,AU,Australia,2777,9,37.546196 -79.743683
+17,St. Leonards,NSW,New South Wales,AU,Australia,2065,9,-33.8234435 151.1935829
+18,Sydney,NSW,New South Wales,AU,Australia,1002,9,-33.8674869 151.2069902
+19,Wollongong,NSW,New South Wales,AU,Australia,2500,9,-34.4801626 150.8144215
+20,Brisbane,QLD,Queensland,AU,Australia,4000,9,-27.4710107 153.0234489
+21,Caloundra,QLD,Queensland,AU,Australia,4551,9,-26.8042574 153.1244868
+22,East Brisbane,QLD,Queensland,AU,Australia,4169,9,-27.4796746 153.0459021
+23,Gold Coast,QLD,Queensland,AU,Australia,4217,9,-28.0172605 153.4256987
+24,Hawthorne,QLD,Queensland,AU,Australia,4171,9,33.9164032 -118.3525748
+25,Hervey Bay,QLD,Queensland,AU,Australia,4655,9,-25.2896192 152.8309158
+26,Rockhampton,QLD,Queensland,AU,Australia,4700,9,-23.3222117 150.5124332
+27,Townsville,QLD,Queensland,AU,Australia,4810,9,-19.2742944 146.6513853
+28,Cloverdale,SA,South Australia,AU,Australia,6105,9,38.8054624 -123.0172227
+29,Findon,SA,South Australia,AU,Australia,5023,9,-34.9047624 138.5324053
+30,Perth,SA,South Australia,AU,Australia,6006,9,-31.9530044 115.8574693
+31,Hobart,TAS,Tasmania,AU,Australia,7001,9,-42.881903 147.323814
+32,Bendigo,VIC,Victoria,AU,Australia,3550,9,-36.7533986 144.2811537
+33,Cranbourne,VIC,Victoria,AU,Australia,3977,9,-38.1083474 145.2844247
+34,Geelong,VIC,Victoria,AU,Australia,3220,9,-38.1485437 144.3613479
+35,Melbourne,VIC,Victoria,AU,Australia,3000,9,-37.814107 144.96328
+36,Melton,VIC,Victoria,AU,Australia,3337,9,-37.682979 144.5804663
+37,Seaford,VIC,Victoria,AU,Australia,3198,9,40.6659344 -73.4881809
+38,South Melbourne,VIC,Victoria,AU,Australia,3205,9,-37.8323792 144.9604333
+39,Sunbury,VIC,Victoria,AU,Australia,3429,9,40.862585 -76.7944104
+40,Warrnambool,VIC,Victoria,AU,Australia,3280,9,-38.3603292 142.4678659
+41,Calgary,AB,Alberta,CA,Canada,T2P 2G8,6,51.0453246 -114.0581012
+42,Edmonton,AB,Alberta,CA,Canada,T5,6,53.544389 -113.4909267
+43,Burnaby,BC,British Columbia,CA,Canada,V3J 6Z3,6,49.2294908 -123.0025753
+44,Burnaby,BC,British Columbia,CA,Canada,V5A 3A6,6,49.2294908 -123.0025753
+45,Burnaby,BC,British Columbia,CA,Canada,V5A 4X1,6,49.2294908 -123.0025753
+46,Burnaby,BC,British Columbia,CA,Canada,V5G 4S4,6,49.2294908 -123.0025753
+47,Burnaby,BC,British Columbia,CA,Canada,V5G 4W1,6,49.2294908 -123.0025753
+48,Burnaby,BC,British Columbia,CA,Canada,V5H 3Z7,6,49.2294908 -123.0025753
+49,Cliffside,BC,British Columbia,CA,Canada,V8Y 1L1,6,35.2389656 -81.769369
+50,Haney,BC,British Columbia,CA,Canada,V2W 1W2,6,43.2296681 -90.8484524
+51,Langford,BC,British Columbia,CA,Canada,V9,6,45.6024517 -97.8303789
+52,Langley,BC,British Columbia,CA,Canada,V3A 4R2,6,49.0743308 -122.5593218
+53,Metchosin,BC,British Columbia,CA,Canada,V9,6,48.382005 -123.53785
+54,N. Vancouver,BC,British Columbia,CA,Canada,V7L 4J4,6,49.261226 -123.1139268
+55,Newton,BC,British Columbia,CA,Canada,V2L3W8,6,42.3370413 -71.2092214
+56,Newton,BC,British Columbia,CA,Canada,V2M1N7,6,42.3370413 -71.2092214
+57,Newton,BC,British Columbia,CA,Canada,V2M1P1,6,42.3370413 -71.2092214
+58,Newton,BC,British Columbia,CA,Canada,V2M1S6,6,42.3370413 -71.2092214
+59,Oak Bay,BC,British Columbia,CA,Canada,V8P,6,48.426141 -123.316516
+60,Port Hammond,BC,British Columbia,CA,Canada,V6B 3P7,6,49.205677 -122.65868
+61,Richmond,BC,British Columbia,CA,Canada,V6B 3P7,6,37.5407246 -77.4360481
+62,Royal Oak,BC,British Columbia,CA,Canada,V8X,6,42.4894801 -83.1446485
+63,Shawnee,BC,British Columbia,CA,Canada,V8Z 4N5,6,39.0228485 -94.7151865
+64,Shawnee,BC,British Columbia,CA,Canada,V9B 2C3,6,39.0228485 -94.7151865
+65,Shawnee,BC,British Columbia,CA,Canada,V9B 5T2,6,39.0228485 -94.7151865
+66,Sooke,BC,British Columbia,CA,Canada,V0,6,48.3761111 -123.7377778
+67,Surrey,BC,British Columbia,CA,Canada,V3T 4W3,6,49.186495 -122.823134
+68,Vancouver,BC,British Columbia,CA,Canada,V7L 4J4,6,49.261226 -123.1139268
+69,Victoria,BC,British Columbia,CA,Canada,V8V,6,-37.4713077 144.7851531
+70,Westminster,BC,British Columbia,CA,Canada,V3L 1E7,6,39.8366528 -105.0372046
+71,Westminster,BC,British Columbia,CA,Canada,V3L 1H4,6,39.8366528 -105.0372046
+72,Winnipeg,MB,Manitoba,CA,Canada,R3,6,49.8997541 -97.1374937
+73,Saint John,NB,Brunswick,CA,Canada,E2P 1E3,6,45.2733153 -66.0633081
+74,Aurora,ON,Ontario,CA,Canada,L4G 7N6,6,39.7294319 -104.8319195
+75,Barrie,ON,Ontario,CA,Canada,L4N,6,44.3780902 -79.7016159
+76,Brampton,ON,Ontario,CA,Canada,L6W 2T7,6,43.6833333 -79.7666667
+77,Chalk Riber,ON,Ontario,CA,Canada,K0J 1J0,6,46.0159102 -77.4522761
+78,Etobicoke,ON,Ontario,CA,Canada,M9W 3P3,6,43.6204946 -79.5131983
+79,Kanata,ON,Ontario,CA,Canada,K2L 1H5,6,45.3088185 -75.8986835
+80,Kingston,ON,Ontario,CA,Canada,7L,6,44.2311717 -76.4859544
+81,Markham,ON,Ontario,CA,Canada,L3S 3K2,6,43.8561002 -79.3370188
+82,Mississauga,ON,Ontario,CA,Canada,L4W 5J3,6,43.5890452 -79.6441198
+83,Mississauga,ON,Ontario,CA,Canada,L5A 1H6,6,43.5890452 -79.6441198
+84,Mississauga,ON,Ontario,CA,Canada,L5B 3V4,6,43.5890452 -79.6441198
+85,Nepean,ON,Ontario,CA,Canada,K2J 2W5,6,45.3349046 -75.7241006
+86,North York,ON,Ontario,CA,Canada,M4C 4K6,6,43.7615377 -79.4110794
+87,Ottawa,ON,Ontario,CA,Canada,K4B 1S1,6,45.4215296 -75.6971931
+88,Ottawa,ON,Ontario,CA,Canada,K4B 1S2,6,45.4215296 -75.6971931
+89,Ottawa,ON,Ontario,CA,Canada,K4B 1S3,6,45.4215296 -75.6971931
+90,Ottawa,ON,Ontario,CA,Canada,K4B 1T7,6,45.4215296 -75.6971931
+91,Richmond Hill,ON,Ontario,CA,Canada,L4E 3M5,6,43.8828401 -79.4402808
+92,Scarborough,ON,Ontario,CA,Canada,M1V 4M2,6,54.283113 -0.399752
+93,Toronto,ON,Ontario,CA,Canada,M4B 1V4,6,43.653226 -79.3831843
+94,Toronto,ON,Ontario,CA,Canada,M4B 1V5,6,43.653226 -79.3831843
+95,Toronto,ON,Ontario,CA,Canada,M4B 1V6,6,43.653226 -79.3831843
+96,Toronto,ON,Ontario,CA,Canada,M4B 1V7,6,43.653226 -79.3831843
+97,Vancouver,ON,Ontario,CA,Canada,V5T 1Y9,6,49.261226 -123.1139268
+98,Waterloo,ON,Ontario,CA,Canada,N2V,6,42.4927641 -92.3429631
+99,Weston,ON,Ontario,CA,Canada,M9V 4W3,6,26.1003654 -80.3997748
+100,Brossard,QC,Quebec,CA,Canada,J4Z 1C5,6,45.454706 -73.470661
+101,Brossard,QC,Quebec,CA,Canada,J4Z 1R4,6,45.454706 -73.470661
+102,Dorval,QC,Quebec,CA,Canada,H9P 1H1,6,45.45 -73.75
+103,Hull,QC,Quebec,CA,Canada,8Y,6,53.7456709 -0.3367413
+104,Montreal,QC,Quebec,CA,Canada,H1Y 2H3,6,45.5086699 -73.5539925
+105,Montreal,QC,Quebec,CA,Canada,H1Y 2H5,6,45.5086699 -73.5539925
+106,Montreal,QC,Quebec,CA,Canada,H1Y 2H7,6,45.5086699 -73.5539925
+107,Montreal,QC,Quebec,CA,Canada,H1Y 2H8,6,45.5086699 -73.5539925
+108,Outremont,QC,Quebec,CA,Canada,H1Y 2G5,6,45.513765 -73.605705
+109,Pnot-Rouge,QC,Quebec,CA,Canada,J1E 2T7,6,46.7562377 -71.6984316
+110,Quebec,QC,Quebec,CA,Canada,G1R,6,52.9399159 -73.5491361
+111,Sainte-Foy,QC,Quebec,CA,Canada,G1W,6,46.7714606 -71.2972549
+112,Sillery,QC,Quebec,CA,Canada,G1T,6,46.779541 -71.250587
+113,Ville De'anjou,QC,Quebec,CA,Canada,J1G 2R3,6,48.9795148 1.70899
+114,Berlin,BB,Brandenburg,DE,Germany,14197,8,52.519171 13.4060912
+115,Eilenburg,BB,Brandenburg,DE,Germany,4838,8,51.4597557 12.617702
+116,Augsburg,BY,Bayern,DE,Germany,86150,8,48.3714407 10.8982552
+117,Erlangen,BY,Bayern,DE,Germany,91054,8,49.5907169 11.0142675
+118,Frankfurt,BY,Bayern,DE,Germany,91480,8,50.1109221 8.6821267
+119,Grevenbroich,BY,Bayern,DE,Germany,41485,8,51.0902094 6.585863
+120,Hof,BY,Bayern,DE,Germany,95010,8,36.9761 -121.95316
+121,Ingolstadt,BY,Bayern,DE,Germany,85049,8,48.7665351 11.4257541
+122,Bad Soden,HE,Hessen,DE,Germany,65800,8,50.1461462 8.498569
+123,Berlin,HE,Hessen,DE,Germany,12171,8,52.519171 13.4060912
+124,Berlin,HE,Hessen,DE,Germany,13441,8,43.164312 -75.511301
+125,Berlin,HE,Hessen,DE,Germany,14111,8,42.593148 -78.91498
+126,Berlin,HE,Hessen,DE,Germany,14129,8,42.469165 -79.01069
+127,Darmstadt,HE,Hessen,DE,Germany,64283,8,49.8776483 8.6517617
+128,Dresden,HE,Hessen,DE,Germany,1071,8,42.165931 -72.85153
+129,Duesseldorf,HE,Hessen,DE,Germany,40434,8,37.395468 -83.908492
+130,Duesseldorf,HE,Hessen,DE,Germany,40605,8,51.2277411 6.7734556
+131,Frankfurt,HE,Hessen,DE,Germany,60323,8,50.1109221 8.6821267
+132,Hamburg,HE,Hessen,DE,Germany,22001,8,53.5510846 9.9936818
+133,Kassel,HE,Hessen,DE,Germany,34117,8,26.1785 -81.55495
+134,M??en,HE,Hessen,DE,Germany,80074,8,37.5164808 14.3791912
+135,Salzgitter,HE,Hessen,DE,Germany,38231,8,36.210847 -88.42518
+136,Ascheim,HH,Hamburg,DE,Germany,86171,8,48.1723102 11.7159097
+137,Augsburg,HH,Hamburg,DE,Germany,86171,8,48.3714407 10.8982552
+138,Berlin,HH,Hamburg,DE,Germany,10210,8,52.519171 13.4060912
+139,Berlin,HH,Hamburg,DE,Germany,10791,8,52.519171 13.4060912
+140,Berlin,HH,Hamburg,DE,Germany,12311,8,52.519171 13.4060912
+141,Berlin,HH,Hamburg,DE,Germany,14111,8,42.593148 -78.91498
+142,Bonn,HH,Hamburg,DE,Germany,53001,8,43.61014 -88.03047
+143,Bonn,HH,Hamburg,DE,Germany,53131,8,50.73743 7.0982068
+144,Essen,HH,Hamburg,DE,Germany,45001,8,39.137818 -84.7079
+145,Frankfurt am Main,HH,Hamburg,DE,Germany,60082,8,42.116377 -87.812064
+146,Frankfurt am Main,HH,Hamburg,DE,Germany,60355,8,50.1109221 8.6821267
+147,Hamburg,HH,Hamburg,DE,Germany,20354,8,53.5510846 9.9936818
+148,Muehlheim,HH,Hamburg,DE,Germany,63151,8,38.638318 -90.427118
+149,M??eim,HH,Hamburg,DE,Germany,63151,8,38.638318 -90.427118
+150,M??en,HH,Hamburg,DE,Germany,80074,8,37.5164808 14.3791912
+151,Paderborn,HH,Hamburg,DE,Germany,33041,8,25.100957 -81.568862
+152,Berlin,NW,Nordrhein-Westfalen,DE,Germany,10501,8,41.289939 -73.76493
+153,Berlin,NW,Nordrhein-Westfalen,DE,Germany,14197,8,52.519171 13.4060912
+154,Bonn,NW,Nordrhein-Westfalen,DE,Germany,53131,8,50.73743 7.0982068
+155,Bottrop,NW,Nordrhein-Westfalen,DE,Germany,46236,8,39.888225 -85.97041
+156,Braunschweig,NW,Nordrhein-Westfalen,DE,Germany,38001,8,35.796157 -89.14016
+157,Hannover,NW,Nordrhein-Westfalen,DE,Germany,30601,8,33.979016 -83.36423
+158,Leipzig,NW,Nordrhein-Westfalen,DE,Germany,4139,8,51.3396955 12.3730747
+159,M??en,NW,Nordrhein-Westfalen,DE,Germany,80074,8,37.5164808 14.3791912
+160,Paderborn,NW,Nordrhein-Westfalen,DE,Germany,33098,8,51.7189205 8.7575093
+161,Solingen,NW,Nordrhein-Westfalen,DE,Germany,42651,8,51.1704145 7.0542575
+162,Werne,NW,Nordrhein-Westfalen,DE,Germany,59368,8,51.665041 7.631431
+163,Berlin,SL,Saarland,DE,Germany,12171,8,52.519171 13.4060912
+164,Berlin,SL,Saarland,DE,Germany,12311,8,52.519171 13.4060912
+165,Berlin,SL,Saarland,DE,Germany,14197,8,52.519171 13.4060912
+166,Frankfurt am Main,SL,Saarland,DE,Germany,60061,8,42.229856 -87.96779
+167,Frankfurt am Main,SL,Saarland,DE,Germany,60075,8,42.322814 -87.610053
+168,Kiel,SL,Saarland,DE,Germany,24044,8,37.274175 -79.95786
+169,M??en,SL,Saarland,DE,Germany,48001,8,42.631359 -82.554
+170,M??er,SL,Saarland,DE,Germany,48001,8,42.631359 -82.554
+171,Neunkirchen,SL,Saarland,DE,Germany,66578,8,49.3518048 7.186363
+172,Offenbach,SL,Saarland,DE,Germany,63009,8,50.0956362 8.7760843
+173,Poing,SL,Saarland,DE,Germany,66041,8,39.589832 -95.31425
+174,Saarbr??n,SL,Saarland,DE,Germany,66001,8,0 0
+175,Saarlouis,SL,Saarland,DE,Germany,66740,8,37.464733 -95.37039
+176,Stuttgart,SL,Saarland,DE,Germany,70452,8,30.401481 -89.76917
+177,Stuttgart,SL,Saarland,DE,Germany,70511,8,30.032434 -92.176655
+178,Sulzbach Taunus,SL,Saarland,DE,Germany,66272,8,50.133889 8.526944
+179,Saint Ouen,17,Charente-Maritime,FR,France,17490,7,48.911856 2.333764
+180,Colomiers,31,Garonne (Haute),FR,France,31770,7,31.33349 -84.36269
+181,Aujan Mournede,32,Gers,FR,France,32300,7,43.381602 0.502269
+182,Saint Ouen,41,Loir et Cher,FR,France,41100,7,48.911856 2.333764
+183,Orleans,45,Loiret,FR,France,45000,7,39.147991 -84.739682
+184,Metz,57,Moselle,FR,France,57000,7,49.119666 6.176905
+185,Croix,59,Nord,FR,France,59170,7,50.67732 3.148719
+186,Dunkerque,59,Nord,FR,France,59140,7,51.03456 2.3752019
+187,Lille,59,Nord,FR,France,59000,7,46.506905 -108.289304
+188,Roncq,59,Nord,FR,France,59223,7,48.006744 -106.46104
+189,Roubaix,59,Nord,FR,France,59100,7,50.6927049 3.177847
+190,Villeneuve-d'Ascq,59,Nord,FR,France,59491,7,50.6233 3.145
+191,Boulogne-sur-Mer,62,Pas de Calais,FR,France,62200,7,50.725231 1.613334
+192,Paris,75,Seine (Paris),FR,France,75002,7,33.092846 -96.62447
+193,Paris,75,Seine (Paris),FR,France,75003,7,48.856614 2.3522219
+194,Paris,75,Seine (Paris),FR,France,75005,7,48.856614 2.3522219
+195,Paris,75,Seine (Paris),FR,France,75006,7,32.960374 -96.89163
+196,Paris,75,Seine (Paris),FR,France,75007,7,33.00542 -96.89773
+197,Paris,75,Seine (Paris),FR,France,75008,7,33.20743 -97.116282
+198,Paris,75,Seine (Paris),FR,France,75009,7,33.327927 -96.76129
+199,Paris,75,Seine (Paris),FR,France,75010,7,33.030556 -96.89328
+200,Paris,75,Seine (Paris),FR,France,75012,7,48.856614 2.3522219
+201,Paris,75,Seine (Paris),FR,France,75013,7,33.106582 -96.69402
+202,Paris,75,Seine (Paris),FR,France,75016,7,32.767268 -96.777626
+203,Paris,75,Seine (Paris),FR,France,75017,7,32.767268 -96.777626
+204,Paris,75,Seine (Paris),FR,France,75019,7,32.967341 -96.98656
+205,Lieusaint,77,Seine et Marne,FR,France,77127,7,48.631195 2.551107
+206,Roissy en Brie,77,Seine et Marne,FR,France,77680,7,48.790685 2.654541
+207,Chatou,78,Yveline,FR,France,78400,7,48.896391 2.160098
+208,Saint Germain en Laye,78,Yveline,FR,France,78100,7,48.898908 2.093761
+209,Versailles,78,Yveline,FR,France,78000,7,48.801408 2.130122
+210,Saint Ouen,80,Somme,FR,France,80610,7,40.61798 -104.66762
+211,Les Ulis,91,Essonne,FR,France,91940,7,48.6792779 2.16647
+212,Morangis,91,Essonne,FR,France,91420,7,48.7022059 2.336018
+213,Verrieres Le Buisson,91,Essonne,FR,France,91370,7,48.746318 2.266838
+214,Boulogne-Billancourt,92,Hauts de Seine,FR,France,92100,7,48.84325 2.237803
+215,Colombes,92,Hauts de Seine,FR,France,92700,7,48.931179 2.248307
+216,Courbevoie,92,Hauts de Seine,FR,France,92400,7,48.900552 2.25929
+217,Paris La Defense,92,Hauts de Seine,FR,France,92081,7,48.8897359 2.2418428
+218,S?es,92,Hauts de Seine,FR,France,92310,7,35.262763 -116.69452
+219,Suresnes,92,Hauts de Seine,FR,France,92150,7,33.016928 -116.846046
+220,Bobigny,93,Seine Saint Denis,FR,France,93000,7,48.908612 2.439712
+221,Drancy,93,Seine Saint Denis,FR,France,93700,7,48.924298 2.445676
+222,Pantin,93,Seine Saint Denis,FR,France,93500,7,48.894533 2.40963
+223,Saint-Denis,93,Seine Saint Denis,FR,France,93400,7,48.936181 2.357443
+224,Tremblay-en-France,93,Seine Saint Denis,FR,France,93290,7,48.979952 2.557211
+225,Orly,94,Val de Marne,FR,France,94310,7,37.189396 -121.705327
+226,Cergy,95,Val d'Oise,FR,France,95000,7,49.035617 2.060325
+227,Abingdon,ENG,England,GB,United Kingdom,OX14 4SE,10,51.67078 -1.2879529
+228,Basingstoke Hants,ENG,England,GB,United Kingdom,RG24 8PL,10,51.262551 -1.093609
+229,Berks,ENG,England,GB,United Kingdom,SL4 1RH,10,51.4659863 -1.2814014
+230,Berkshire,ENG,England,GB,United Kingdom,RG11 5TP,10,51.4659863 -1.2814014
+231,Billericay,ENG,England,GB,United Kingdom,CM11,10,51.627903 0.418397
+232,Birmingham,ENG,England,GB,United Kingdom,B29 6SL,10,33.5206608 -86.80249
+233,Bracknell,ENG,England,GB,United Kingdom,RG12 8TB,10,51.41604 -0.75398
+234,Bury,ENG,England,GB,United Kingdom,PE17,10,53.595024 -2.297151
+235,Cambridge,ENG,England,GB,United Kingdom,CB4 4BZ,10,42.3736158 -71.1097335
+236,Cheltenham,ENG,England,GB,United Kingdom,GL50,10,42.3736158 -71.1097335
+237,Esher-Molesey,ENG,England,GB,United Kingdom,EM15,10,42.3736158 -71.1097335
+238,Gateshead,ENG,England,GB,United Kingdom,GA10,10,42.3736158 -71.1097335
+239,Gloucestershire,ENG,England,GB,United Kingdom,GL7 1RY,10,42.3736158 -71.1097335
+240,High Wycombe,ENG,England,GB,United Kingdom,HP10 9QY,10,42.3736158 -71.1097335
+241,Kirkby,ENG,England,GB,United Kingdom,KB9,10,42.3736158 -71.1097335
+242,Lancaster,ENG,England,GB,United Kingdom,LA1 1LN,10,42.3736158 -71.1097335
+243,Leeds,ENG,England,GB,United Kingdom,LE18,10,42.3736158 -71.1097335
+244,London,ENG,England,GB,United Kingdom,C2H 7AU,10,42.3736158 -71.1097335
+245,London,ENG,England,GB,United Kingdom,E17 6JF,10,42.3736158 -71.1097335
+246,London,ENG,England,GB,United Kingdom,EC1R 0DU,10,42.3736158 -71.1097335
+247,London,ENG,England,GB,United Kingdom,SE1 8HL,10,42.3736158 -71.1097335
+248,London,ENG,England,GB,United Kingdom,SW19 3RU,10,42.3736158 -71.1097335
+249,London,ENG,England,GB,United Kingdom,SW1P 2NU,10,42.3736158 -71.1097335
+250,London,ENG,England,GB,United Kingdom,SW6 SBY,10,42.3736158 -71.1097335
+251,London,ENG,England,GB,United Kingdom,SW8 1XD,10,42.3736158 -71.1097335
+252,London,ENG,England,GB,United Kingdom,SW8 4BG,10,42.3736158 -71.1097335
+253,London,ENG,England,GB,United Kingdom,W10 6BL,10,42.3736158 -71.1097335
+254,London,ENG,England,GB,United Kingdom,W1N 9FA,10,42.3736158 -71.1097335
+255,London,ENG,England,GB,United Kingdom,W1V 5RN,10,42.3736158 -71.1097335
+256,London,ENG,England,GB,United Kingdom,W1X3SE,10,42.3736158 -71.1097335
+257,London,ENG,England,GB,United Kingdom,W1Y 3RA,10,42.3736158 -71.1097335
+258,Maidenhead,ENG,England,GB,United Kingdom,SL67RJ,10,42.3736158 -71.1097335
+259,Milton Keynes,ENG,England,GB,United Kingdom,MK8 8DF,10,42.3736158 -71.1097335
+260,Milton Keynes,ENG,England,GB,United Kingdom,MK8 8ZD,10,42.3736158 -71.1097335
+261,Newcastle upon Tyne,ENG,England,GB,United Kingdom,NT20,10,42.3736158 -71.1097335
+262,Oxford,ENG,England,GB,United Kingdom,OX1,10,42.3736158 -71.1097335
+263,Oxford,ENG,England,GB,United Kingdom,OX14 4SE,10,42.3736158 -71.1097335
+264,Oxon,ENG,England,GB,United Kingdom,OX16 8RS,10,42.3736158 -71.1097335
+265,Peterborough,ENG,England,GB,United Kingdom,PB12,10,42.3736158 -71.1097335
+266,Reading,ENG,England,GB,United Kingdom,RG7 5H7,10,42.3736158 -71.1097335
+267,Runcorn,ENG,England,GB,United Kingdom,TY31,10,42.3736158 -71.1097335
+268,Liverpool,ENG,England,GB,United Kingdom,L4 4HB,10,42.3736158 -71.1097335
+269,Stoke-on-Trent,ENG,England,GB,United Kingdom,AS23,10,42.3736158 -71.1097335
+270,W. York,ENG,England,GB,United Kingdom,BD1 4SJ,10,42.3736158 -71.1097335
+271,Warrington,ENG,England,GB,United Kingdom,WA1,10,42.3736158 -71.1097335
+272,Warrington,ENG,England,GB,United Kingdom,WA3 7BH,10,42.3736158 -71.1097335
+273,Watford,ENG,England,GB,United Kingdom,WA3,10,42.3736158 -71.1097335
+274,West Sussex,ENG,England,GB,United Kingdom,RH15 9UD,10,42.3736158 -71.1097335
+275,Wokingham,ENG,England,GB,United Kingdom,RG41 1QW,10,42.3736158 -71.1097335
+276,Woolston,ENG,England,GB,United Kingdom,WA1 4SY,10,42.3736158 -71.1097335
+277,York,ENG,England,GB,United Kingdom,Y024 1GF,10,42.3736158 -71.1097335
+278,York,ENG,England,GB,United Kingdom,Y03 4TN,10,42.3736158 -71.1097335
+279,York,ENG,England,GB,United Kingdom,YO15,10,42.3736158 -71.1097335
+280,Birmingham,AL,Alabama,US,United States,35203,5,33.519055 -86.8097
+281,Florence,AL,Alabama,US,United States,35630,5,34.817537 -87.66253
+282,Huntsville,AL,Alabama,US,United States,35801,5,34.72879 -86.57316
+283,Mobile,AL,Alabama,US,United States,36602,5,30.693389 -88.04416
+284,Montgomery,AL,Alabama,US,United States,36104,5,32.377509 -86.31068
+285,Chandler,AZ,Arizona,US,United States,85225,4,33.316349 -111.83064
+286,Gilbert,AZ,Arizona,US,United States,85233,4,33.348593 -111.80833
+287,Mesa,AZ,Arizona,US,United States,85201,4,33.432177 -111.84701
+288,Phoenix,AZ,Arizona,US,United States,85004,4,33.451093 -112.07057
+289,Scottsdale,AZ,Arizona,US,United States,85257,4,33.467347 -111.91741
+290,Surprise,AZ,Arizona,US,United States,85374,4,33.643508 -112.38502
+291,Tucson,AZ,Arizona,US,United States,85701,4,32.216743 -110.9696
+292,Alhambra,CA,California,US,United States,91801,4,34.090409 -118.127
+293,Alpine,CA,California,US,United States,91901,4,32.823102 -116.73864
+294,Auburn,CA,California,US,United States,95603,4,38.909605 -121.07971
+295,Baldwin Park,CA,California,US,United States,91706,4,34.087108 -117.96966
+296,Barstow,CA,California,US,United States,92311,4,34.894181 -117.03636
+297,Bell Gardens,CA,California,US,United States,90201,4,33.972814 -118.17385
+298,Bellflower,CA,California,US,United States,90706,4,33.888165 -118.1276
+299,Berkeley,CA,California,US,United States,94704,4,37.868575 -122.25855
+300,Beverly Hills,CA,California,US,United States,90210,4,34.088808 -118.40612
+301,Burbank,CA,California,US,United States,91502,4,34.177606 -118.30954
+302,Burlingame,CA,California,US,United States,94010,4,37.574936 -122.36332
+303,Camarillo,CA,California,US,United States,93010,4,34.231754 -119.05258
+304,Canoga Park,CA,California,US,United States,91303,4,34.198204 -118.60206
+305,Carson,CA,California,US,United States,90746,4,33.857416 -118.25633
+306,Cerritos,CA,California,US,United States,90703,4,33.868314 -118.06754
+307,Chula Vista,CA,California,US,United States,91910,4,32.638654 -117.06686
+308,Citrus Heights,CA,California,US,United States,95610,4,38.696912 -121.27125
+309,City Of Commerce,CA,California,US,United States,90040,4,33.997492 -118.15284
+310,Colma,CA,California,US,United States,94014,4,37.699182 -122.45035
+311,Concord,CA,California,US,United States,94519,4,37.984271 -122.01437
+312,Coronado,CA,California,US,United States,92118,4,32.682727 -117.17441
+313,Culver City,CA,California,US,United States,90232,4,34.021611 -118.39168
+314,Daly City,CA,California,US,United States,94015,4,37.682583 -122.48209
+315,Downey,CA,California,US,United States,90241,4,33.942289 -118.12901
+316,El Cajon,CA,California,US,United States,92020,4,32.7991 -116.97334
+317,El Segundo,CA,California,US,United States,90245,4,33.921313 -118.40843
+318,Elk Grove,CA,California,US,United States,95624,4,38.421068 -121.36059
+319,Escondido,CA,California,US,United States,92025,4,33.106862 -117.07077
+320,Eureka,CA,California,US,United States,95501,4,40.793739 -124.16102
+321,Fontana,CA,California,US,United States,92335,4,34.088911 -117.45213
+322,Fremont,CA,California,US,United States,94536,4,37.562218 -121.99433
+323,Fullerton,CA,California,US,United States,92831,4,33.878981 -117.89325
+324,Gilroy,CA,California,US,United States,95020,4,37.016943 -121.56581
+325,Glendale,CA,California,US,United States,91203,4,34.152757 -118.2658
+326,Grossmont,CA,California,US,United States,91941,4,32.761801 -117.01273
+327,Hanford,CA,California,US,United States,93230,4,36.327063 -119.6451
+328,Hayward,CA,California,US,United States,94541,4,37.674431 -122.08883
+329,Imperial Beach,CA,California,US,United States,91932,4,32.579555 -117.11708
+330,Irvine,CA,California,US,United States,92614,4,33.680408 -117.82592
+331,La Jolla,CA,California,US,United States,92806,4,33.835465 -117.87362
+332,La Mesa,CA,California,US,United States,91941,4,32.761801 -117.01273
+333,Lake Elsinore,CA,California,US,United States,92530,4,33.675893 -117.34946
+334,Lakewood,CA,California,US,United States,90712,4,33.851965 -118.1468
+335,Lemon Grove,CA,California,US,United States,91945,4,32.733451 -117.0337
+336,Lincoln Acres,CA,California,US,United States,91950,4,32.670903 -117.09272
+337,Long Beach,CA,California,US,United States,90802,4,33.769018 -118.19225
+338,Los Angeles,CA,California,US,United States,90012,4,34.061611 -118.23944
+339,Mill Valley,CA,California,US,United States,94941,4,37.898058 -122.54134
+340,Milpitas,CA,California,US,United States,95035,4,37.436451 -121.89438
+341,Modesto,CA,California,US,United States,95354,4,37.644481 -120.98043
+342,Monrovia,CA,California,US,United States,91016,4,34.140806 -118.00184
+343,National City,CA,California,US,United States,91950,4,32.670903 -117.09272
+344,Newark,CA,California,US,United States,94560,4,37.535586 -122.03362
+345,Newport Beach,CA,California,US,United States,92625,4,33.600172 -117.86823
+346,Norwalk,CA,California,US,United States,90650,4,33.906914 -118.08339
+347,Novato,CA,California,US,United States,94947,4,38.098221 -122.59809
+348,Oakland,CA,California,US,United States,94611,4,37.827126 -122.22289
+349,Ontario,CA,California,US,United States,91764,4,34.077327 -117.6222
+350,Orange,CA,California,US,United States,92867,4,33.811566 -117.82919
+351,Oxnard,CA,California,US,United States,93030,4,34.21707 -119.1769
+352,Palo Alto,CA,California,US,United States,94303,4,37.449888 -122.12749
+353,Pleasanton,CA,California,US,United States,94566,4,37.658898 -121.87149
+354,Redlands,CA,California,US,United States,92373,4,34.034714 -117.17305
+355,Redwood City,CA,California,US,United States,94063,4,37.483504 -122.2144
+356,Sacramento,CA,California,US,United States,95814,4,38.580255 -121.49125
+357,San Bruno,CA,California,US,United States,94066,4,37.625908 -122.42363
+358,San Carlos,CA,California,US,United States,94070,4,37.499175 -122.26655
+359,San Diego,CA,California,US,United States,92102,4,32.714992 -117.12537
+360,San Francisco,CA,California,US,United States,94109,4,37.792778 -122.42188
+361,San Gabriel,CA,California,US,United States,91776,4,34.089059 -118.0951
+362,San Jose,CA,California,US,United States,95112,4,37.348541 -121.88627
+363,San Mateo,CA,California,US,United States,94404,4,37.554335 -122.27032
+364,San Ramon,CA,California,US,United States,94583,4,37.75735 -121.95213
+365,San Ysidro,CA,California,US,United States,92173,4,32.556264 -117.05057
+366,Sand City,CA,California,US,United States,93955,4,36.615813 -121.83461
+367,Santa Ana,CA,California,US,United States,92701,4,33.747017 -117.86248
+368,Santa Cruz,CA,California,US,United States,95062,4,36.9707 -121.99086
+369,Santa Monica,CA,California,US,United States,90401,4,34.01491 -118.4922
+370,Sherman Oaks,CA,California,US,United States,91403,4,34.152513 -118.46396
+371,Simi Valley,CA,California,US,United States,93065,4,34.265003 -118.77177
+372,Spring Valley,CA,California,US,United States,91977,4,32.721145 -116.99612
+373,Stockton,CA,California,US,United States,95202,4,37.958723 -121.28805
+374,Torrance,CA,California,US,United States,90505,4,33.810848 -118.35096
+375,Trabuco Canyon,CA,California,US,United States,92679,4,33.639227 -117.58518
+376,Union City,CA,California,US,United States,94587,4,37.592184 -122.04577
+377,Upland,CA,California,US,United States,91786,4,34.101659 -117.65776
+378,Vacaville,CA,California,US,United States,95688,4,38.380528 -121.99192
+379,Van Nuys,CA,California,US,United States,91411,4,34.178305 -118.45858
+380,Visalia,CA,California,US,United States,93291,4,36.351009 -119.33655
+381,Vista,CA,California,US,United States,92084,4,33.213309 -117.21474
+382,Walnut Creek,CA,California,US,United States,94596,4,37.905924 -122.05858
+383,West Covina,CA,California,US,United States,91791,4,34.063645 -117.89743
+384,Whittier,CA,California,US,United States,90605,4,33.945413 -118.03362
+385,Woodland Hills,CA,California,US,United States,91364,4,34.158214 -118.60061
+386,Denver,CO,Colorado,US,United States,80203,3,39.731286 -104.98306
+387,Englewood,CO,Colorado,US,United States,80110,3,39.646847 -104.99076
+388,Greeley,CO,Colorado,US,United States,80631,3,40.421845 -104.69175
+389,Longmont,CO,Colorado,US,United States,80501,3,40.171484 -105.10033
+390,Loveland,CO,Colorado,US,United States,80537,3,40.383636 -105.10349
+391,Parker,CO,Colorado,US,United States,80138,3,39.523171 -104.70607
+392,Westminster,CO,Colorado,US,United States,80030,3,39.830936 -105.03736
+393,East Haven,CT,Connecticut,US,United States,6512,2,41.276497 -72.87412
+394,Farmington,CT,Connecticut,US,United States,6032,2,41.725195 -72.83032
+395,Hamden,CT,Connecticut,US,United States,6518,2,41.413114 -72.90409
+396,Milford,CT,Connecticut,US,United States,6460,2,41.21953 -73.0554
+397,New Haven,CT,Connecticut,US,United States,6510,2,41.306197 -72.92479
+398,Stamford,CT,Connecticut,US,United States,6901,2,41.051996 -73.53903
+399,Waterbury,CT,Connecticut,US,United States,6710,2,41.569496 -73.04484
+400,Westport,CT,Connecticut,US,United States,6880,2,41.140896 -73.35178
+401,Altamonte Springs,FL,Florida,US,United States,32701,5,28.666249 -81.36796
+402,Bradenton,FL,Florida,US,United States,34205,5,27.485617 -82.58294
+403,Clearwater,FL,Florida,US,United States,33755,5,27.979114 -82.78166
+404,Destin,FL,Florida,US,United States,32541,5,30.391795 -86.4338
+405,Hollywood,FL,Florida,US,United States,33021,5,26.023634 -80.18922
+406,Kendall,FL,Florida,US,United States,33143,5,25.702929 -80.29642
+407,Lakeland,FL,Florida,US,United States,33801,5,28.041198 -81.92392
+408,Merritt Island,FL,Florida,US,United States,32952,5,28.350373 -80.6691
+409,Miami,FL,Florida,US,United States,33127,5,25.813808 -80.2058
+410,North Miami Beach,FL,Florida,US,United States,33162,5,25.929571 -80.17839
+411,Orlando,FL,Florida,US,United States,32804,5,28.577723 -81.3931
+412,Sarasota,FL,Florida,US,United States,34236,5,27.333014 -82.54613
+413,Sunrise,FL,Florida,US,United States,33322,5,26.150863 -80.27284
+414,Tampa,FL,Florida,US,United States,33602,5,27.956149 -82.45723
+415,Vero Beach,FL,Florida,US,United States,32960,5,27.636828 -80.40294
+416,Atlanta,GA,Georgia,US,United States,30308,5,33.771755 -84.38065
+417,Augusta,GA,Georgia,US,United States,30901,5,33.461121 -81.97265
+418,Austell,GA,Georgia,US,United States,30106,5,33.828061 -84.62593
+419,Byron,GA,Georgia,US,United States,31008,5,32.652313 -83.75918
+420,Clarkston,GA,Georgia,US,United States,30021,5,33.809604 -84.2387
+421,Columbus,GA,Georgia,US,United States,31901,5,32.471492 -84.98005
+422,Decatur,GA,Georgia,US,United States,30030,5,33.771705 -84.29407
+423,La Grange,GA,Georgia,US,United States,30240,5,33.029838 -85.0745
+424,Marietta,GA,Georgia,US,United States,30060,5,33.932052 -84.54746
+425,Mcdonough,GA,Georgia,US,United States,30253,5,33.455031 -84.17215
+426,Savannah,GA,Georgia,US,United States,31401,5,32.068658 -81.09258
+427,Suwanee,GA,Georgia,US,United States,30024,5,34.052698 -84.07485
+428,Idaho Falls,ID,Idaho,US,United States,83402,1,43.497685 -112.07391
+429,Lewiston,ID,Idaho,US,United States,83501,1,46.388753 -116.98484
+430,Sandpoint,ID,Idaho,US,United States,83864,1,48.362033 -116.55101
+431,Carol Stream,IL,Illinois,US,United States,60188,3,41.918578 -88.13688
+432,Chicago,IL,Illinois,US,United States,60610,3,41.898582 -87.6371
+433,Elgin,IL,Illinois,US,United States,60120,3,42.037176 -88.25922
+434,Joliet,IL,Illinois,US,United States,60433,3,41.511644 -88.05698
+435,Moline,IL,Illinois,US,United States,61265,3,41.490333 -90.50006
+436,Norridge,IL,Illinois,US,United States,60706,3,41.96418 -87.81686
+437,Peoria,IL,Illinois,US,United States,61606,3,40.699137 -89.60972
+438,Tuscola,IL,Illinois,US,United States,61953,3,39.793493 -88.29184
+439,West Chicago,IL,Illinois,US,United States,60185,3,41.891978 -88.20502
+440,Wood Dale,IL,Illinois,US,United States,60191,3,41.962979 -87.97688
+441,Daleville,IN,Indiana,US,United States,47334,2,40.117139 -85.54205
+442,Fort Wayne,IN,Indiana,US,United States,46807,2,41.046848 -85.14481
+443,Indianapolis,IN,Indiana,US,United States,46204,2,39.771743 -86.15598
+444,Logansport,IN,Indiana,US,United States,46947,2,40.754787 -86.36684
+445,Michigan City,IN,Indiana,US,United States,46360,2,41.707539 -86.87902
+446,New Castle,IN,Indiana,US,United States,47362,2,39.92698 -85.3697
+447,South Bend,IN,Indiana,US,United States,46601,2,41.671197 -86.25253
+448,Campbellsville,KY,Kentucky,US,United States,42718,5,37.372314 -85.3549
+449,Florence,KY,Kentucky,US,United States,41042,5,38.983853 -84.64401
+450,Newport,KY,Kentucky,US,United States,41071,5,39.08347 -84.48681
+451,Saint Matthews,KY,Kentucky,US,United States,40207,5,38.257489 -85.65134
+452,Somerset,KY,Kentucky,US,United States,42501,5,37.075624 -84.54437
+453,Braintree,MA,Massachusetts,US,United States,2184,2,42.209555 -70.99968
+454,Norwood,MA,Massachusetts,US,United States,2062,2,42.185974 -71.20166
+455,Randolph,MA,Massachusetts,US,United States,2368,2,42.173417 -71.04912
+456,Saugus,MA,Massachusetts,US,United States,1906,2,42.462796 -71.0098
+457,Wrentham,MA,Massachusetts,US,United States,2093,2,42.0597 -71.34617
+458,Baltimore,MD,Maryland,US,United States,21201,2,39.295306 -76.62118
+459,Kittery,ME,Maine,US,United States,3904,2,43.101538 -70.73611
+460,Detroit,MI,Michigan,US,United States,48226,3,42.331821 -83.04888
+461,Holland,MI,Michigan,US,United States,49423,3,42.765918 -86.10544
+462,Howell,MI,Michigan,US,United States,48843,3,42.612243 -83.91835
+463,Madison Heights,MI,Michigan,US,United States,48071,3,42.501385 -83.10474
+464,Midland,MI,Michigan,US,United States,48640,3,43.605457 -84.27234
+465,Monroe,MI,Michigan,US,United States,98272,3,47.860245 -121.93734
+466,Novi,MI,Michigan,US,United States,48375,3,42.462734 -83.45865
+467,Pontiac,MI,Michigan,US,United States,48342,3,42.644581 -83.28211
+468,Port Huron,MI,Michigan,US,United States,48060,3,42.978974 -82.44402
+469,Redford,MI,Michigan,US,United States,48239,3,42.379436 -83.29105
+470,Saginaw,MI,Michigan,US,United States,48601,3,43.413975 -83.91427
+471,Southfield,MI,Michigan,US,United States,48034,3,42.474234 -83.29078
+472,Southgate,MI,Michigan,US,United States,48195,3,42.205289 -83.19812
+473,Westland,MI,Michigan,US,United States,48185,3,42.335937 -83.378
+474,Zeeland,MI,Michigan,US,United States,49464,3,42.829252 -85.99621
+475,Branch,MN,Minnesota,US,United States,55056,3,45.509818 -92.97816
+476,Duluth,MN,Minnesota,US,United States,55802,3,46.774593 -92.09206
+477,Edina,MN,Minnesota,US,United States,55436,3,44.903864 -93.37056
+478,Medford,MN,Minnesota,US,United States,55049,3,44.172277 -93.23924
+479,Minneapolis,MN,Minnesota,US,United States,55402,3,44.975565 -93.27053
+480,Woodbury,MN,Minnesota,US,United States,55125,3,44.921982 -92.94234
+481,Branson,MO,Missouri,US,United States,65616,3,36.64417 -93.25668
+482,Ferguson,MO,Missouri,US,United States,63135,3,38.74785 -90.30258
+483,Jefferson City,MO,Missouri,US,United States,65101,3,38.535897 -92.13905
+484,Kansas City,MO,Missouri,US,United States,64106,3,39.103704 -94.57311
+485,Odessa,MO,Missouri,US,United States,64076,3,38.98915 -93.95373
+486,Saint Ann,MO,Missouri,US,United States,63074,3,38.727184 -90.38551
+487,Saint Louis,MO,Missouri,US,United States,63103,3,38.631451 -90.21415
+488,Biloxi,MS,Mississippi,US,United States,39530,5,30.399148 -88.88917
+489,Gulfport,MS,Mississippi,US,United States,39501,5,30.380597 -89.09626
+490,Tupelo,MS,Mississippi,US,United States,38804,5,34.272374 -88.6822
+491,Billings,MT,Montana,US,United States,59101,1,45.737525 -108.48754
+492,Great Falls,MT,Montana,US,United States,59401,1,47.509157 -111.27408
+493,Missoula,MT,Montana,US,United States,59801,1,46.855423 -114.01229
+494,Charlotte,NC,North Carolina,US,United States,28202,5,35.227192 -80.84419
+495,Greensboro,NC,North Carolina,US,United States,27412,5,36.066129 -79.806735
+496,Kannapolis,NC,North Carolina,US,United States,28081,5,35.499521 -80.64447
+497,Raleigh,NC,North Carolina,US,United States,27603,5,35.716105 -78.65734
+498,Rocky Mount,NC,North Carolina,US,United States,27803,5,35.924465 -77.83689
+499,Smithfield,NC,North Carolina,US,United States,27577,5,35.506459 -78.34446
+500,Winston-Salem,NC,North Carolina,US,United States,27104,5,36.094104 -80.31503
+501,Hooksett,NH,New Hampshire,US,United States,3106,2,43.058785 -71.44412
+502,Nashua,NH,New Hampshire,US,United States,3064,2,42.774171 -71.47306
+503,Plaistow,NH,New Hampshire,US,United States,3865,2,42.837189 -71.09445
+504,Tilton,NH,New Hampshire,US,United States,3276,2,43.446729 -71.5785
+505,Las Cruces,NM,New Mexico,US,United States,88001,4,32.300193 -106.76078
+506,Rio Rancho,NM,New Mexico,US,United States,87124,4,35.290647 -106.71469
+507,Santa Fe,NM,New Mexico,US,United States,87501,4,35.755312 -105.99936
+508,Fernley,NV,Nevada,US,United States,89408,1,39.617711 -119.17374
+509,Las Vegas,NV,Nevada,US,United States,89106,1,36.184219 -115.16292
+510,North Las Vegas,NV,Nevada,US,United States,89030,1,36.206419 -115.12318
+511,Reno,NV,Nevada,US,United States,89502,1,39.499862 -119.77497
+512,Sparks,NV,Nevada,US,United States,89431,1,39.542711 -119.75445
+513,Central Valley,NY,New York,US,United States,10917,2,41.322344 -74.12354
+514,Cheektowaga,NY,New York,US,United States,14227,2,42.881372 -78.74466
+515,Clay,NY,New York,US,United States,13041,2,43.1835 -76.18002
+516,De Witt,NY,New York,US,United States,13214,2,43.038099 -76.07635
+517,Endicott,NY,New York,US,United States,13760,2,42.113974 -76.05256
+518,Ithaca,NY,New York,US,United States,14850,2,42.449454 -76.49685
+519,Lake George,NY,New York,US,United States,12845,2,43.41928 -73.70766
+520,Melville,NY,New York,US,United States,11747,2,40.791593 -73.40543
+521,New Hartford,NY,New York,US,United States,13413,2,43.067169 -75.28767
+522,New York,NY,New York,US,United States,10007,2,40.714754 -74.00721
+523,Valley Stream,NY,New York,US,United States,11580,2,40.673 -73.70346
+524,Burbank,OH,Ohio,US,United States,44214,2,40.965423 -82.00032
+525,Cincinnati,OH,Ohio,US,United States,45202,2,39.10441 -84.50774
+526,Columbus,OH,Ohio,US,United States,43215,2,39.965131 -83.00431
+527,Euclid,OH,Ohio,US,United States,44119,2,41.586749 -81.54584
+528,Heath,OH,Ohio,US,United States,43056,2,40.017096 -82.34322
+529,Holland,OH,Ohio,US,United States,43528,2,41.626651 -83.73047
+530,Mansfield,OH,Ohio,US,United States,44903,2,40.766589 -82.51869
+531,Mentor,OH,Ohio,US,United States,44060,2,41.688162 -81.33378
+532,North Randall,OH,Ohio,US,United States,44128,2,41.441153 -81.55179
+533,Oberlin,OH,Ohio,US,United States,44074,2,41.2863 -82.21935
+534,Springdale,OH,Ohio,US,United States,45246,2,39.288558 -84.47383
+535,Albany,OR,Oregon,US,United States,97321,1,44.635395 -123.0896
+536,Beaverton,OR,Oregon,US,United States,97005,1,45.49106 -122.80359
+537,Clackamas,OR,Oregon,US,United States,97015,1,45.416785 -122.52859
+538,Clackamas,OR,Oregon,US,United States,97015-6403,1,42.3736158 -71.1097335
+539,Corvallis,OR,Oregon,US,United States,97330,1,44.608694 -123.2752
+540,Hillsboro,OR,Oregon,US,United States,97123,1,45.491024 -122.95745
+541,Klamath Falls,OR,Oregon,US,United States,97601,1,42.282428 -121.88447
+542,Lake Oswego,OR,Oregon,US,United States,97034,1,45.40765 -122.6811
+543,Lebanon,OR,Oregon,US,United States,97355,1,44.527304 -122.85512
+544,Medford,OR,Oregon,US,United States,97504,1,42.334496 -122.83547
+545,Milwaukie,OR,Oregon,US,United States,97222,1,45.442634 -122.61833
+546,Oregon City,OR,Oregon,US,United States,97045,1,45.344246 -122.58464
+547,Portland,OR,Oregon,US,United States,97205,1,45.52054 -122.68573
+548,Salem,OR,Oregon,US,United States,97301,1,44.926644 -122.98694
+549,Springfield,OR,Oregon,US,United States,97477,1,44.061057 -123.01769
+550,Tigard,OR,Oregon,US,United States,97223,1,45.43884 -122.78224
+551,Troutdale,OR,Oregon,US,United States,97060,1,45.529551 -122.39156
+552,W. Linn,OR,Oregon,US,United States,97068,1,45.361991 -122.64443
+553,Woodburn,OR,Oregon,US,United States,97071,1,45.144415 -122.84521
+554,Warwick,RI,Rhode Island,US,United States,2889,2,41.706814 -71.3911
+555,West Kingston,RI,Rhode Island,US,United States,2892,2,41.50155 -71.58465
+556,Woonsocket,RI,Rhode Island,US,United States,2895,2,42.001731 -71.50722
+557,Bluffton,SC,South Carolina,US,United States,29910,5,32.241315 -80.87404
+558,Gaffney,SC,South Carolina,US,United States,29340,5,35.03653 -81.62497
+559,Myrtle Beach,SC,South Carolina,US,United States,29577,5,33.698101 -78.89604
+560,Denby,SD,South Dakota,US,United States,57716,3,43.134526 -102.16756
+561,North Sioux City,SD,South Dakota,US,United States,57049,3,42.524771 -96.49955
+562,Crossville,TN,Tennessee,US,United States,38555,5,35.929314 -85.05926
+563,Hixson,TN,Tennessee,US,United States,37343,5,35.167987 -85.21158
+564,Kingsport,TN,Tennessee,US,United States,37660,5,36.547133 -82.55408
+565,La Vergne,TN,Tennessee,US,United States,37086,5,36.01333 -86.56268
+566,Maryville,TN,Tennessee,US,United States,37801,5,35.709071 -84.05015
+567,Memphis,TN,Tennessee,US,United States,38103,5,35.146131 -90.0534
+568,Millington,TN,Tennessee,US,United States,38054,5,35.334132 -89.870636
+569,Nashville,TN,Tennessee,US,United States,37203,5,36.152607 -86.78927
+570,Pigeon Forge,TN,Tennessee,US,United States,37863,5,35.792313 -83.5605
+571,Arlington,TX,Texas,US,United States,76010,4,32.723382 -97.08498
+572,Austin,TX,Texas,US,United States,78701,4,30.27127 -97.74103
+573,Baytown,TX,Texas,US,United States,77520,4,29.74877 -94.94389
+574,Carrollton,TX,Texas,US,United States,75006,4,32.960374 -96.89163
+575,Cedar Park,TX,Texas,US,United States,78613,4,30.501272 -97.83087
+576,College Station,TX,Texas,US,United States,77840,4,30.614647 -96.32641
+577,Corpus Christi,TX,Texas,US,United States,78404,4,27.770056 -97.4001
+578,Dallas,TX,Texas,US,United States,75201,4,32.787629 -96.79941
+579,Fort Worth,TX,Texas,US,United States,76102,4,32.75388 -97.32987
+580,Garland,TX,Texas,US,United States,75040,4,32.920574 -96.62639
+581,Hillsboro,TX,Texas,US,United States,76645,4,32.015496 -97.12263
+582,Houston,TX,Texas,US,United States,77003,4,29.749278 -95.34741
+583,Humble,TX,Texas,US,United States,77338,4,30.005691 -95.28488
+584,Irving,TX,Texas,US,United States,75061,4,32.826729 -96.9614
+585,Killeen,TX,Texas,US,United States,76541,4,31.117874 -97.72924
+586,La Marque,TX,Texas,US,United States,77568,4,29.366684 -94.97392
+587,Laredo,TX,Texas,US,United States,78040,4,27.514845 -99.49991
+588,Mesquite,TX,Texas,US,United States,75149,4,32.767329 -96.60759
+589,Plano,TX,Texas,US,United States,75074,4,33.028921 -96.68102
+590,Round Rock,TX,Texas,US,United States,78664,4,30.514401 -97.65549
+591,San Antonio,TX,Texas,US,United States,78204,4,29.403583 -98.5063
+592,Stafford,TX,Texas,US,United States,77477,4,29.626187 -95.57145
+593,Sugar Land,TX,Texas,US,United States,77478,4,29.627737 -95.62444
+594,Bountiful,UT,Utah,US,United States,84010,1,40.876312 -111.87249
+595,Cedar City,UT,Utah,US,United States,84720,1,37.75164 -113.16557
+596,Ogden,UT,Utah,US,United States,84401,1,41.224911 -111.98346
+597,Park City,UT,Utah,US,United States,84098,1,40.726899 -111.53674
+598,Riverton,UT,Utah,US,United States,84065,1,40.503746 -111.96327
+599,Salt Lake City,UT,Utah,US,United States,84101,1,40.754746 -111.89875
+600,Sandy,UT,Utah,US,United States,84070,1,40.581595 -111.88821
+601,Tooele,UT,Utah,US,United States,84074,1,40.560528 -112.29455
+602,Chantilly,VA,Virginia,US,United States,20151,5,38.889111 -77.4363
+603,Falls Church,VA,Virginia,US,United States,22046,5,38.886311 -77.18098
+604,Leesburg,VA,Virginia,US,United States,20176,5,39.138978 -77.54519
+605,Newport News,VA,Virginia,US,United States,23607,5,36.987151 -76.4195
+606,Virginia Beach,VA,Virginia,US,United States,23451,5,36.864788 -76.00098
+607,Ballard,WA,Washington,US,United States,98107,1,47.66747 -122.37468
+608,Bellevue,WA,Washington,US,United States,98004,1,47.618371 -122.20308
+609,Bellingham,WA,Washington,US,United States,98225,1,48.747578 -122.48508
+610,Bothell,WA,Washington,US,United States,98011,1,47.751471 -122.20257
+611,Bremerton,WA,Washington,US,United States,98312,1,47.564437 -122.71293
+612,Burien,WA,Washington,US,United States,98168,1,47.491327 -122.3027
+613,Chehalis,WA,Washington,US,United States,98532,1,46.630721 -123.01599
+614,Edmonds,WA,Washington,US,United States,98020,1,47.803668 -122.37096
+615,Ellensburg,WA,Washington,US,United States,98926,1,47.009726 -120.52364
+616,Everett,WA,Washington,US,United States,98201,1,47.986274 -122.20222
+617,Federal Way,WA,Washington,US,United States,98003,1,47.311072 -122.31188
+618,Issaquah,WA,Washington,US,United States,98027,1,47.522828 -122.02921
+619,Kelso,WA,Washington,US,United States,98626,1,46.150433 -122.88566
+620,Kenmore,WA,Washington,US,United States,98028,1,47.75287 -122.24736
+621,Kennewick,WA,Washington,US,United States,99337,1,46.169982 -119.10456
+622,Kent,WA,Washington,US,United States,98031,1,47.388461 -122.19644
+623,Kirkland,WA,Washington,US,United States,98033,1,47.67903 -122.1934
+624,Lacey,WA,Washington,US,United States,98503,1,47.027082 -122.80359
+625,Longview,WA,Washington,US,United States,98632,1,46.156082 -122.98043
+626,Lynnwood,WA,Washington,US,United States,98036,1,47.808816 -122.28394
+627,Marysville,WA,Washington,US,United States,98270,1,48.061269 -122.1588
+628,Monroe,WA,Washington,US,United States,98272,1,47.860245 -121.93734
+629,Newport Hills,WA,Washington,US,United States,98006,1,47.562975 -122.1526
+630,North Bend,WA,Washington,US,United States,98045,1,47.483057 -121.73254
+631,Olympia,WA,Washington,US,United States,98501,1,47.014718 -122.8819
+632,Port Orchard,WA,Washington,US,United States,98366,1,47.53587 -122.59905
+633,Puyallup,WA,Washington,US,United States,98371,1,47.196272 -122.31577
+634,Redmond,WA,Washington,US,United States,98052,1,47.677471 -122.12138
+635,Renton,WA,Washington,US,United States,98055,1,47.467422 -122.21005
+636,Sammamish,WA,Washington,US,United States,98074,1,47.625364 -122.045347
+637,Seattle,WA,Washington,US,United States,98104,1,47.60252 -122.32855
+638,Sedro Woolley,WA,Washington,US,United States,98284,1,48.518653 -122.16545
+639,Sequim,WA,Washington,US,United States,98382,1,48.079979 -123.09916
+640,Shelton,WA,Washington,US,United States,98584,1,47.224044 -123.10538
+641,Spokane,WA,Washington,US,United States,99202,1,47.656692 -117.37899
+642,Tacoma,WA,Washington,US,United States,98403,1,47.263971 -122.45879
+643,Union Gap,WA,Washington,US,United States,98903,1,46.550348 -120.62097
+644,Walla Walla,WA,Washington,US,United States,99362,1,45.986775 -118.07919
+645,Washougal,WA,Washington,US,United States,98671,1,45.594465 -122.28112
+646,Wenatchee,WA,Washington,US,United States,98801,1,47.425497 -120.32881
+647,Woodinville,WA,Washington,US,United States,98072,1,47.758786 -122.10205
+648,Yakima,WA,Washington,US,United States,98901,1,46.616199 -120.46481
+649,Johnson Creek,WI,Wisconsin,US,United States,53038,3,43.075784 -88.77595
+650,Milwaukee,WI,Wisconsin,US,United States,53202,3,43.046213 -87.9005
+651,Mosinee,WI,Wisconsin,US,United States,54455,3,44.787003 -89.69066
+652,Racine,WI,Wisconsin,US,United States,53182,3,42.696322 -88.04658
+653,Casper,WY,Wyoming,US,United States,82601,1,42.896822 -106.29799
+654,Cheyenne,WY,Wyoming,US,United States,82001,1,41.141281 -104.80208
+655,Rock Springs,WY,Wyoming,US,United States,82901,1,41.594542 -109.16304
