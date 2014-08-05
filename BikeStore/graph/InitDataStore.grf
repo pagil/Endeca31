@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><Graph author="oracle" created="Thu Jul 31 09:21:43 EDT 2014" guiVersion="3.4.1.P" id="1406814056422" licenseType="Commercial" modified="Fri Aug 01 11:50:26 EDT 2014" modifiedBy="oracle" name="InitDataStore" revision="1.6" showComponentDetails="true">
+<?xml version="1.0" encoding="UTF-8"?><Graph author="oracle" created="Thu Jul 31 09:21:43 EDT 2014" guiVersion="3.4.1.P" id="1406814056422" licenseType="Commercial" modified="Mon Aug 04 20:24:16 EDT 2014" modifiedBy="oracle" name="InitDataStore" revision="1.8" showComponentDetails="true">
 <Global>
 <Metadata id="Metadata0" previewAttachment="${DATAIN_DIR}/FactSales.csv" previewAttachmentCharset="ISO-8859-1">
 <Record fieldDelimiter="," label="FactSales.csv" name="FactSales" previewAttachment="${DATAIN_DIR}/FactSales.csv" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\r\n" skipSourceRows="0" type="delimited">
@@ -29,10 +29,13 @@
 </Record>
 </Metadata>
 <Property fileURL="workspace.prm" id="GraphParameter0"/>
+<Note alignment="1" backgroundColorB="225" backgroundColorG="255" backgroundColorR="255" enabled="true" folded="false" height="155" id="Note0" textColorB="0" textColorG="0" textColorR="0" textFontSize="8" title="Use this graph to initialize Data Store/Domain" titleColorB="0" titleColorG="0" titleColorR="0" titleFontSize="10" width="382" x="12" y="5">
+<attr name="text"><![CDATA[In v2.3 it was called Data Store. Since v3.1 it is called Data Domain.]]></attr>
+</Note>
 <Dictionary/>
 </Global>
 <Phase number="0">
-<Node enabled="enabled" guiName="Create Data Domain" guiX="79" guiY="59" id="CREATE_DATA_DOMAIN" operationName="{http://www.endeca.com/endeca-server/manage/2}manage#managePort#createDataDomain" type="WEB_SERVICE_CLIENT" wsdlURL="http://${ENDECA_SERVER_HOST}:${ENDECA_SERVER_PORT}/${ENDECA_SERVER_CONTEXT}/ws/manage?wsdl">
+<Node enabled="enabled" guiName="Create Data Domain" guiX="111" guiY="60" id="CREATE_DATA_DOMAIN" operationName="{http://www.endeca.com/endeca-server/manage/2}manage#managePort#createDataDomain" type="WEB_SERVICE_CLIENT" wsdlURL="http://${ENDECA_SERVER_HOST}:${ENDECA_SERVER_PORT}/${ENDECA_SERVER_CONTEXT}/ws/manage?wsdl">
 <attr name="namespaceBindings"><![CDATA[0=http\://www.endeca.com/endeca-server/manage/2/0
 XMLS=http\://www.w3.org/2001/XMLSchema
 incl=http\://www.w3.org/2004/08/xop/include
