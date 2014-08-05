@@ -1,0 +1,604 @@
+ProductKey,ProductAlternateKey,ProductSubcategoryKey,WeightUnitMeasureCode,SizeUnitMeasureCode,EnglishProductName,StandardCost,FinishedGoodsFlag,Color,SafetyStockLevel,ReorderPoint,ListPrice,Size,SizeRange,Weight,DaysToManufacture,ProductLine,DealerPrice,Class,Style,ModelName,EnglishDescription,StartDate,EndDate,Status
+1,AR-5381,,,,Adjustable Race,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+2,BA-8327,,,,Bearing Ball,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+3,BE-2349,,,,BB Ball Bearing,0.0,FALSE,NA,800,600,0.0,,NA,,1,,,,,,,6/1/2004 0:00,,Current
+4,BE-2908,,,,Headset Ball Bearings,0.0,FALSE,NA,800,600,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+5,BL-2036,,,,Blade,0.0,FALSE,NA,800,600,0.0,,NA,,1,,,,,,,6/1/2004 0:00,,Current
+6,CA-5965,,,,LL Crankarm,0.0,FALSE,Black,500,375,0.0,,NA,,0,,,L ,,,,6/1/2004 0:00,,Current
+7,CA-6738,,,,ML Crankarm,0.0,FALSE,Black,500,375,0.0,,NA,,0,,,M ,,,,6/1/2004 0:00,,Current
+8,CA-7457,,,,HL Crankarm,0.0,FALSE,Black,500,375,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+9,CB-2903,,,,Chainring Bolts,0.0,FALSE,Silver,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+10,CN-6137,,,,Chainring Nut,0.0,FALSE,Silver,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+11,CR-7833,,,,Chainring,0.0,FALSE,Black,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+12,CR-9981,,,,Crown Race,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+13,CS-2812,,,,Chain Stays,0.0,FALSE,NA,1000,750,0.0,,NA,,1,,,,,,,6/1/2004 0:00,,Current
+14,DC-8732,,,,Decal 1,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+15,DC-9824,,,,Decal 2,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+16,DT-2377,,,,Down Tube,0.0,FALSE,NA,800,600,0.0,,NA,,1,,,,,,,6/1/2004 0:00,,Current
+17,EC-M092,,,,Mountain End Caps,0.0,FALSE,NA,1000,750,0.0,,NA,,1,,,,,,,6/1/2004 0:00,,Current
+18,EC-R098,,,,Road End Caps,0.0,FALSE,NA,1000,750,0.0,,NA,,1,,,,,,,6/1/2004 0:00,,Current
+19,EC-T209,,,,Touring End Caps,0.0,FALSE,NA,1000,750,0.0,,NA,,1,,,,,,,6/1/2004 0:00,,Current
+20,FE-3760,,,,Fork End,0.0,FALSE,NA,800,600,0.0,,NA,,1,,,,,,,6/1/2004 0:00,,Current
+21,FH-2981,,,,Freewheel,0.0,FALSE,Silver,500,375,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+22,FW-1000,,,,Flat Washer 1,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+23,FW-1200,,,,Flat Washer 6,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+24,FW-1400,,,,Flat Washer 2,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+25,FW-3400,,,,Flat Washer 9,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+26,FW-3800,,,,Flat Washer 4,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+27,FW-5160,,,,Flat Washer 3,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+28,FW-5800,,,,Flat Washer 8,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+29,FW-7160,,,,Flat Washer 5,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+30,FW-9160,,,,Flat Washer 7,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+31,FC-3654,,,,Fork Crown,0.0,FALSE,NA,800,600,0.0,,NA,,1,,,,,,,6/1/2004 0:00,,Current
+32,FC-3982,,,,Front Derailleur Cage,0.0,FALSE,Silver,800,600,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+33,FL-2301,,,,Front Derailleur Linkage,0.0,FALSE,Silver,800,600,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+34,GP-0982,,,,Guide Pulley,0.0,FALSE,NA,800,600,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+35,GT-0820,,,,LL Grip Tape,0.0,FALSE,NA,800,600,0.0,,NA,,0,,,L ,,,,6/1/2004 0:00,,Current
+36,GT-1209,,,,ML Grip Tape,0.0,FALSE,NA,800,600,0.0,,NA,,0,,,M ,,,,6/1/2004 0:00,,Current
+37,GT-2908,,,,HL Grip Tape,0.0,FALSE,NA,800,600,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+38,HJ-1213,,,,Thin-Jam Hex Nut 9,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+39,HJ-1220,,,,Thin-Jam Hex Nut 10,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+40,HJ-1420,,,,Thin-Jam Hex Nut 1,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+41,HJ-1428,,,,Thin-Jam Hex Nut 2,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+42,HJ-3410,,,,Thin-Jam Hex Nut 15,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+43,HJ-3416,,,,Thin-Jam Hex Nut 16,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+44,HJ-3816,,,,Thin-Jam Hex Nut 5,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+45,HJ-3824,,,,Thin-Jam Hex Nut 6,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+46,HJ-5161,,,,Thin-Jam Hex Nut 3,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+47,HJ-5162,,,,Thin-Jam Hex Nut 4,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+48,HJ-5811,,,,Thin-Jam Hex Nut 13,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+49,HJ-5818,,,,Thin-Jam Hex Nut 14,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+50,HJ-7161,,,,Thin-Jam Hex Nut 7,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+51,HJ-7162,,,,Thin-Jam Hex Nut 8,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+52,HJ-9080,,,,Thin-Jam Hex Nut 12,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+53,HJ-9161,,,,Thin-Jam Hex Nut 11,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+54,HN-1024,,,,Hex Nut 5,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+55,HN-1032,,,,Hex Nut 6,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+56,HN-1213,,,,Hex Nut 16,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+57,HN-1220,,,,Hex Nut 17,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+58,HN-1224,,,,Hex Nut 7,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+59,HN-1420,,,,Hex Nut 8,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+60,HN-1428,,,,Hex Nut 9,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+61,HN-3410,,,,Hex Nut 22,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+62,HN-3416,,,,Hex Nut 23,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+63,HN-3816,,,,Hex Nut 12,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+64,HN-3824,,,,Hex Nut 13,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+65,HN-4402,,,,Hex Nut 1,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+66,HN-5161,,,,Hex Nut 10,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+67,HN-5162,,,,Hex Nut 11,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+68,HN-5400,,,,Hex Nut 2,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+69,HN-5811,,,,Hex Nut 20,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+70,HN-5818,,,,Hex Nut 21,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+71,HN-6320,,,,Hex Nut 3,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+72,HN-7161,,,,Hex Nut 14,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+73,HN-7162,,,,Hex Nut 15,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+74,HN-8320,,,,Hex Nut 4,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+75,HN-9161,,,,Hex Nut 18,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+76,HN-9168,,,,Hex Nut 19,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+77,HT-2981,,,,Handlebar Tube,0.0,FALSE,NA,800,600,0.0,,NA,,1,,,,,,,6/1/2004 0:00,,Current
+78,HT-8019,,,,Head Tube,0.0,FALSE,NA,800,600,0.0,,NA,,1,,,,,,,6/1/2004 0:00,,Current
+79,HU-6280,,,,LL Hub,0.0,FALSE,NA,500,375,0.0,,NA,,1,,,L ,,,,6/1/2004 0:00,,Current
+80,HU-8998,,,,HL Hub,0.0,FALSE,NA,500,375,0.0,,NA,,1,,,,,,,6/1/2004 0:00,,Current
+81,KW-4091,,,,Keyed Washer,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+82,LE-1000,,,,External Lock Washer 3,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+83,LE-1200,,,,External Lock Washer 4,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+84,LE-1201,,,,External Lock Washer 9,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+85,LE-1400,,,,External Lock Washer 5,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+86,LE-3800,,,,External Lock Washer 7,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+87,LE-5160,,,,External Lock Washer 6,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+88,LE-6000,,,,External Lock Washer 1,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+89,LE-7160,,,,External Lock Washer 8,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+90,LE-8000,,,,External Lock Washer 2,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+91,LI-1000,,,,Internal Lock Washer 3,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+92,LI-1200,,,,Internal Lock Washer 4,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+93,LI-1201,,,,Internal Lock Washer 9,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+94,LI-1400,,,,Internal Lock Washer 5,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+95,LI-3800,,,,Internal Lock Washer 7,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+96,LI-5160,,,,Internal Lock Washer 6,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+97,LI-5800,,,,Internal Lock Washer 10,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+98,LI-6000,,,,Internal Lock Washer 1,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+99,LI-7160,,,,Internal Lock Washer 8,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+100,LI-8000,,,,Internal Lock Washer 2,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+101,LJ-1213,,,,Thin-Jam Lock Nut 9,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+102,LJ-1220,,,,Thin-Jam Lock Nut 10,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+103,LJ-1420,,,,Thin-Jam Lock Nut 1,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+104,LJ-1428,,,,Thin-Jam Lock Nut 2,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+105,LJ-3410,,,,Thin-Jam Lock Nut 15,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+106,LJ-3416,,,,Thin-Jam Lock Nut 16,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+107,LJ-3816,,,,Thin-Jam Lock Nut 5,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+108,LJ-3824,,,,Thin-Jam Lock Nut 6,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+109,LJ-5161,,,,Thin-Jam Lock Nut 3,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+110,LJ-5162,,,,Thin-Jam Lock Nut 4,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+111,LJ-5811,,,,Thin-Jam Lock Nut 13,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+112,LJ-5818,,,,Thin-Jam Lock Nut 14,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+113,LJ-7161,,,,Thin-Jam Lock Nut 7,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+114,LJ-7162,,,,Thin-Jam Lock Nut 8,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+115,LJ-9080,,,,Thin-Jam Lock Nut 12,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+116,LJ-9161,,,,Thin-Jam Lock Nut 11,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+117,LN-1024,,,,Lock Nut 5,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+118,LN-1032,,,,Lock Nut 6,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+119,LN-1213,,,,Lock Nut 16,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+120,LN-1220,,,,Lock Nut 17,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+121,LN-1224,,,,Lock Nut 7,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+122,LN-1420,,,,Lock Nut 8,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+123,LN-1428,,,,Lock Nut 9,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+124,LN-3410,,,,Lock Nut 22,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+125,LN-3416,,,,Lock Nut 23,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+126,LN-3816,,,,Lock Nut 12,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+127,LN-3824,,,,Lock Nut 13,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+128,LN-4400,,,,Lock Nut 1,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+129,LN-5161,,,,Lock Nut 10,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+130,LN-5162,,,,Lock Nut 11,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+131,LN-5400,,,,Lock Nut 2,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+132,LN-5811,,,,Lock Nut 20,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+133,LN-5818,,,,Lock Nut 21,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+134,LN-6320,,,,Lock Nut 3,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+135,LN-7161,,,,Lock Nut 14,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+136,LN-7162,,,,Lock Nut 15,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+137,LN-8320,,,,Lock Nut 4,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+138,LN-9080,,,,Lock Nut 19,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+139,LN-9161,,,,Lock Nut 18,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+140,LR-2398,,,,Lock Ring,0.0,FALSE,Silver,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+141,LR-8520,,,,Lower Head Race,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+142,LW-1000,,,,Lock Washer 4,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+143,LW-1200,,,,Lock Washer 5,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+144,LW-1201,,,,Lock Washer 10,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+145,LW-1400,,,,Lock Washer 6,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+146,LW-3400,,,,Lock Washer 13,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+147,LW-3800,,,,Lock Washer 8,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+148,LW-4000,,,,Lock Washer 1,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+149,LW-5160,,,,Lock Washer 7,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+150,LW-5800,,,,Lock Washer 12,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+151,LW-6000,,,,Lock Washer 2,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+152,LW-7160,,,,Lock Washer 9,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+153,LW-8000,,,,Lock Washer 3,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+154,LW-9160,,,,Lock Washer 11,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+155,MA-7075,,,,Metal Angle,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+156,MB-2024,,,,Metal Bar 1,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+157,MB-6061,,,,Metal Bar 2,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+158,MP-2066,,,,Metal Plate 2,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+159,MP-2503,,,,Metal Plate 1,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+160,MP-4960,,,,Metal Plate 3,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+161,MS-0253,,,,Metal Sheet 2,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+162,MS-1256,,,,Metal Sheet 3,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+163,MS-1981,,,,Metal Sheet 7,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+164,MS-2259,,,,Metal Sheet 4,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+165,MS-2341,,,,Metal Sheet 5,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+166,MS-2348,,,,Metal Sheet 6,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+167,MS-6061,,,,Metal Sheet 1,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+168,MT-1000,,,,Metal Tread Plate,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+169,NI-4127,,,,LL Nipple,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,L ,,,,6/1/2004 0:00,,Current
+170,NI-9522,,,,HL Nipple,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+171,PA-187B,,,,Paint - Black,0.0,FALSE,NA,60,45,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+172,PA-361R,,,,Paint - Red,0.0,FALSE,NA,60,45,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+173,PA-529S,,,,Paint - Silver,0.0,FALSE,NA,60,45,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+174,PA-632U,,,,Paint - Blue,0.0,FALSE,NA,60,45,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+175,PA-823Y,,,,Paint - Yellow,0.0,FALSE,NA,60,45,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+176,PB-6109,,,,Pinch Bolt,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+177,RA-2345,,,,Cup-Shaped Race,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+178,RA-7490,,,,Cone-Shaped Race,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+179,RF-9198,,,,Reflector,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+180,RM-M464,,G  ,,LL Mountain Rim,0.0,FALSE,NA,800,600,0.0,,NA,435,0,,,L ,,,,6/1/2004 0:00,,Current
+181,RM-M692,,G  ,,ML Mountain Rim,0.0,FALSE,NA,800,600,0.0,,NA,450,0,,,M ,,,,6/1/2004 0:00,,Current
+182,RM-M823,,G  ,,HL Mountain Rim,0.0,FALSE,NA,800,600,0.0,,NA,400,0,,,,,,,6/1/2004 0:00,,Current
+183,RM-R436,,G  ,,LL Road Rim,0.0,FALSE,NA,800,600,0.0,,NA,445,0,,,L ,,,,6/1/2004 0:00,,Current
+184,RM-R600,,G  ,,ML Road Rim,0.0,FALSE,NA,800,600,0.0,,NA,450,0,,,M ,,,,6/1/2004 0:00,,Current
+185,RM-R800,,G  ,,HL Road Rim,0.0,FALSE,NA,800,600,0.0,,NA,400,0,,,,,,,6/1/2004 0:00,,Current
+186,RM-T801,,G  ,,Touring Rim,0.0,FALSE,NA,800,600,0.0,,NA,460,0,,,,,,,6/1/2004 0:00,,Current
+187,SA-M198,,,,LL Mountain Seat Assembly,98.77,FALSE,NA,500,375,133.34,,NA,,1,,,L ,,,,6/1/2004 0:00,,Current
+188,SA-M237,,,,ML Mountain Seat Assembly,108.99,FALSE,NA,500,375,147.14,,NA,,1,,,M ,,,,6/1/2004 0:00,,Current
+189,SA-M687,,,,HL Mountain Seat Assembly,145.87,FALSE,NA,500,375,196.92,,NA,,1,,,,,,,6/1/2004 0:00,,Current
+190,SA-R127,,,,LL Road Seat Assembly,98.77,FALSE,NA,500,375,133.34,,NA,,1,,,L ,,,,6/1/2004 0:00,,Current
+191,SA-R430,,,,ML Road Seat Assembly,108.99,FALSE,NA,500,375,147.14,,NA,,1,,,M ,,,,6/1/2004 0:00,,Current
+192,SA-R522,,,,HL Road Seat Assembly,145.87,FALSE,NA,500,375,196.92,,NA,,1,,,,,,,6/1/2004 0:00,,Current
+193,SA-T467,,,,LL Touring Seat Assembly,98.77,FALSE,NA,500,375,133.34,,NA,,1,,,L ,,,,6/1/2004 0:00,,Current
+194,SA-T612,,,,ML Touring Seat Assembly,108.99,FALSE,NA,500,375,147.14,,NA,,1,,,M ,,,,6/1/2004 0:00,,Current
+195,SA-T872,,,,HL Touring Seat Assembly,145.87,FALSE,NA,500,375,196.92,,NA,,1,,,,,,,6/1/2004 0:00,,Current
+196,SD-2342,,,,LL Spindle/Axle,0.0,FALSE,NA,500,375,0.0,,NA,,0,,,L ,,,,6/1/2004 0:00,,Current
+197,SD-9872,,,,HL Spindle/Axle,0.0,FALSE,NA,500,375,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+198,SH-4562,,,,LL Shell,0.0,FALSE,NA,800,600,0.0,,NA,,0,,,L ,,,,6/1/2004 0:00,,Current
+199,SH-9312,,,,HL Shell,0.0,FALSE,NA,800,600,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+200,SK-9283,,,,Spokes,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+201,SL-0931,,,,Seat Lug,0.0,FALSE,NA,1000,750,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+202,SM-9087,,,,Stem,0.0,FALSE,NA,500,375,0.0,,NA,,1,,,,,,,6/1/2004 0:00,,Current
+203,SP-2981,,,,Seat Post,0.0,FALSE,NA,500,375,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+204,SR-2098,,,,Steerer,0.0,FALSE,NA,500,375,0.0,,NA,,1,,,,,,,6/1/2004 0:00,,Current
+205,SS-2985,,,,Seat Stays,0.0,FALSE,NA,800,600,0.0,,NA,,1,,,,,,,6/1/2004 0:00,,Current
+206,ST-9828,,,,Seat Tube,0.0,FALSE,NA,500,375,0.0,,NA,,1,,,,,,,6/1/2004 0:00,,Current
+207,TO-2301,,,,Top Tube,0.0,FALSE,NA,500,375,0.0,,NA,,1,,,,,,,6/1/2004 0:00,,Current
+208,TP-0923,,,,Tension Pulley,0.0,FALSE,NA,800,600,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+209,RC-0291,,,,Rear Derailleur Cage,0.0,FALSE,Silver,500,375,0.0,,NA,,0,,,,,,,6/1/2004 0:00,,Current
+210,FR-R92B-58,14,LB ,CM ,HL Road Frame - Black,1059.31,,,500,375,1431.5,,,,,,,,,,,,,
+211,FR-R92R-58,14,LB ,CM ,HL Road Frame - Red,1059.31,,,500,375,1431.5,,,,,,,,,,,,,
+212,HL-U509-R,31,,,Sport-100 Helmet,13.0863,,,4,3,34.99,,,,,,,,,,,,,
+213,HL-U509-R,31,,,Sport-100 Helmet,13.0863,,,4,3,34.99,,,,,,,,,,,,,
+214,HL-U509-R,31,,,Sport-100 Helmet,13.0863,,,4,3,34.99,,,,,,,,,,,,,
+215,HL-U509,31,,,Sport-100 Helmet,13.0863,,,4,3,34.99,,,,,,,,,,,,,
+216,HL-U509,31,,,Sport-100 Helmet,13.0863,,,4,3,34.99,,,,,,,,,,,,,
+217,HL-U509,31,,,Sport-100 Helmet,13.0863,,,4,3,34.99,,,,,,,,,,,,,
+218,SO-B909-M,23,,,Mountain Bike Socks,3.3963,,,4,3,9.5,,,,,,,,,,,,,
+219,SO-B909-L,23,,,Mountain Bike Socks,3.3963,,,4,3,9.5,,,,,,,,,,,,,
+220,HL-U509-B,31,,,Sport-100 Helmet,13.0863,,,4,3,34.99,,,,,,,,,,,,,
+221,HL-U509-B,31,,,Sport-100 Helmet,13.0863,,,4,3,34.99,,,,,,,,,,,,,
+222,HL-U509-B,31,,,Sport-100 Helmet,13.0863,,,4,3,34.99,,,,,,,,,,,,,
+223,CA-1098,19,,,AWC Logo Cap,6.9223,TRUE,Multi,4,3,8.99,,NA,,0,S ,5.1865,,U ,Cycling Cap,Traditional style with a flip-up brim; one-size fits all.,,,
+224,CA-1098,19,,,AWC Logo Cap,6.9223,TRUE,Multi,4,3,8.99,,NA,,0,S ,5.1865,,U ,Cycling Cap,Traditional style with a flip-up brim; one-size fits all.,,,
+225,CA-1098,19,,,AWC Logo Cap,6.9223,TRUE,Multi,4,3,8.99,,NA,,0,S ,5.394,,U ,Cycling Cap,Traditional style with a flip-up brim; one-size fits all.,,,
+226,LJ-0192-S,21,,,Long-Sleeve Logo Jersey,38.4923,,,4,3,49.99,,,,,,,,,,,,,
+227,LJ-0192-S,21,,,Long-Sleeve Logo Jersey,38.4923,,,4,3,49.99,,,,,,,,,,,,,
+228,LJ-0192-S,21,,,Long-Sleeve Logo Jersey,38.4923,,,4,3,49.99,,,,,,,,,,,,,
+229,LJ-0192-M,21,,,Long-Sleeve Logo Jersey,38.4923,,,4,3,49.99,,,,,,,,,,,,,
+230,LJ-0192-M,21,,,Long-Sleeve Logo Jersey,38.4923,,,4,3,49.99,,,,,,,,,,,,,
+231,LJ-0192-M,21,,,Long-Sleeve Logo Jersey,38.4923,,,4,3,49.99,,,,,,,,,,,,,
+232,LJ-0192-L,21,,,Long-Sleeve Logo Jersey,38.4923,,,4,3,49.99,,,,,,,,,,,,,
+233,LJ-0192-L,21,,,Long-Sleeve Logo Jersey,38.4923,,,4,3,49.99,,,,,,,,,,,,,
+234,LJ-0192-L,21,,,Long-Sleeve Logo Jersey,38.4923,,,4,3,49.99,,,,,,,,,,,,,
+235,LJ-0192-X,21,,,Long-Sleeve Logo Jersey,38.4923,,,4,3,49.99,,,,,,,,,,,,,
+236,LJ-0192-X,21,,,Long-Sleeve Logo Jersey,38.4923,,,4,3,49.99,,,,,,,,,,,,,
+237,LJ-0192-X,21,,,Long-Sleeve Logo Jersey,38.4923,,,4,3,49.99,,,,,,,,,,,,,
+238,FR-R92R-62,14,LB ,CM ,HL Road Frame - Red,868.6342,,,500,375,1431.5,,,,,,,,,,,,,
+239,FR-R92R-62,14,LB ,CM ,HL Road Frame - Red,868.6342,,,500,375,1431.5,,,,,,,,,,,,,
+240,FR-R92R-62,14,LB ,CM ,HL Road Frame - Red,868.6342,,,500,375,1431.5,,,,,,,,,,,,,
+241,FR-R92R-44,14,LB ,CM ,HL Road Frame - Red,868.6342,,,500,375,1431.5,,,,,,,,,,,,,
+242,FR-R92R-44,14,LB ,CM ,HL Road Frame - Red,868.6342,,,500,375,1431.5,,,,,,,,,,,,,
+243,FR-R92R-44,14,LB ,CM ,HL Road Frame - Red,868.6342,,,500,375,1431.5,,,,,,,,,,,,,
+244,FR-R92R-48,14,LB ,CM ,HL Road Frame - Red,868.6342,,,500,375,1431.5,,,,,,,,,,,,,
+245,FR-R92R-48,14,LB ,CM ,HL Road Frame - Red,868.6342,,,500,375,1431.5,,,,,,,,,,,,,
+246,FR-R92R-48,14,LB ,CM ,HL Road Frame - Red,868.6342,,,500,375,1431.5,,,,,,,,,,,,,
+247,FR-R92R-52,14,LB ,CM ,HL Road Frame - Red,868.6342,,,500,375,1431.5,,,,,,,,,,,,,
+248,FR-R92R-52,14,LB ,CM ,HL Road Frame - Red,868.6342,,,500,375,1431.5,,,,,,,,,,,,,
+249,FR-R92R-52,14,LB ,CM ,HL Road Frame - Red,868.6342,,,500,375,1431.5,,,,,,,,,,,,,
+250,FR-R92R-56,14,LB ,CM ,HL Road Frame - Red,868.6342,,,500,375,1431.5,,,,,,,,,,,,,
+251,FR-R92R-56,14,LB ,CM ,HL Road Frame - Red,868.6342,,,500,375,1431.5,,,,,,,,,,,,,
+252,FR-R92R-56,14,LB ,CM ,HL Road Frame - Red,868.6342,,,500,375,1431.5,,,,,,,,,,,,,
+253,FR-R38B-58,14,LB ,CM ,LL Road Frame - Black,204.6251,,,500,375,337.22,,,,,,,,,,,,,
+254,FR-R38B-58,14,LB ,CM ,LL Road Frame - Black,204.6251,,,500,375,337.22,,,,,,,,,,,,,
+255,FR-R38B-58,14,LB ,CM ,LL Road Frame - Black,204.6251,,,500,375,337.22,,,,,,,,,,,,,
+256,FR-R38B-60,14,LB ,CM ,LL Road Frame - Black,204.6251,,,500,375,337.22,,,,,,,,,,,,,
+257,FR-R38B-60,14,LB ,CM ,LL Road Frame - Black,204.6251,,,500,375,337.22,,,,,,,,,,,,,
+258,FR-R38B-60,14,LB ,CM ,LL Road Frame - Black,204.6251,,,500,375,337.22,,,,,,,,,,,,,
+259,FR-R38B-62,14,LB ,CM ,LL Road Frame - Black,204.6251,,,500,375,337.22,,,,,,,,,,,,,
+260,FR-R38B-62,14,LB ,CM ,LL Road Frame - Black,204.6251,,,500,375,337.22,,,,,,,,,,,,,
+261,FR-R38B-62,14,LB ,CM ,LL Road Frame - Black,204.6251,,,500,375,337.22,,,,,,,,,,,,,
+262,FR-R38R-44,14,LB ,CM ,LL Road Frame - Red,187.1571,,,500,375,337.22,,,,,,,,,,,,,
+263,FR-R38R-44,14,LB ,CM ,LL Road Frame - Red,187.1571,,,500,375,337.22,,,,,,,,,,,,,
+264,FR-R38R-48,14,LB ,CM ,LL Road Frame - Red,187.1571,,,500,375,337.22,,,,,,,,,,,,,
+265,FR-R38R-48,14,LB ,CM ,LL Road Frame - Red,187.1571,,,500,375,337.22,,,,,,,,,,,,,
+266,FR-R38R-52,14,LB ,CM ,LL Road Frame - Red,187.1571,,,500,375,337.22,,,,,,,,,,,,,
+267,FR-R38R-52,14,LB ,CM ,LL Road Frame - Red,187.1571,,,500,375,337.22,,,,,,,,,,,,,
+268,FR-R38R-58,14,LB ,CM ,LL Road Frame - Red,187.1571,,,500,375,337.22,,,,,,,,,,,,,
+269,FR-R38R-58,14,LB ,CM ,LL Road Frame - Red,187.1571,,,500,375,337.22,,,,,,,,,,,,,
+270,FR-R38R-60,14,LB ,CM ,LL Road Frame - Red,187.1571,,,500,375,337.22,,,,,,,,,,,,,
+271,FR-R38R-60,14,LB ,CM ,LL Road Frame - Red,187.1571,,,500,375,337.22,,,,,,,,,,,,,
+272,FR-R38R-62,14,LB ,CM ,LL Road Frame - Red,187.1571,,,500,375,337.22,,,,,,,,,,,,,
+273,FR-R38R-62,14,LB ,CM ,LL Road Frame - Red,187.1571,,,500,375,337.22,,,,,,,,,,,,,
+274,FR-R72R-44,14,LB ,CM ,ML Road Frame - Red,352.1394,,,500,375,594.83,,,,,,,,,,,,,
+275,FR-R72R-48,14,LB ,CM ,ML Road Frame - Red,352.1394,,,500,375,594.83,,,,,,,,,,,,,
+276,FR-R72R-52,14,LB ,CM ,ML Road Frame - Red,352.1394,,,500,375,594.83,,,,,,,,,,,,,
+277,FR-R72R-58,14,LB ,CM ,ML Road Frame - Red,352.1394,,,500,375,594.83,,,,,,,,,,,,,
+278,FR-R72R-60,14,LB ,CM ,ML Road Frame - Red,352.1394,,,500,375,594.83,,,,,,,,,,,,,
+279,FR-R38B-44,14,LB ,CM ,LL Road Frame - Black,204.6251,,,500,375,337.22,,,,,,,,,,,,,
+280,FR-R38B-44,14,LB ,CM ,LL Road Frame - Black,204.6251,,,500,375,337.22,,,,,,,,,,,,,
+281,FR-R38B-44,14,LB ,CM ,LL Road Frame - Black,204.6251,,,500,375,337.22,,,,,,,,,,,,,
+282,FR-R38B-48,14,LB ,CM ,LL Road Frame - Black,204.6251,,,500,375,337.22,,,,,,,,,,,,,
+283,FR-R38B-48,14,LB ,CM ,LL Road Frame - Black,204.6251,,,500,375,337.22,,,,,,,,,,,,,
+284,FR-R38B-48,14,LB ,CM ,LL Road Frame - Black,204.6251,,,500,375,337.22,,,,,,,,,,,,,
+285,FR-R38B-52,14,LB ,CM ,LL Road Frame - Black,204.6251,,,500,375,337.22,,,,,,,,,,,,,
+286,FR-R38B-52,14,LB ,CM ,LL Road Frame - Black,204.6251,,,500,375,337.22,,,,,,,,,,,,,
+287,FR-R38B-52,14,LB ,CM ,LL Road Frame - Black,204.6251,,,500,375,337.22,,,,,,,,,,,,,
+288,FR-M94S-42,12,LB ,CM ,HL Mountain Frame - Silver,747.2002,,,500,375,1364.5,,,,,,,,,,,,,
+289,FR-M94S-42,12,LB ,CM ,HL Mountain Frame - Silver,747.2002,,,500,375,1364.5,,,,,,,,,,,,,
+290,FR-M94S-42,12,LB ,CM ,HL Mountain Frame - Silver,747.2002,,,500,375,1364.5,,,,,,,,,,,,,
+291,FR-M94S-44,12,LB ,CM ,HL Mountain Frame - Silver,706.811,,,500,375,1364.5,,,,,,,,,,,,,
+292,FR-M94S-52,12,LB ,CM ,HL Mountain Frame - Silver,706.811,,,500,375,1364.5,,,,,,,,,,,,,
+293,FR-M94S-46,12,LB ,CM ,HL Mountain Frame - Silver,747.2002,,,500,375,1364.5,,,,,,,,,,,,,
+294,FR-M94S-46,12,LB ,CM ,HL Mountain Frame - Silver,747.2002,,,500,375,1364.5,,,,,,,,,,,,,
+295,FR-M94S-46,12,LB ,CM ,HL Mountain Frame - Silver,747.2002,,,500,375,1364.5,,,,,,,,,,,,,
+296,FR-M94B-42,12,LB ,CM ,HL Mountain Frame - Black,739.041,,,500,375,1349.6,,,,,,,,,,,,,
+297,FR-M94B-42,12,LB ,CM ,HL Mountain Frame - Black,739.041,,,500,375,1349.6,,,,,,,,,,,,,
+298,FR-M94B-42,12,LB ,CM ,HL Mountain Frame - Black,739.041,,,500,375,1349.6,,,,,,,,,,,,,
+299,FR-M94B-44,12,LB ,CM ,HL Mountain Frame - Black,699.0928,,,500,375,1349.6,,,,,,,,,,,,,
+300,FR-M94B-48,12,LB ,CM ,HL Mountain Frame - Black,699.0928,,,500,375,1349.6,,,,,,,,,,,,,
+301,FR-M94B-46,12,LB ,CM ,HL Mountain Frame - Black,739.041,,,500,375,1349.6,,,,,,,,,,,,,
+302,FR-M94B-46,12,LB ,CM ,HL Mountain Frame - Black,739.041,,,500,375,1349.6,,,,,,,,,,,,,
+303,FR-M94B-46,12,LB ,CM ,HL Mountain Frame - Black,739.041,,,500,375,1349.6,,,,,,,,,,,,,
+304,FR-M94B-38,12,LB ,CM ,HL Mountain Frame - Black,739.041,,,500,375,1349.6,,,,,,,,,,,,,
+305,FR-M94B-38,12,LB ,CM ,HL Mountain Frame - Black,739.041,,,500,375,1349.6,,,,,,,,,,,,,
+306,FR-M94B-38,12,LB ,CM ,HL Mountain Frame - Black,739.041,,,500,375,1349.6,,,,,,,,,,,,,
+307,FR-M94S-38,12,LB ,CM ,HL Mountain Frame - Silver,747.2002,,,500,375,1364.5,,,,,,,,,,,,,
+308,FR-M94S-38,12,LB ,CM ,HL Mountain Frame - Silver,747.2002,,,500,375,1364.5,,,,,,,,,,,,,
+309,FR-M94S-38,12,LB ,CM ,HL Mountain Frame - Silver,747.2002,,,500,375,1364.5,,,,,,,,,,,,,
+310,BK-R93R-62,2,LB ,CM ,Road-150 Red,2171.2942,,,100,75,3578.27,,,,,,,,,,,,,
+311,BK-R93R-44,2,LB ,CM ,Road-150 Red,2171.2942,,,100,75,3578.27,,,,,,,,,,,,,
+312,BK-R93R-48,2,LB ,CM ,Road-150 Red,2171.2942,,,100,75,3578.27,,,,,,,,,,,,,
+313,BK-R93R-52,2,LB ,CM ,Road-150 Red,2171.2942,,,100,75,3578.27,,,,,,,,,,,,,
+314,BK-R93R-56,2,LB ,CM ,Road-150 Red,2171.2942,,,100,75,3578.27,,,,,,,,,,,,,
+315,BK-R68R-58,2,LB ,CM ,Road-450 Red,884.7083,,,100,75,1457.99,,,,,,,,,,,,,
+316,BK-R68R-60,2,LB ,CM ,Road-450 Red,884.7083,,,100,75,1457.99,,,,,,,,,,,,,
+317,BK-R68R-44,2,LB ,CM ,Road-450 Red,884.7083,,,100,75,1457.99,,,,,,,,,,,,,
+318,BK-R68R-48,2,LB ,CM ,Road-450 Red,884.7083,,,100,75,1457.99,,,,,,,,,,,,,
+319,BK-R68R-52,2,LB ,CM ,Road-450 Red,884.7083,,,100,75,1457.99,,,,,,,,,,,,,
+320,BK-R50R-58,2,LB ,CM ,Road-650 Red,486.7066,,,100,75,782.99,,,,,,,,,,,,,
+321,BK-R50R-58,2,LB ,CM ,Road-650 Red,486.7066,,,100,75,782.99,,,,,,,,,,,,,
+322,BK-R50R-60,2,LB ,CM ,Road-650 Red,486.7066,,,100,75,782.99,,,,,,,,,,,,,
+323,BK-R50R-60,2,LB ,CM ,Road-650 Red,486.7066,,,100,75,782.99,,,,,,,,,,,,,
+324,BK-R50R-62,2,LB ,CM ,Road-650 Red,486.7066,,,100,75,782.99,,,,,,,,,,,,,
+325,BK-R50R-62,2,LB ,CM ,Road-650 Red,486.7066,,,100,75,782.99,,,,,,,,,,,,,
+326,BK-R50R-44,2,LB ,CM ,Road-650 Red,486.7066,,,100,75,782.99,,,,,,,,,,,,,
+327,BK-R50R-44,2,LB ,CM ,Road-650 Red,486.7066,,,100,75,782.99,,,,,,,,,,,,,
+328,BK-R50R-48,2,LB ,CM ,Road-650 Red,486.7066,,,100,75,782.99,,,,,,,,,,,,,
+329,BK-R50R-48,2,LB ,CM ,Road-650 Red,486.7066,,,100,75,782.99,,,,,,,,,,,,,
+330,BK-R50R-52,2,LB ,CM ,Road-650 Red,486.7066,,,100,75,782.99,,,,,,,,,,,,,
+331,BK-R50R-52,2,LB ,CM ,Road-650 Red,486.7066,,,100,75,782.99,,,,,,,,,,,,,
+332,BK-R50B-58,2,LB ,CM ,Road-650 Black,486.7066,,,100,75,782.99,,,,,,,,,,,,,
+333,BK-R50B-58,2,LB ,CM ,Road-650 Black,486.7066,,,100,75,782.99,,,,,,,,,,,,,
+334,BK-R50B-60,2,LB ,CM ,Road-650 Black,486.7066,,,100,75,782.99,,,,,,,,,,,,,
+335,BK-R50B-60,2,LB ,CM ,Road-650 Black,486.7066,,,100,75,782.99,,,,,,,,,,,,,
+336,BK-R50B-62,2,LB ,CM ,Road-650 Black,486.7066,,,100,75,782.99,,,,,,,,,,,,,
+337,BK-R50B-62,2,LB ,CM ,Road-650 Black,486.7066,,,100,75,782.99,,,,,,,,,,,,,
+338,BK-R50B-44,2,LB ,CM ,Road-650 Black,486.7066,,,100,75,782.99,,,,,,,,,,,,,
+339,BK-R50B-44,2,LB ,CM ,Road-650 Black,486.7066,,,100,75,782.99,,,,,,,,,,,,,
+340,BK-R50B-48,2,LB ,CM ,Road-650 Black,486.7066,,,100,75,782.99,,,,,,,,,,,,,
+341,BK-R50B-48,2,LB ,CM ,Road-650 Black,486.7066,,,100,75,782.99,,,,,,,,,,,,,
+342,BK-R50B-52,2,LB ,CM ,Road-650 Black,486.7066,,,100,75,782.99,,,,,,,,,,,,,
+343,BK-R50B-52,2,LB ,CM ,Road-650 Black,486.7066,,,100,75,782.99,,,,,,,,,,,,,
+344,BK-M82S-38,1,LB ,CM ,Mountain-100 Silver,1912.1544,,,100,75,3399.99,,,,,,,,,,,,,
+345,BK-M82S-42,1,LB ,CM ,Mountain-100 Silver,1912.1544,,,100,75,3399.99,,,,,,,,,,,,,
+346,BK-M82S-44,1,LB ,CM ,Mountain-100 Silver,1912.1544,,,100,75,3399.99,,,,,,,,,,,,,
+347,BK-M82S-48,1,LB ,CM ,Mountain-100 Silver,1912.1544,,,100,75,3399.99,,,,,,,,,,,,,
+348,BK-M82B-38,1,LB ,CM ,Mountain-100 Black,1898.0944,,,100,75,3374.99,,,,,,,,,,,,,
+349,BK-M82B-42,1,LB ,CM ,Mountain-100 Black,1898.0944,,,100,75,3374.99,,,,,,,,,,,,,
+350,BK-M82B-44,1,LB ,CM ,Mountain-100 Black,1898.0944,,,100,75,3374.99,,,,,,,,,,,,,
+351,BK-M82B-48,1,LB ,CM ,Mountain-100 Black,1898.0944,,,100,75,3374.99,,,,,,,,,,,,,
+352,BK-M68S-38,1,LB ,CM ,Mountain-200 Silver,1265.6195,,,100,75,2319.99,,,,,,,,,,,,,
+353,BK-M68S-38,1,LB ,CM ,Mountain-200 Silver,1265.6195,,,100,75,2319.99,,,,,,,,,,,,,
+354,BK-M68S-42,1,LB ,CM ,Mountain-200 Silver,1265.6195,,,100,75,2319.99,,,,,,,,,,,,,
+355,BK-M68S-42,1,LB ,CM ,Mountain-200 Silver,1265.6195,,,100,75,2319.99,,,,,,,,,,,,,
+356,BK-M68S-46,1,LB ,CM ,Mountain-200 Silver,1265.6195,,,100,75,2319.99,,,,,,,,,,,,,
+357,BK-M68S-46,1,LB ,CM ,Mountain-200 Silver,1265.6195,,,100,75,2319.99,,,,,,,,,,,,,
+358,BK-M68B-38,1,LB ,CM ,Mountain-200 Black,1251.9813,,,100,75,2294.99,,,,,,,,,,,,,
+359,BK-M68B-38,1,LB ,CM ,Mountain-200 Black,1251.9813,,,100,75,2294.99,,,,,,,,,,,,,
+360,BK-M68B-42,1,LB ,CM ,Mountain-200 Black,1251.9813,,,100,75,2294.99,,,,,,,,,,,,,
+361,BK-M68B-42,1,LB ,CM ,Mountain-200 Black,1251.9813,,,100,75,2294.99,,,,,,,,,,,,,
+362,BK-M68B-46,1,LB ,CM ,Mountain-200 Black,1251.9813,,,100,75,2294.99,,,,,,,,,,,,,
+363,BK-M68B-46,1,LB ,CM ,Mountain-200 Black,1251.9813,,,100,75,2294.99,,,,,,,,,,,,,
+364,BK-M47B-38,1,LB ,CM ,Mountain-300 Black,598.4354,,,100,75,1079.99,,,,,,,,,,,,,
+365,BK-M47B-40,1,LB ,CM ,Mountain-300 Black,598.4354,,,100,75,1079.99,,,,,,,,,,,,,
+366,BK-M47B-44,1,LB ,CM ,Mountain-300 Black,598.4354,,,100,75,1079.99,,,,,,,,,,,,,
+367,BK-M47B-48,1,LB ,CM ,Mountain-300 Black,598.4354,,,100,75,1079.99,,,,,,,,,,,,,
+368,BK-R89R-44,2,LB ,CM ,Road-250 Red,1518.7864,,,100,75,2443.35,,,,,,,,,,,,,
+369,BK-R89R-48,2,LB ,CM ,Road-250 Red,1518.7864,,,100,75,2443.35,,,,,,,,,,,,,
+370,BK-R89R-52,2,LB ,CM ,Road-250 Red,1518.7864,,,100,75,2443.35,,,,,,,,,,,,,
+371,BK-R89R-58,2,LB ,CM ,Road-250 Red,1554.9479,,,100,75,2443.35,,,,,,,,,,,,,
+372,BK-R89R-58,2,LB ,CM ,Road-250 Red,1554.9479,,,100,75,2443.35,,,,,,,,,,,,,
+373,BK-R89B-44,2,LB ,CM ,Road-250 Black,1554.9479,,,100,75,2443.35,,,,,,,,,,,,,
+374,BK-R89B-44,2,LB ,CM ,Road-250 Black,1554.9479,,,100,75,2443.35,,,,,,,,,,,,,
+375,BK-R89B-48,2,LB ,CM ,Road-250 Black,1554.9479,,,100,75,2443.35,,,,,,,,,,,,,
+376,BK-R89B-48,2,LB ,CM ,Road-250 Black,1554.9479,,,100,75,2443.35,,,,,,,,,,,,,
+377,BK-R89B-52,2,LB ,CM ,Road-250 Black,1554.9479,,,100,75,2443.35,,,,,,,,,,,,,
+378,BK-R89B-52,2,LB ,CM ,Road-250 Black,1554.9479,,,100,75,2443.35,,,,,,,,,,,,,
+379,BK-R89B-58,2,LB ,CM ,Road-250 Black,1554.9479,,,100,75,2443.35,,,,,,,,,,,,,
+380,BK-R89B-58,2,LB ,CM ,Road-250 Black,1554.9479,,,100,75,2443.35,,,,,,,,,,,,,
+381,BK-R64Y-38,2,LB ,CM ,Road-550-W Yellow,713.0798,,,100,75,1120.49,,,,,,,,,,,,,
+382,BK-R64Y-38,2,LB ,CM ,Road-550-W Yellow,713.0798,,,100,75,1120.49,,,,,,,,,,,,,
+383,BK-R64Y-40,2,LB ,CM ,Road-550-W Yellow,713.0798,,,100,75,1120.49,,,,,,,,,,,,,
+384,BK-R64Y-40,2,LB ,CM ,Road-550-W Yellow,713.0798,,,100,75,1120.49,,,,,,,,,,,,,
+385,BK-R64Y-42,2,LB ,CM ,Road-550-W Yellow,713.0798,,,100,75,1120.49,,,,,,,,,,,,,
+386,BK-R64Y-42,2,LB ,CM ,Road-550-W Yellow,713.0798,,,100,75,1120.49,,,,,,,,,,,,,
+387,BK-R64Y-44,2,LB ,CM ,Road-550-W Yellow,713.0798,,,100,75,1120.49,,,,,,,,,,,,,
+388,BK-R64Y-44,2,LB ,CM ,Road-550-W Yellow,713.0798,,,100,75,1120.49,,,,,,,,,,,,,
+389,BK-R64Y-48,2,LB ,CM ,Road-550-W Yellow,713.0798,,,100,75,1120.49,,,,,,,,,,,,,
+390,BK-R64Y-48,2,LB ,CM ,Road-550-W Yellow,713.0798,,,100,75,1120.49,,,,,,,,,,,,,
+391,FK-1639,10,,,LL Fork,65.8097,TRUE,NA,500,375,148.22,,NA,,1,,88.932,L ,,LL Fork,Stout design absorbs shock and offers more precise steering.,7/1/2008 0:00,6/30/2009 0:00,
+392,FK-5136,10,,,ML Fork,77.9176,TRUE,NA,500,375,175.49,,NA,,1,,105.294,M ,,ML Fork,Composite road fork with an aluminum steerer tube.,7/1/2008 0:00,6/30/2009 0:00,
+393,FK-9939,10,,,HL Fork,101.8936,TRUE,NA,500,375,229.49,,NA,,1,,137.694,H ,,HL Fork,High-performance carbon road fork with curved legs.,7/1/2008 0:00,6/30/2009 0:00,
+394,HS-0296,11,,,LL Headset,15.1848,TRUE,NA,500,375,34.2,,NA,,1,,20.52,L ,,LL Headset,Threadless headset provides quality at an economical price.,7/1/2008 0:00,6/30/2009 0:00,
+395,HS-2451,11,,,ML Headset,45.4168,TRUE,NA,500,375,102.29,,NA,,1,,61.374,M ,,ML Headset,Sealed cartridge keeps dirt out.,7/1/2008 0:00,6/30/2009 0:00,
+396,HS-3479,11,,,HL Headset,55.3801,TRUE,NA,500,375,124.73,,NA,,1,,74.838,H ,,HL Headset,"High-quality 1"" threadless headset with a grease port for quick lubrication.",,,
+397,HB-M243,4,,,LL Mountain Handlebars,19.7758,TRUE,NA,500,375,44.54,,NA,,1,M ,24.2945,L ,,LL Mountain Handlebars,All-purpose bar for on or off-road.,7/1/2008 0:00,6/30/2009 0:00,
+398,HB-M243,4,,,LL Mountain Handlebars,19.7758,TRUE,NA,500,375,44.54,,NA,,1,M ,26.724,L ,,LL Mountain Handlebars,All-purpose bar for on or off-road.,7/1/2009 0:00,,Current
+399,HB-M763,4,,,ML Mountain Handlebars,27.4925,TRUE,NA,500,375,61.92,,NA,,1,M ,33.7745,M ,,ML Mountain Handlebars,Tough aluminum alloy bars for downhill.,7/1/2008 0:00,6/30/2009 0:00,
+400,HB-M763,4,,,ML Mountain Handlebars,27.4925,TRUE,NA,500,375,61.92,,NA,,1,M ,37.152,M ,,ML Mountain Handlebars,Tough aluminum alloy bars for downhill.,7/1/2009 0:00,,Current
+401,HB-M918,4,,,HL Mountain Handlebars,53.3999,TRUE,NA,500,375,120.27,,NA,,1,M ,65.6018,H ,,HL Mountain Handlebars,Flat bar strong enough for the pro circuit.,7/1/2008 0:00,6/30/2009 0:00,
+402,HB-M918,4,,,HL Mountain Handlebars,53.3999,TRUE,NA,500,375,120.27,,NA,,1,M ,72.162,H ,,HL Mountain Handlebars,Flat bar strong enough for the pro circuit.,7/1/2009 0:00,,Current
+403,HB-R504,4,,,LL Road Handlebars,19.7758,TRUE,NA,500,375,44.54,,NA,,1,R ,24.2945,L ,,LL Road Handlebars,Unique shape provides easier reach to the levers.,7/1/2008 0:00,6/30/2009 0:00,
+404,HB-R504,4,,,LL Road Handlebars,19.7758,TRUE,NA,500,375,44.54,,NA,,1,R ,26.724,L ,,LL Road Handlebars,Unique shape provides easier reach to the levers.,7/1/2009 0:00,,Current
+405,HB-R720,4,,,ML Road Handlebars,27.4925,TRUE,NA,500,375,61.92,,NA,,1,R ,33.7745,M ,,ML Road Handlebars,Anatomically shaped aluminum tube bar will suit all riders.,7/1/2008 0:00,6/30/2009 0:00,
+406,HB-R720,4,,,ML Road Handlebars,27.4925,TRUE,NA,500,375,61.92,,NA,,1,R ,37.152,M ,,ML Road Handlebars,Anatomically shaped aluminum tube bar will suit all riders.,7/1/2009 0:00,,Current
+407,HB-R956,4,,,HL Road Handlebars,53.3999,TRUE,NA,500,375,120.27,,NA,,1,R ,65.6018,H ,,HL Road Handlebars,Designed for racers; high-end anatomically shaped bar from aluminum alloy.,7/1/2008 0:00,6/30/2009 0:00,
+408,HB-R956,4,,,HL Road Handlebars,53.3999,TRUE,NA,500,375,120.27,,NA,,1,R ,72.162,H ,,HL Road Handlebars,Designed for racers; high-end anatomically shaped bar from aluminum alloy.,7/1/2009 0:00,,Current
+409,FR-M63B-38,12,LB ,CM ,ML Mountain Frame - Black,185.8193,,,500,375,348.76,,,,,,,,,,,,,
+410,FW-M423,17,,,LL Mountain Front Wheel,26.9708,TRUE,Black,500,375,60.745,,NA,,1,M ,36.447,L ,,LL Mountain Front Wheel,Replacement mountain wheel for entry-level rider.,7/1/2008 0:00,6/30/2009 0:00,
+411,FW-M762,17,,,ML Mountain Front Wheel,92.8071,TRUE,Black,500,375,209.025,,NA,,1,M ,125.415,M ,,ML Mountain Front Wheel,Replacement mountain wheel for the casual to serious rider.,7/1/2008 0:00,6/30/2009 0:00,
+412,FW-M928,17,,,HL Mountain Front Wheel,133.2955,TRUE,Black,500,375,300.215,,NA,,1,M ,180.129,H ,,HL Mountain Front Wheel,High-performance mountain replacement wheel.,7/1/2008 0:00,6/30/2009 0:00,
+413,FW-R623,17,G  ,,LL Road Front Wheel,37.9909,TRUE,Black,500,375,85.565,,NA,900,1,R ,51.339,L ,,LL Road Front Wheel,Replacement road front wheel for entry-level cyclist.,7/1/2008 0:00,6/30/2009 0:00,
+414,FW-R762,17,G  ,,ML Road Front Wheel,110.2829,TRUE,Black,500,375,248.385,,NA,850,1,R ,149.031,M ,,ML Road Front Wheel,Sturdy alloy features a quick-release hub.,,,
+415,FW-R820,17,G  ,,HL Road Front Wheel,146.5466,TRUE,Black,500,375,330.06,,NA,650,1,R ,198.036,H ,,HL Road Front Wheel,Strong wheel with double-walled rim.,7/1/2008 0:00,6/30/2009 0:00,
+416,FW-T905,17,,,Touring Front Wheel,96.7964,TRUE,Black,500,375,218.01,,NA,,1,T ,130.806,,,Touring Front Wheel,Aerodynamic rims for smooth riding.,7/1/2008 0:00,6/30/2009 0:00,
+417,FR-R72Y-38,14,LB ,CM ,ML Road Frame-W - Yellow,360.9428,,,500,375,594.83,,,,,,,,,,,,,
+418,FR-R72Y-38,14,LB ,CM ,ML Road Frame-W - Yellow,360.9428,,,500,375,594.83,,,,,,,,,,,,,
+419,RW-M423,17,,,LL Mountain Rear Wheel,38.9588,TRUE,Black,500,375,87.745,,NA,,1,M ,52.647,L ,,LL Mountain Rear Wheel,Replacement mountain wheel for entry-level rider.,7/1/2008 0:00,6/30/2009 0:00,
+420,RW-M762,17,,,ML Mountain Rear Wheel,104.7951,TRUE,Black,500,375,236.025,,NA,,1,M ,141.615,M ,,ML Mountain Rear Wheel,Replacement mountain wheel for the casual to serious rider.,7/1/2008 0:00,6/30/2009 0:00,
+421,RW-M928,17,,,HL Mountain Rear Wheel,145.2835,TRUE,Black,500,375,327.215,,NA,,1,M ,196.329,H ,,HL Mountain Rear Wheel,High-performance mountain replacement wheel.,7/1/2008 0:00,6/30/2009 0:00,
+422,RW-R623,17,G  ,,LL Road Rear Wheel,49.9789,TRUE,Black,500,375,112.565,,NA,1050,1,R ,67.539,L ,,LL Road Rear Wheel,Replacement road rear wheel for entry-level cyclist.,7/1/2008 0:00,6/30/2009 0:00,
+423,RW-R762,17,G  ,,ML Road Rear Wheel,122.2709,TRUE,Black,500,375,275.385,,NA,1000,1,R ,165.231,M ,,ML Road Rear Wheel,Aluminum alloy rim with stainless steel spokes; built for speed.,7/1/2008 0:00,6/30/2009 0:00,
+424,RW-R820,17,G  ,,HL Road Rear Wheel,158.5346,TRUE,Black,500,375,357.06,,NA,890,1,R ,214.236,H ,,HL Road Rear Wheel,Strong rear wheel with double-walled rim.,7/1/2008 0:00,6/30/2009 0:00,
+425,RW-T905,17,,,Touring Rear Wheel,108.7844,TRUE,Black,500,375,245.01,,NA,,1,T ,147.006,,,Touring Rear Wheel,Excellent aerodynamic rims guarantee a smooth ride.,7/1/2008 0:00,6/30/2009 0:00,
+426,FR-M63B-40,12,LB ,CM ,ML Mountain Frame - Black,185.8193,,,500,375,348.76,,,,,,,,,,,,,
+427,FR-M63B-44,12,LB ,CM ,ML Mountain Frame - Black,185.8193,,,500,375,348.76,,,,,,,,,,,,,
+428,FR-M63B-48,12,LB ,CM ,ML Mountain Frame - Black,185.8193,,,500,375,348.76,,,,,,,,,,,,,
+429,FR-R72Y-40,14,LB ,CM ,ML Road Frame-W - Yellow,360.9428,,,500,375,594.83,,,,,,,,,,,,,
+430,FR-R72Y-40,14,LB ,CM ,ML Road Frame-W - Yellow,360.9428,,,500,375,594.83,,,,,,,,,,,,,
+431,FR-R72Y-42,14,LB ,CM ,ML Road Frame-W - Yellow,360.9428,,,500,375,594.83,,,,,,,,,,,,,
+432,FR-R72Y-42,14,LB ,CM ,ML Road Frame-W - Yellow,360.9428,,,500,375,594.83,,,,,,,,,,,,,
+433,FR-R72Y-44,14,LB ,CM ,ML Road Frame-W - Yellow,360.9428,,,500,375,594.83,,,,,,,,,,,,,
+434,FR-R72Y-44,14,LB ,CM ,ML Road Frame-W - Yellow,360.9428,,,500,375,594.83,,,,,,,,,,,,,
+435,FR-R72Y-48,14,LB ,CM ,ML Road Frame-W - Yellow,360.9428,,,500,375,594.83,,,,,,,,,,,,,
+436,FR-R72Y-48,14,LB ,CM ,ML Road Frame-W - Yellow,360.9428,,,500,375,594.83,,,,,,,,,,,,,
+437,FR-R92B-62,14,LB ,CM ,HL Road Frame - Black,868.6342,,,500,375,1431.5,,,,,,,,,,,,,
+438,FR-R92B-62,14,LB ,CM ,HL Road Frame - Black,868.6342,,,500,375,1431.5,,,,,,,,,,,,,
+439,FR-R92B-44,14,LB ,CM ,HL Road Frame - Black,868.6342,,,500,375,1431.5,,,,,,,,,,,,,
+440,FR-R92B-44,14,LB ,CM ,HL Road Frame - Black,868.6342,,,500,375,1431.5,,,,,,,,,,,,,
+441,FR-R92B-48,14,LB ,CM ,HL Road Frame - Black,868.6342,,,500,375,1431.5,,,,,,,,,,,,,
+442,FR-R92B-48,14,LB ,CM ,HL Road Frame - Black,868.6342,,,500,375,1431.5,,,,,,,,,,,,,
+443,FR-R92B-52,14,LB ,CM ,HL Road Frame - Black,868.6342,,,500,375,1431.5,,,,,,,,,,,,,
+444,FR-R92B-52,14,LB ,CM ,HL Road Frame - Black,868.6342,,,500,375,1431.5,,,,,,,,,,,,,
+445,SH-M897-S,22,,,Men's Sports Shorts,24.7459,,,4,3,59.99,,,,,,,,,,,,,
+446,PA-T100,35,,,Touring-Panniers,51.5625,,,4,3,125.0,,,,,,,,,,,,,
+447,LO-C100,34,,,Cable Lock,10.3125,TRUE,NA,4,3,25.0,,NA,,0,S ,15,,,Cable Lock,Wraps to fit front and rear tires,,,
+448,PU-0452,36,,,Minipump,8.2459,TRUE,NA,4,3,19.99,,NA,,0,S ,11.994,,,Minipump,Designed for convenience. Fits in your pocket. Aluminum barrel. 160psi rated.,,,
+449,PU-M044,36,,,Mountain Pump,10.3084,TRUE,NA,4,3,24.99,,NA,,0,M ,14.994,,,Mountain Pump,Simple and light-weight. Emergency patches stored in handle.,7/1/2008 0:00,6/30/2009 0:00,
+450,LT-T990,33,,,Taillights - Battery-Powered,5.7709,TRUE,NA,4,3,13.99,,NA,,0,R ,8.394,,,Taillight,Affordable light for safe night riding - uses 3 AAA batteries,,,
+451,LT-H902,33,,,Headlights - Dual-Beam,14.4334,TRUE,NA,4,3,34.99,,NA,,0,R ,20.994,,,Headlights - Dual-Beam,Rechargeable dual-beam headlight.,7/1/2008 0:00,6/30/2009 0:00,
+452,LT-H903,33,,,Headlights - Weatherproof,18.5584,TRUE,NA,4,3,44.99,,NA,,0,R ,26.994,,,Headlights - Weatherproof,Rugged weatherproof headlight.,7/1/2008 0:00,6/30/2009 0:00,
+453,SH-M897-M,22,,,Men's Sports Shorts,24.7459,,,4,3,59.99,,,,,,,,,,,,,
+454,SH-M897-L,22,,,Men's Sports Shorts,24.7459,,,4,3,59.99,,,,,,,,,,,,,
+455,SH-M897-X,22,,,Men's Sports Shorts,24.7459,,,4,3,59.99,,,,,,,,,,,,,
+456,TG-W091-S,24,,,Women's Tights,30.9334,,,4,3,74.99,,,,,,,,,,,,,
+457,TG-W091-M,24,,,Women's Tights,30.9334,,,4,3,74.99,,,,,,,,,,,,,
+458,TG-W091-L,24,,,Women's Tights,30.9334,,,4,3,74.99,,,,,,,,,,,,,
+459,SB-M891-S,18,,,Men's Bib-Shorts,37.1209,,,4,3,89.99,,,,,,,,,,,,,
+460,SB-M891-M,18,,,Men's Bib-Shorts,37.1209,,,4,3,89.99,,,,,,,,,,,,,
+461,SB-M891-L,18,,,Men's Bib-Shorts,37.1209,,,4,3,89.99,,,,,,,,,,,,,
+462,GL-H102-S,20,,,Half-Finger Gloves,9.1593,,,4,3,24.49,,,,,,,,,,,,,
+463,GL-H102-S,20,,,Half-Finger Gloves,9.1593,,,4,3,24.49,,,,,,,,,,,,,
+464,GL-H102-M,20,,,Half-Finger Gloves,9.1593,,,4,3,24.49,,,,,,,,,,,,,
+465,GL-H102-M,20,,,Half-Finger Gloves,9.1593,,,4,3,24.49,,,,,,,,,,,,,
+466,GL-H102-L,20,,,Half-Finger Gloves,9.1593,,,4,3,24.49,,,,,,,,,,,,,
+467,GL-H102-L,20,,,Half-Finger Gloves,9.1593,,,4,3,24.49,,,,,,,,,,,,,
+468,GL-F110-S,20,,,Full-Finger Gloves,15.6709,,,4,3,37.99,,,,,,,,,,,,,
+469,GL-F110-M,20,,,Full-Finger Gloves,15.6709,,,4,3,37.99,,,,,,,,,,,,,
+470,GL-F110-L,20,,,Full-Finger Gloves,15.6709,,,4,3,37.99,,,,,,,,,,,,,
+471,VE-C304-S,25,,,Classic Vest,23.749,,,4,3,63.5,,,,,,,,,,,,,
+472,VE-C304-M,25,,,Classic Vest,23.749,,,4,3,63.5,,,,,,,,,,,,,
+473,VE-C304-L,25,,,Classic Vest,23.749,,,4,3,63.5,,,,,,,,,,,,,
+474,SH-W890-S,22,,,Women's Mountain Shorts,26.1763,,,4,3,69.99,,,,,,,,,,,,,
+475,SH-W890-M,22,,,Women's Mountain Shorts,26.1763,,,4,3,69.99,,,,,,,,,,,,,
+476,SH-W890-L,22,,,Women's Mountain Shorts,26.1763,,,4,3,69.99,,,,,,,,,,,,,
+477,WB-H098,28,,,Water Bottle - 30 oz.,1.8663,TRUE,NA,4,3,4.99,,NA,,0,S ,2.994,,,Water Bottle,AWC logo water bottle - holds 30 oz; leak-proof.,,,
+478,BC-M005,28,,,Mountain Bottle Cage,3.7363,TRUE,NA,4,3,9.99,,NA,,0,M ,5.994,,,Mountain Bottle Cage,Tough aluminum cage holds bottle securly on tough terrain.,7/1/2009 0:00,,Current
+479,BC-R205,28,,,Road Bottle Cage,3.3623,TRUE,NA,4,3,8.99,,NA,,0,R ,5.394,,,Road Bottle Cage,Aluminum cage is lighter than our mountain version; perfect for long distance trips.,7/1/2009 0:00,,Current
+480,PK-7098,37,,,Patch Kit/8 Patches,0.8565,TRUE,NA,4,3,2.29,,NA,,0,S ,1.374,,,Patch kit,Includes 8 different size patches,,,
+481,SO-R809-M,23,,,Racing Socks,3.3623,,,4,3,8.99,,,,,,,,,,,,,
+482,SO-R809-L,23,,,Racing Socks,3.3623,,,4,3,8.99,,,,,,,,,,,,,
+483,RA-H123,26,,,Hitch Rack - 4-Bike,44.88,TRUE,NA,4,3,120.0,,NA,,0,S ,72,,,Hitch Rack - 4-Bike,Carries 4 bikes securely; steel construction,,,
+484,CL-9009,29,,,Bike Wash - Dissolver,2.9733,TRUE,NA,4,3,7.95,,NA,,0,S ,4.77,,,Bike Wash,Washes off the toughest road grime; dissolves grease,,,
+485,FE-6654,30,,,Fender Set - Mountain,8.2205,TRUE,NA,4,3,21.98,,NA,,0,M ,13.188,,,Fender Set - Mountain,Clip-on fenders fit most mountain bikes.,7/1/2009 0:00,,Current
+486,ST-1401,27,,,All-Purpose Bike Stand,59.466,TRUE,NA,4,3,159.0,,NA,,0,M ,95.4,,,All-Purpose Bike Stand,Perfect all-purpose bike stand for working on your bike at home. Quick-adjusting clamps and steel construction.,,,
+487,HY-1023-70,32,,,Hydration Pack - 70 oz.,20.5663,TRUE,Silver,4,3,54.99,70,70,,0,S ,32.994,,,Hydration Pack,Versatile 70 oz hydration pack offers extra storage,,,
+488,SJ-0194-S,21,,,Short-Sleeve Classic Jersey,41.5723,,,4,3,53.99,,,,,,,,,,,,,
+489,SJ-0194-M,21,,,Short-Sleeve Classic Jersey,41.5723,,,4,3,53.99,,,,,,,,,,,,,
+490,SJ-0194-L,21,,,Short-Sleeve Classic Jersey,41.5723,,,4,3,53.99,,,,,,,,,,,,,
+491,SJ-0194-X,21,,,Short-Sleeve Classic Jersey,41.5723,,,4,3,53.99,,,,,,,,,,,,,
+492,FR-T98Y-60,16,LB ,CM ,HL Touring Frame - Yellow,601.7437,,,500,375,1003.91,,,,,,,,,,,,,
+493,FR-T67Y-62,16,LB ,CM ,LL Touring Frame - Yellow,199.8519,,,500,375,333.42,,,,,,,,,,,,,
+494,FR-T98Y-46,16,LB ,CM ,HL Touring Frame - Yellow,601.7437,,,500,375,1003.91,,,,,,,,,,,,,
+495,FR-T98Y-50,16,LB ,CM ,HL Touring Frame - Yellow,601.7437,,,500,375,1003.91,,,,,,,,,,,,,
+496,FR-T98Y-54,16,LB ,CM ,HL Touring Frame - Yellow,601.7437,,,500,375,1003.91,,,,,,,,,,,,,
+497,FR-T98U-46,16,LB ,CM ,HL Touring Frame - Blue,601.7437,,,500,375,1003.91,,,,,,,,,,,,,
+498,FR-T98U-50,16,LB ,CM ,HL Touring Frame - Blue,601.7437,,,500,375,1003.91,,,,,,,,,,,,,
+499,FR-T98U-54,16,LB ,CM ,HL Touring Frame - Blue,601.7437,,,500,375,1003.91,,,,,,,,,,,,,
+500,FR-T98U-60,16,LB ,CM ,HL Touring Frame - Blue,601.7437,,,500,375,1003.91,,,,,,,,,,,,,
+501,RD-2308,9,G  ,,Rear Derailleur,53.9282,TRUE,Silver,500,375,121.46,,NA,215,1,,72.876,,,Rear Derailleur,Wide-link design.,7/1/2009 0:00,,Current
+502,FR-T67U-50,16,LB ,CM ,LL Touring Frame - Blue,199.8519,,,500,375,333.42,,,,,,,,,,,,,
+503,FR-T67U-54,16,LB ,CM ,LL Touring Frame - Blue,199.8519,,,500,375,333.42,,,,,,,,,,,,,
+504,FR-T67U-58,16,LB ,CM ,LL Touring Frame - Blue,199.8519,,,500,375,333.42,,,,,,,,,,,,,
+505,FR-T67U-62,16,LB ,CM ,LL Touring Frame - Blue,199.8519,,,500,375,333.42,,,,,,,,,,,,,
+506,FR-T67Y-44,16,LB ,CM ,LL Touring Frame - Yellow,199.8519,,,500,375,333.42,,,,,,,,,,,,,
+507,FR-T67Y-50,16,LB ,CM ,LL Touring Frame - Yellow,199.8519,,,500,375,333.42,,,,,,,,,,,,,
+508,FR-T67Y-54,16,LB ,CM ,LL Touring Frame - Yellow,199.8519,,,500,375,333.42,,,,,,,,,,,,,
+509,FR-T67Y-58,16,LB ,CM ,LL Touring Frame - Yellow,199.8519,,,500,375,333.42,,,,,,,,,,,,,
+510,FR-T67U-44,16,LB ,CM ,LL Touring Frame - Blue,199.8519,,,500,375,333.42,,,,,,,,,,,,,
+511,FR-M63S-40,12,LB ,CM ,ML Mountain Frame-W - Silver,199.3757,,,500,375,364.09,,,,,,,,,,,,,
+512,FR-M63S-42,12,LB ,CM ,ML Mountain Frame-W - Silver,199.3757,,,500,375,364.09,,,,,,,,,,,,,
+513,FR-M63S-46,12,LB ,CM ,ML Mountain Frame-W - Silver,199.3757,,,500,375,364.09,,,,,,,,,,,,,
+514,RB-9231,6,G  ,,Rear Brakes,47.286,TRUE,Silver,500,375,106.5,,NA,317,1,,63.9,,,Rear Brakes,,7/1/2009 0:00,,Current
+515,SE-M236,15,,,LL Mountain Seat/Saddle,12.0413,TRUE,NA,500,375,27.12,,NA,,1,M ,16.272,L ,,LL Mountain Seat/Saddle 2,Synthetic leather. Features gel for increased comfort.,7/1/2009 0:00,,Current
+516,SE-M798,15,,,ML Mountain Seat/Saddle,17.3782,TRUE,NA,500,375,39.14,,NA,,1,M ,23.484,M ,,ML Mountain Seat/Saddle 2,Designed to absorb shock.,7/1/2009 0:00,,Current
+517,SE-M940,15,,,HL Mountain Seat/Saddle,23.3722,TRUE,NA,500,375,52.64,,NA,,1,M ,31.584,H ,,HL Mountain Seat/Saddle 2,Anatomic design for a full-day of riding in comfort. Durable leather.,7/1/2009 0:00,,Current
+518,SE-R581,15,,,LL Road Seat/Saddle,12.0413,TRUE,NA,500,375,27.12,,NA,,1,R ,16.272,L ,,LL Road Seat/Saddle 1,Lightweight foam-padded saddle.,7/1/2009 0:00,,Current
+519,SE-R908,15,,,ML Road Seat/Saddle,17.3782,TRUE,NA,500,375,39.14,,NA,,1,T ,23.484,M ,,ML Road Seat/Saddle 2,Rubber bumpers absorb bumps.,7/1/2009 0:00,,Current
+520,SE-R995,15,,,HL Road Seat/Saddle,23.3722,TRUE,NA,500,375,52.64,,NA,,1,R ,31.584,H ,,HL Road Seat/Saddle 2,Lightweight kevlar racing saddle. Leather.,7/1/2009 0:00,,Current
+521,SE-T312,15,,,LL Touring Seat/Saddle,12.0413,TRUE,NA,500,375,27.12,,NA,,1,T ,16.272,L ,,LL Touring Seat/Saddle,Comfortable,,,
+522,SE-T762,15,,,ML Touring Seat/Saddle,17.3782,TRUE,NA,500,375,39.14,,NA,,1,T ,23.484,M ,,ML Touring Seat/Saddle,New design relieves pressure for long rides.,7/1/2009 0:00,,Current
+523,SE-T924,15,,,HL Touring Seat/Saddle,23.3722,TRUE,NA,500,375,52.64,,NA,,1,T ,31.584,H ,,HL Touring Seat/Saddle,Cut-out shell for a more comfortable ride.,7/1/2009 0:00,,Current
+524,FR-M21S-42,12,LB ,CM ,LL Mountain Frame - Silver,144.5938,,,500,375,264.05,,,,,,,,,,,,,
+525,FR-M21S-44,12,LB ,CM ,LL Mountain Frame - Silver,144.5938,,,500,375,264.05,,,,,,,,,,,,,
+526,FR-M21S-48,12,LB ,CM ,LL Mountain Frame - Silver,144.5938,,,500,375,264.05,,,,,,,,,,,,,
+527,FR-M21S-52,12,LB ,CM ,LL Mountain Frame - Silver,144.5938,,,500,375,264.05,,,,,,,,,,,,,
+528,TT-M928,37,,,Mountain Tire Tube,1.8663,TRUE,NA,500,375,4.99,,NA,,0,M ,2.994,,,Mountain Tire Tube,Self-sealing tube.,7/1/2009 0:00,,Current
+529,TT-R982,37,,,Road Tire Tube,1.4923,TRUE,NA,500,375,3.99,,NA,,0,R ,2.394,,,Road Tire Tube,Conventional all-purpose tube.,7/1/2009 0:00,,Current
+530,TT-T092,37,,,Touring Tire Tube,1.8663,TRUE,NA,500,375,4.99,,NA,,0,T ,2.994,,,Touring Tire Tube,General purpose tube.,7/1/2009 0:00,,Current
+531,FR-M21B-42,12,LB ,CM ,LL Mountain Frame - Black,136.785,,,500,375,249.79,,,,,,,,,,,,,
+532,FR-M21B-44,12,LB ,CM ,LL Mountain Frame - Black,136.785,,,500,375,249.79,,,,,,,,,,,,,
+533,FR-M21B-48,12,LB ,CM ,LL Mountain Frame - Black,136.785,,,500,375,249.79,,,,,,,,,,,,,
+534,FR-M21B-52,12,LB ,CM ,LL Mountain Frame - Black,136.785,,,500,375,249.79,,,,,,,,,,,,,
+535,TI-M267,37,,,LL Mountain Tire,9.3463,TRUE,NA,500,375,24.99,,NA,,0,M ,14.994,L ,,LL Mountain Tire,Comparible traction,,,
+536,TI-M602,37,,,ML Mountain Tire,11.2163,TRUE,NA,500,375,29.99,,NA,,0,M ,17.994,M ,,ML Mountain Tire,Great traction,,,
+537,TI-M823,37,,,HL Mountain Tire,13.09,TRUE,NA,500,375,35.0,,NA,,0,M ,21,H ,,HL Mountain Tire,Incredible traction,,,
+538,TI-R092,37,,,LL Road Tire,8.0373,TRUE,NA,500,375,21.49,,NA,,0,R ,12.894,L ,,LL Road Tire,Same great treads as more expensive tire with a less expensive wire bead casing.,,,
+539,TI-R628,37,,,ML Road Tire,9.3463,TRUE,NA,500,375,24.99,,NA,,0,R ,14.994,M ,,ML Road Tire,Higher density rubber.,7/1/2009 0:00,,Current
+540,TI-R982,37,,,HL Road Tire,12.1924,TRUE,NA,500,375,32.6,,NA,,0,R ,19.56,H ,,HL Road Tire,Lightweight carbon reinforced  for an unrivaled ride at an un-compromised weight.,,,
+541,TI-T723,37,,,Touring Tire,10.8423,TRUE,NA,500,375,28.99,,NA,,0,T ,17.394,,,Touring Tire,High-density rubber.,7/1/2009 0:00,,Current
+542,PD-M282,13,G  ,,LL Mountain Pedal,17.9776,TRUE,Silver/Black,500,375,40.49,,NA,218,1,M ,24.294,L ,,LL Mountain Pedal,Expanded platform so you can ride in any shoes; great for all-around riding.,,,
+543,PD-M340,13,G  ,,ML Mountain Pedal,27.568,TRUE,Silver/Black,500,375,62.09,,NA,215,1,M ,37.254,M ,,ML Mountain Pedal,Lightweight,,,
+544,PD-M562,13,G  ,,HL Mountain Pedal,35.9596,TRUE,Silver/Black,500,375,80.99,,NA,185,1,M ,48.594,H ,,HL Mountain Pedal,Stainless steel; designed to shed mud easily.,,,
+545,PD-R347,13,G  ,,LL Road Pedal,17.9776,TRUE,Silver/Black,500,375,40.49,,NA,189,1,R ,24.294,L ,,LL Road Pedal,Clipless pedals - aluminum.,7/1/2009 0:00,,Current
+546,PD-R563,13,G  ,,ML Road Pedal,27.568,TRUE,Silver/Black,500,375,62.09,,NA,168,1,R ,37.254,M ,,ML Road Pedal,Lightweight aluminum alloy construction.,7/1/2009 0:00,,Current
+547,PD-R853,13,G  ,,HL Road Pedal,35.9596,TRUE,Silver/Black,500,375,80.99,,NA,149,1,R ,48.594,H ,,HL Road Pedal,Top-of-the-line clipless pedals with adjustable tension.,7/1/2009 0:00,,Current
+548,PD-T852,13,,,Touring Pedal,35.9596,TRUE,Silver/Black,500,375,80.99,,NA,,1,T ,48.594,,,Touring Pedal,A stable pedal for all-day riding.,7/1/2009 0:00,,Current
+549,FR-M63S-38,12,LB ,CM ,ML Mountain Frame-W - Silver,199.3757,,,500,375,364.09,,,,,,,,,,,,,
+550,FR-M21B-40,12,LB ,CM ,LL Mountain Frame - Black,136.785,,,500,375,249.79,,,,,,,,,,,,,
+551,FR-M21S-40,12,LB ,CM ,LL Mountain Frame - Silver,144.5938,,,500,375,264.05,,,,,,,,,,,,,
+552,FD-2342,9,G  ,,Front Derailleur,40.6216,TRUE,Silver,500,375,91.49,,NA,88,1,,54.894,,,Front Derailleur,Wide-link design.,7/1/2009 0:00,,Current
+553,HB-T721,4,,,LL Touring Handlebars,20.464,TRUE,NA,500,375,46.09,,NA,,1,T ,27.654,L ,,LL Touring Handlebars,Unique shape reduces fatigue for entry level riders.,,,
+554,HB-T928,4,,,HL Touring Handlebars,40.6571,TRUE,NA,500,375,91.57,,NA,,1,T ,54.942,H ,,HL Touring Handlebars,A light yet stiff aluminum bar for long distance riding.,7/1/2009 0:00,,Current
+555,FB-9873,6,G  ,,Front Brakes,47.286,TRUE,Silver,500,375,106.5,,NA,317,1,,63.9,,,Front Brakes,All-weather brake pads; provides superior stopping by applying more surface to the rim.,,,
+556,CS-4759,8,G  ,,LL Crankset,77.9176,TRUE,Black,500,375,175.49,,NA,600,1,,105.294,L ,,LL Crankset,Super rigid spindle.,7/1/2009 0:00,,Current
+557,CS-6583,8,G  ,,ML Crankset,113.8816,TRUE,Black,500,375,256.49,,NA,635,1,,153.894,M ,,ML Crankset,High-strength crank arm.,7/1/2009 0:00,,Current
+558,CS-9183,8,G  ,,HL Crankset,179.8156,TRUE,Black,500,375,404.99,,NA,575,1,,242.994,H ,,HL Crankset,Triple crankset; alumunim crank arm; flawless shifting.,,,
+559,CH-0234,7,,,Chain,8.9866,TRUE,Silver,500,375,20.24,,NA,,1,,12.144,,,Chain,Superior shifting performance.,7/1/2009 0:00,,Current
+560,BK-T44U-60,3,LB ,CM ,Touring-2000 Blue,755.1508,,,100,75,1214.85,,,,,,,,,,,,,
+561,BK-T79Y-46,3,LB ,CM ,Touring-1000 Yellow,1481.9379,,,100,75,2384.07,,,,,,,,,,,,,
+562,BK-T79Y-50,3,LB ,CM ,Touring-1000 Yellow,1481.9379,,,100,75,2384.07,,,,,,,,,,,,,
+563,BK-T79Y-54,3,LB ,CM ,Touring-1000 Yellow,1481.9379,,,100,75,2384.07,,,,,,,,,,,,,
+564,BK-T79Y-60,3,LB ,CM ,Touring-1000 Yellow,1481.9379,,,100,75,2384.07,,,,,,,,,,,,,
+565,BK-T18U-54,3,LB ,CM ,Touring-3000 Blue,461.4448,,,100,75,742.35,,,,,,,,,,,,,
+566,BK-T18U-58,3,LB ,CM ,Touring-3000 Blue,461.4448,,,100,75,742.35,,,,,,,,,,,,,
+567,BK-T18U-62,3,LB ,CM ,Touring-3000 Blue,461.4448,,,100,75,742.35,,,,,,,,,,,,,
+568,BK-T18Y-44,3,LB ,CM ,Touring-3000 Yellow,461.4448,,,100,75,742.35,,,,,,,,,,,,,
+569,BK-T18Y-50,3,LB ,CM ,Touring-3000 Yellow,461.4448,,,100,75,742.35,,,,,,,,,,,,,
+570,BK-T18Y-54,3,LB ,CM ,Touring-3000 Yellow,461.4448,,,100,75,742.35,,,,,,,,,,,,,
+571,BK-T18Y-58,3,LB ,CM ,Touring-3000 Yellow,461.4448,,,100,75,742.35,,,,,,,,,,,,,
+572,BK-T18Y-62,3,LB ,CM ,Touring-3000 Yellow,461.4448,,,100,75,742.35,,,,,,,,,,,,,
+573,BK-T79U-46,3,LB ,CM ,Touring-1000 Blue,1481.9379,,,100,75,2384.07,,,,,,,,,,,,,
+574,BK-T79U-50,3,LB ,CM ,Touring-1000 Blue,1481.9379,,,100,75,2384.07,,,,,,,,,,,,,
+575,BK-T79U-54,3,LB ,CM ,Touring-1000 Blue,1481.9379,,,100,75,2384.07,,,,,,,,,,,,,
+576,BK-T79U-60,3,LB ,CM ,Touring-1000 Blue,1481.9379,,,100,75,2384.07,,,,,,,,,,,,,
+577,BK-T44U-46,3,LB ,CM ,Touring-2000 Blue,755.1508,,,100,75,1214.85,,,,,,,,,,,,,
+578,BK-T44U-50,3,LB ,CM ,Touring-2000 Blue,755.1508,,,100,75,1214.85,,,,,,,,,,,,,
+579,BK-T44U-54,3,LB ,CM ,Touring-2000 Blue,755.1508,,,100,75,1214.85,,,,,,,,,,,,,
+580,BK-R79Y-40,2,LB ,CM ,Road-350-W Yellow,1082.51,,,100,75,1700.99,,,,,,,,,,,,,
+581,BK-R79Y-42,2,LB ,CM ,Road-350-W Yellow,1082.51,,,100,75,1700.99,,,,,,,,,,,,,
+582,BK-R79Y-44,2,LB ,CM ,Road-350-W Yellow,1082.51,,,100,75,1700.99,,,,,,,,,,,,,
+583,BK-R79Y-48,2,LB ,CM ,Road-350-W Yellow,1082.51,,,100,75,1700.99,,,,,,,,,,,,,
+584,BK-R19B-58,2,LB ,CM ,Road-750 Black,343.6496,,,100,75,539.99,,,,,,,,,,,,,
+585,BK-T18U-44,3,LB ,CM ,Touring-3000 Blue,461.4448,,,100,75,742.35,,,,,,,,,,,,,
+586,BK-T18U-50,3,LB ,CM ,Touring-3000 Blue,461.4448,,,100,75,742.35,,,,,,,,,,,,,
+587,BK-M38S-38,1,LB ,CM ,Mountain-400-W Silver,419.7784,,,100,75,769.49,,,,,,,,,,,,,
+588,BK-M38S-40,1,LB ,CM ,Mountain-400-W Silver,419.7784,,,100,75,769.49,,,,,,,,,,,,,
+589,BK-M38S-42,1,LB ,CM ,Mountain-400-W Silver,419.7784,,,100,75,769.49,,,,,,,,,,,,,
+590,BK-M38S-46,1,LB ,CM ,Mountain-400-W Silver,419.7784,,,100,75,769.49,,,,,,,,,,,,,
+591,BK-M18S-40,1,LB ,CM ,Mountain-500 Silver,308.2179,,,100,75,564.99,,,,,,,,,,,,,
+592,BK-M18S-42,1,LB ,CM ,Mountain-500 Silver,308.2179,,,100,75,564.99,,,,,,,,,,,,,
+593,BK-M18S-44,1,LB ,CM ,Mountain-500 Silver,308.2179,,,100,75,564.99,,,,,,,,,,,,,
+594,BK-M18S-48,1,LB ,CM ,Mountain-500 Silver,308.2179,,,100,75,564.99,,,,,,,,,,,,,
+595,BK-M18S-52,1,LB ,CM ,Mountain-500 Silver,308.2179,,,100,75,564.99,,,,,,,,,,,,,
+596,BK-M18B-40,1,LB ,CM ,Mountain-500 Black,294.5797,,,100,75,539.99,,,,,,,,,,,,,
+597,BK-M18B-42,1,LB ,CM ,Mountain-500 Black,294.5797,,,100,75,539.99,,,,,,,,,,,,,
+598,BK-M18B-44,1,LB ,CM ,Mountain-500 Black,294.5797,,,100,75,539.99,,,,,,,,,,,,,
+599,BK-M18B-48,1,LB ,CM ,Mountain-500 Black,294.5797,,,100,75,539.99,,,,,,,,,,,,,
+600,BK-M18B-52,1,LB ,CM ,Mountain-500 Black,294.5797,,,100,75,539.99,,,,,,,,,,,,,
+601,BB-7421,5,G  ,,LL Bottom Bracket,23.9716,TRUE,NA,500,375,53.99,,NA,223,1,,32.394,L ,,LL Bottom Bracket,Chromoly steel.,7/1/2009 0:00,,Current
+602,BB-8107,5,G  ,,ML Bottom Bracket,44.9506,TRUE,NA,500,375,101.24,,NA,168,1,,60.744,M ,,ML Bottom Bracket,Aluminum alloy cups; large diameter spindle.,7/1/2009 0:00,,Current
+603,BB-9108,5,G  ,,HL Bottom Bracket,53.9416,TRUE,NA,500,375,121.49,,NA,170,1,,72.894,H ,,HL Bottom Bracket,Aluminum alloy cups and a hollow axle.,7/1/2009 0:00,,Current

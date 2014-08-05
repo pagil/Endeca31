@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><Graph author="oracle" created="Fri Aug 01 11:28:41 EDT 2014" guiVersion="3.4.1.P" id="1406907332316" licenseType="Commercial" modified="Sun Aug 03 08:14:23 EDT 2014" modifiedBy="oracle" name="LoadData" revision="1.75" showComponentDetails="true">
+<?xml version="1.0" encoding="UTF-8"?><Graph author="oracle" created="Fri Aug 01 11:28:41 EDT 2014" guiVersion="3.4.1.P" id="1406907332316" licenseType="Commercial" modified="Mon Aug 04 22:35:10 EDT 2014" modifiedBy="oracle" name="LoadData" revision="1.96" showComponentDetails="true">
 <Global>
 <Metadata id="Metadata9" previewAttachment="${DATAIN_DIR}/DimDate.csv" previewAttachmentCharset="ISO-8859-1">
 <Record fieldDelimiter="," label="DimDate.csv" name="DimDate" previewAttachment="${DATAIN_DIR}/DimDate.csv" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\r\n" skipSourceRows="0" type="delimited">
@@ -55,6 +55,79 @@
 <Field name="DimGeography_PostalCode" type="string"/>
 <Field name="DimGeography_SalesTerritoryKey" type="string"/>
 <Field eofAsDelimiter="false" name="DimGeography_LatLong" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata17" previewAttachment="${DATAIN_DIR}/DimProduct.csv" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="," label="DimProduct.csv" name="DimProduct" previewAttachment="${DATAIN_DIR}/DimProduct.csv" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\r\n" skipSourceRows="0" type="delimited">
+<Field name="ProductKey" type="integer"/>
+<Field name="ProductAlternateKey" type="string"/>
+<Field name="ProductSubcategoryKey" type="integer"/>
+<Field name="WeightUnitMeasureCode" type="string"/>
+<Field name="SizeUnitMeasureCode" type="string"/>
+<Field name="EnglishProductName" type="string"/>
+<Field name="StandardCost" type="string"/>
+<Field name="FinishedGoodsFlag" type="string"/>
+<Field name="Color" type="string"/>
+<Field name="SafetyStockLevel" type="string"/>
+<Field name="ReorderPoint" type="string"/>
+<Field name="ListPrice" type="string"/>
+<Field name="Size" type="string"/>
+<Field name="SizeRange" type="string"/>
+<Field name="Weight" type="string"/>
+<Field name="DaysToManufacture" type="string"/>
+<Field name="ProductLine" type="string"/>
+<Field name="DealerPrice" type="string"/>
+<Field name="Class" type="string"/>
+<Field name="Style" type="string"/>
+<Field name="ModelName" type="string"/>
+<Field name="EnglishDescription" type="string"/>
+<Field name="StartDate" type="string"/>
+<Field name="EndDate" type="string"/>
+<Field eofAsDelimiter="false" name="Status" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata13" previewAttachment="${DATAIN_DIR}/DimProduct.csv" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="," label="DimProduct.csv" name="DimProduct" previewAttachment="${DATAIN_DIR}/DimProduct.csv" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\r\n" skipSourceRows="0" type="delimited">
+<Field name="ProductKey" type="integer"/>
+<Field name="ProductAlternateKey" type="string"/>
+<Field name="ProductSubcategoryKey" type="integer"/>
+<Field name="WeightUnitMeasureCode" type="string"/>
+<Field name="SizeUnitMeasureCode" type="string"/>
+<Field name="EnglishProductName" type="string"/>
+<Field name="StandardCost" type="string"/>
+<Field name="FinishedGoodsFlag" type="string"/>
+<Field name="Color" type="string"/>
+<Field name="SafetyStockLevel" type="string"/>
+<Field name="ReorderPoint" type="string"/>
+<Field name="ListPrice" type="string"/>
+<Field name="Size" type="string"/>
+<Field name="SizeRange" type="string"/>
+<Field name="Weight" type="string"/>
+<Field name="DaysToManufacture" type="string"/>
+<Field name="ProductLine" type="string"/>
+<Field name="DealerPrice" type="string"/>
+<Field name="Class" type="string"/>
+<Field name="Style" type="string"/>
+<Field name="ModelName" type="string"/>
+<Field name="EnglishDescription" type="string"/>
+<Field name="StartDate" type="string"/>
+<Field name="EndDate" type="string"/>
+<Field eofAsDelimiter="false" name="Status" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata14" previewAttachment="${DATAIN_DIR}/DimProductCategory.csv" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="," label="DimProductCategory.csv" name="DimProductCategory" previewAttachment="${DATAIN_DIR}/DimProductCategory.csv" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\r\n" skipSourceRows="0" type="delimited">
+<Field name="ProductCategoryKey" type="integer"/>
+<Field name="ProductCategoryAlternateKey" type="string"/>
+<Field eofAsDelimiter="false" name="EnglishProductCategoryName" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata15" previewAttachment="${DATAIN_DIR}/DimProductSubCategory.csv" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="," label="DimProductSubCategory.csv" name="DimProductSubCategory" previewAttachment="${DATAIN_DIR}/DimProductSubCategory.csv" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\r\n" skipSourceRows="0" type="delimited">
+<Field name="ProductSubcategoryKey" type="integer"/>
+<Field name="ProductSubcategoryAlternateKey" type="string"/>
+<Field name="EnglishProductSubcategoryName" type="string"/>
+<Field eofAsDelimiter="false" name="ProductCategoryKey" type="integer"/>
 </Record>
 </Metadata>
 <Metadata id="Metadata10" previewAttachment="${DATAIN_DIR}/DimReseller.csv" previewAttachmentCharset="ISO-8859-1">
@@ -144,6 +217,50 @@
 <Field name="FactSales_CarrierTrackingNumber" type="string"/>
 <Field eofAsDelimiter="false" name="FactSales_CustomerPONumer" type="string"/>
 <Field name="FactSales_RecordSpec" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata16" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="|" name="JoinedCategory" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" name="ProductSubcategoryKey" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="ProductSubcategoryAlternateKey" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="ProductSubcategoryName" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="ProductCategoryKey" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="ProductCategoryAlternateKey" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="ProductCategoryName" nullable="true" shift="0" size="0" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata18">
+<Record fieldDelimiter="|" name="ProductCategoryJoined" recordDelimiter="\n" type="delimited">
+<Field eofAsDelimiter="false" name="ProductKey" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="ProductAlternateKey" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="ProductSubcategoryKey" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="WeightUnitMeasureCode" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="SizeUnitMeasureCode" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="ProductName" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="StandardCost" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="FinishedGoodsFlag" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="Color" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="SafetyStockLevel" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="ReorderPoint" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="ListPrice" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="Size" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="SizeRange" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="Weight" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DaysToManufacture" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="ProductLine" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DealerPrice" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="Class" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="Style" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="ModelName" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="Description" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="StartDate" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="EndDate" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="Status" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="ProductSubcategoryAlternateKey" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="ProductSubcategoryName" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="ProductCategoryKey" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="ProductCategoryAlternateKey" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="ProductCategoryName" nullable="true" shift="0" size="0" type="string"/>
 </Record>
 </Metadata>
 <Metadata id="Metadata12" previewAttachmentCharset="ISO-8859-1">
@@ -276,6 +393,36 @@
 <Field eofAsDelimiter="false" name="DimGeography_PostalCode" nullable="true" shift="0" size="0" type="string"/>
 <Field eofAsDelimiter="false" name="DimGeography_SalesTerritoryKey" nullable="true" shift="0" size="0" type="string"/>
 <Field eofAsDelimiter="false" name="DimGeography_LatLong" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="ProductKey" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="ProductAlternateKey" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="ProductSubcategoryKey" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="WeightUnitMeasureCode" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="SizeUnitMeasureCode" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="ProductName" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="StandardCost" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="FinishedGoodsFlag" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="Color" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="SafetyStockLevel" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="ReorderPoint" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="ListPrice" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="Size" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="SizeRange" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="Weight" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DaysToManufacture" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="ProductLine" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DealerPrice" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="Class" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="Style" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="ModelName" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="Description" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="StartDate" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="EndDate" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="Status" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="ProductSubcategoryAlternateKey" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="ProductSubcategoryName" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="ProductCategoryKey" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="ProductCategoryAlternateKey" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="ProductCategoryName" nullable="true" shift="0" size="0" type="string"/>
 </Record>
 </Metadata>
 <Metadata id="Metadata5" previewAttachmentCharset="ISO-8859-1">
@@ -375,6 +522,36 @@
 <Field eofAsDelimiter="false" name="DimGeography_PostalCode" nullable="true" shift="0" size="0" type="string"/>
 <Field eofAsDelimiter="false" name="DimGeography_SalesTerritoryKey" nullable="true" shift="0" size="0" type="string"/>
 <Field eofAsDelimiter="false" name="DimGeography_LatLong" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="ProductKey" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="ProductAlternateKey" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="ProductSubcategoryKey" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="WeightUnitMeasureCode" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="SizeUnitMeasureCode" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="ProductName" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="StandardCost" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="FinishedGoodsFlag" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="Color" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="SafetyStockLevel" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="ReorderPoint" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="ListPrice" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="Size" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="SizeRange" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="Weight" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DaysToManufacture" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="ProductLine" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DealerPrice" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="Class" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="Style" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="ModelName" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="Description" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="StartDate" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="EndDate" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="Status" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="ProductSubcategoryAlternateKey" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="ProductSubcategoryName" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="ProductCategoryKey" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="ProductCategoryAlternateKey" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="ProductCategoryName" nullable="true" shift="0" size="0" type="string"/>
 <Field eofAsDelimiter="false" name="SalesOrderNumber" nullable="true" shift="0" size="0" type="string"/>
 <Field eofAsDelimiter="false" name="SurveyResponse" nullable="true" shift="0" size="0" type="string"/>
 <Field eofAsDelimiter="false" name="SurveyTerms" nullable="true" shift="0" size="0" type="string"/>
@@ -404,6 +581,40 @@
 </Global>
 <Phase number="0">
 <Node collectionName="SalesCollectionKey" dataDomainName="BikeStore" enabled="enabled" endecaServerContextRoot="/endeca-server" endecaServerHost="localhost" endecaServerPort="8001" guiName="Bulk Load to Data Store" guiX="1070" guiY="27" id="BULK_LOAD_TO_DATA_STORE" milliSecondsTimeout="90000" multiAssignDelimiter="" specProperty="FactSales_RecordSpec" type="ENDECA_BULK_ADD_OR_REPLACE_RECORDS"/>
+<Node enabled="enabled" guiName="CategoryJoin" guiX="301" guiY="841" id="CATEGORY_JOIN" joinKey="$ProductCategoryKey=$ProductCategoryKey" joinType="leftOuter" type="EXT_HASH_JOIN">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {
+	$out.0.ProductSubcategoryKey = $in.0.ProductSubcategoryKey;
+	$out.0.ProductSubcategoryAlternateKey = $in.0.ProductSubcategoryAlternateKey;
+	$out.0.ProductSubcategoryName = $in.0.EnglishProductSubcategoryName;
+	$out.0.ProductCategoryKey = $in.0.ProductCategoryKey;
+	$out.0.ProductCategoryAlternateKey = $in.1.ProductCategoryAlternateKey;
+	$out.0.ProductCategoryName = $in.1.EnglishProductCategoryName;
+
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+</Node>
 <Node enabled="enabled" guiName="Create Spec" guiX="311" guiY="12" id="CREATE_SPEC" type="REFORMAT">
 <attr name="transform"><![CDATA[//#CTL2
 
@@ -460,7 +671,7 @@ function integer transform() {
 <Node enabled="enabled" fileURL="${DATAIN_DIR}/DimDate.csv" guiName="Date Dim" guiX="18" guiY="355" id="DATE_DIM" skipRows="1" type="DATA_READER"/>
 <Node enabled="enabled" fileURL="${DATAIN_DIR}/DimEmployee.csv" guiName="Employee Dim" guiX="23" guiY="120" id="EMPLOYEE_DIM" skipRows="1" type="DATA_READER"/>
 <Node enabled="enabled" fileURL="${DATAIN_DIR}/DimGeography.csv" guiName="Geography Dim" guiX="18" guiY="568" id="GEOGRAPHY_DIM" skipRows="1" type="DATA_READER"/>
-<Node enabled="enabled" guiName="Join Dims to Facts" guiX="651" guiY="218" id="JOIN_DIMS_TO_FACTS" joinKey="$FactSales_EmployeeKey=$DimEmployee_EmployeeKey#$FactSales_SalesTerritoryKey=$DimSalesTerritory_SalesTerritoryKey#$FactSales_OrderDateKey=$DimDate_DateKey#$FactSales_ResellerKey=$DimReseller_ResellerKey" joinType="leftOuter" type="EXT_HASH_JOIN">
+<Node enabled="enabled" guiName="Join Dims to Facts" guiX="651" guiY="218" id="JOIN_DIMS_TO_FACTS" joinKey="$FactSales_EmployeeKey=$DimEmployee_EmployeeKey#$FactSales_SalesTerritoryKey=$DimSalesTerritory_SalesTerritoryKey#$FactSales_OrderDateKey=$DimDate_DateKey#$FactSales_ResellerKey=$DimReseller_ResellerKey#$FactSales_ProductKey=$ProductKey" joinType="leftOuter" type="EXT_HASH_JOIN">
 <attr name="transform"><![CDATA[//#CTL2
 
 // Transforms input record into output record.
@@ -560,6 +771,36 @@ function integer transform() {
 	$out.0.DimGeography_PostalCode = $in.4.DimGeography_PostalCode;
 	$out.0.DimGeography_SalesTerritoryKey = $in.4.DimGeography_SalesTerritoryKey;
 	$out.0.DimGeography_LatLong = $in.4.DimGeography_LatLong;
+	$out.0.ProductKey = $in.5.ProductKey;
+	$out.0.ProductAlternateKey = $in.5.ProductAlternateKey;
+	$out.0.ProductSubcategoryKey = $in.5.ProductSubcategoryKey;
+	$out.0.WeightUnitMeasureCode = $in.5.WeightUnitMeasureCode;
+	$out.0.SizeUnitMeasureCode = $in.5.SizeUnitMeasureCode;
+	$out.0.ProductName = $in.5.ProductName;
+	$out.0.StandardCost = $in.5.StandardCost;
+	$out.0.FinishedGoodsFlag = $in.5.FinishedGoodsFlag;
+	$out.0.Color = $in.5.Color;
+	$out.0.SafetyStockLevel = $in.5.SafetyStockLevel;
+	$out.0.ReorderPoint = $in.5.ReorderPoint;
+	$out.0.ListPrice = $in.5.ListPrice;
+	$out.0.Size = $in.5.Size;
+	$out.0.SizeRange = $in.5.SizeRange;
+	$out.0.Weight = $in.5.Weight;
+	$out.0.DaysToManufacture = $in.5.DaysToManufacture;
+	$out.0.ProductLine = $in.5.ProductLine;
+	$out.0.DealerPrice = $in.5.DealerPrice;
+	$out.0.Class = $in.5.Class;
+	$out.0.Style = $in.5.Style;
+	$out.0.ModelName = $in.5.ModelName;
+	$out.0.Description = $in.5.Description;
+	$out.0.StartDate = $in.5.StartDate;
+	$out.0.EndDate = $in.5.EndDate;
+	$out.0.Status = $in.5.Status;
+	$out.0.ProductSubcategoryAlternateKey = $in.5.ProductSubcategoryAlternateKey;
+	$out.0.ProductSubcategoryName = $in.5.ProductSubcategoryName;
+	$out.0.ProductCategoryKey = $in.5.ProductCategoryKey;
+	$out.0.ProductCategoryAlternateKey = $in.5.ProductCategoryAlternateKey;
+	$out.0.ProductCategoryName = $in.5.ProductCategoryName;
 
 	return ALL;
 }
@@ -743,6 +984,36 @@ function integer transform() {
 	$out.0.DimGeography_PostalCode = $in.0.DimGeography_PostalCode;
 	$out.0.DimGeography_SalesTerritoryKey = $in.0.DimGeography_SalesTerritoryKey;
 	$out.0.DimGeography_LatLong = $in.0.DimGeography_LatLong;
+	$out.0.ProductKey = $in.0.ProductKey;
+	$out.0.ProductAlternateKey = $in.0.ProductAlternateKey;
+	$out.0.ProductSubcategoryKey = $in.0.ProductSubcategoryKey;
+	$out.0.WeightUnitMeasureCode = $in.0.WeightUnitMeasureCode;
+	$out.0.SizeUnitMeasureCode = $in.0.SizeUnitMeasureCode;
+	$out.0.ProductName = $in.0.ProductName;
+	$out.0.StandardCost = $in.0.StandardCost;
+	$out.0.FinishedGoodsFlag = $in.0.FinishedGoodsFlag;
+	$out.0.Color = $in.0.Color;
+	$out.0.SafetyStockLevel = $in.0.SafetyStockLevel;
+	$out.0.ReorderPoint = $in.0.ReorderPoint;
+	$out.0.ListPrice = $in.0.ListPrice;
+	$out.0.Size = $in.0.Size;
+	$out.0.SizeRange = $in.0.SizeRange;
+	$out.0.Weight = $in.0.Weight;
+	$out.0.DaysToManufacture = $in.0.DaysToManufacture;
+	$out.0.ProductLine = $in.0.ProductLine;
+	$out.0.DealerPrice = $in.0.DealerPrice;
+	$out.0.Class = $in.0.Class;
+	$out.0.Style = $in.0.Style;
+	$out.0.ModelName = $in.0.ModelName;
+	$out.0.Description = $in.0.Description;
+	$out.0.StartDate = $in.0.StartDate;
+	$out.0.EndDate = $in.0.EndDate;
+	$out.0.Status = $in.0.Status;
+	$out.0.ProductSubcategoryAlternateKey = $in.0.ProductSubcategoryAlternateKey;
+	$out.0.ProductSubcategoryName = $in.0.ProductSubcategoryName;
+	$out.0.ProductCategoryKey = $in.0.ProductCategoryKey;
+	$out.0.ProductCategoryAlternateKey = $in.0.ProductCategoryAlternateKey;
+	$out.0.ProductCategoryName = $in.0.ProductCategoryName;
 
 	return ALL;
 }
@@ -766,13 +1037,75 @@ function integer transform() {
 // function string getMessage() {}
 ]]></attr>
 </Node>
+<Node enabled="enabled" fileURL="${DATAIN_DIR}/DimProductCategory.csv" guiName="Product Category Dim" guiX="18" guiY="899" id="PRODUCT_CATEGORY_DIM" skipRows="1" type="DATA_READER"/>
+<Node enabled="enabled" fileURL="${DATAIN_DIR}/DimProduct.csv" guiName="Product Dim" guiX="18" guiY="682" id="PRODUCT_DIM" skipRows="1" type="DATA_READER"/>
+<Node enabled="enabled" guiName="ProductJoin" guiX="462" guiY="682" id="PRODUCT_JOIN" joinKey="$ProductSubcategoryKey=$ProductSubcategoryKey" type="EXT_HASH_JOIN">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {
+	$out.0.ProductKey = $in.0.ProductKey;
+	$out.0.ProductAlternateKey = $in.0.ProductAlternateKey;
+	$out.0.ProductSubcategoryKey = $in.0.ProductSubcategoryKey;
+	$out.0.WeightUnitMeasureCode = $in.0.WeightUnitMeasureCode;
+	$out.0.SizeUnitMeasureCode = $in.0.SizeUnitMeasureCode;
+	$out.0.ProductName = $in.0.EnglishProductName;
+	$out.0.StandardCost = $in.0.StandardCost;
+	$out.0.FinishedGoodsFlag = $in.0.FinishedGoodsFlag;
+	$out.0.Color = $in.0.Color;
+	$out.0.SafetyStockLevel = $in.0.SafetyStockLevel;
+	$out.0.ReorderPoint = $in.0.ReorderPoint;
+	$out.0.ListPrice = $in.0.ListPrice;
+	$out.0.Size = $in.0.Size;
+	$out.0.SizeRange = $in.0.SizeRange;
+	$out.0.Weight = $in.0.Weight;
+	$out.0.DaysToManufacture = $in.0.DaysToManufacture;
+	$out.0.ProductLine = $in.0.ProductLine;
+	$out.0.DealerPrice = $in.0.DealerPrice;
+	$out.0.Class = $in.0.Class;
+	$out.0.Style = $in.0.Style;
+	$out.0.ModelName = $in.0.ModelName;
+	$out.0.Description = $in.0.EnglishDescription;
+	$out.0.StartDate = $in.0.StartDate;
+	$out.0.EndDate = $in.0.EndDate;
+	$out.0.Status = $in.0.Status;
+	$out.0.ProductSubcategoryAlternateKey = $in.1.ProductSubcategoryAlternateKey;
+	$out.0.ProductSubcategoryName = $in.1.ProductSubcategoryName;
+	$out.0.ProductCategoryKey = $in.1.ProductCategoryKey;
+	$out.0.ProductCategoryAlternateKey = $in.1.ProductCategoryAlternateKey;
+	$out.0.ProductCategoryName = $in.1.ProductCategoryName;
+
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+</Node>
+<Node enabled="enabled" fileURL="${DATAIN_DIR}/DimProductSubCategory.csv" guiName="Product Subcategory Dim" guiX="18" guiY="793" id="PRODUCT_SUBCATEGORY_DIM" skipRows="1" type="DATA_READER"/>
 <Node enabled="enabled" fileURL="${DATAIN_DIR}/DimReseller.csv" guiName="Reseller Dim" guiX="18" guiY="461" id="RESELLER_DIM" quotedStrings="true" skipRows="1" type="DATA_READER"/>
 <Node enabled="enabled" fileURL="${DATAIN_DIR}/FactSales.csv" guiName="Sales Facts" guiX="18" guiY="12" id="SALES_FACTS" quotedStrings="false" skipRows="1" type="DATA_READER"/>
 <Node enabled="enabled" fileURL="${DATAIN_DIR}/DimSalesTerritory.csv" guiName="Sales Territory Dim" guiX="18" guiY="235" id="SALES_TERRITORY_DIM" quotedStrings="true" skipRows="1" type="DATA_READER"/>
-<Node enabled="enabled" fileURL="${DATAIN_DIR}/SurveyResponses.csv" guiName="Survey Responses" guiX="22" guiY="702" id="SURVEY_RESPONSES" skipRows="1" type="DATA_READER"/>
-<Node enabled="disabled" fileURL="${DATAIN_DIR}/SurveyWhitelist.csv" guiName="Survey Whitelist" guiX="22" guiY="806" id="SURVEY_WHITELIST" quotedStrings="true" skipRows="1" type="DATA_READER"/>
-<Node enabled="enabled" fileURL="${DATAIN_DIR}/SurveyWhitelistFull.csv" guiName="Survey Whitelist Full" guiX="22" guiY="913" id="SURVEY_WHITELIST_FULL" skipRows="1" type="DATA_READER"/>
-<Node caseSensitive="false" enabled="enabled" guiName="Text Tagger - Whitelist" guiX="331" guiY="748" id="TEXT_TAGGER_WHITELIST" multiAssignDelimiter="||" overwriteTargetField="false" searchTermMaxCharLength="100" sourceField="SurveyResponse" targetField="SurveyTerms" threads="1" type="TEXT_TAGGER_WHITELIST"/>
+<Node enabled="enabled" fileURL="${DATAIN_DIR}/SurveyResponses.csv" guiName="Survey Responses" guiX="22" guiY="1015" id="SURVEY_RESPONSES" skipRows="1" type="DATA_READER"/>
+<Node enabled="disabled" fileURL="${DATAIN_DIR}/SurveyWhitelist.csv" guiName="Survey Whitelist" guiX="22" guiY="1124" id="SURVEY_WHITELIST" quotedStrings="true" skipRows="1" type="DATA_READER"/>
+<Node enabled="enabled" fileURL="${DATAIN_DIR}/SurveyWhitelistFull.csv" guiName="Survey Whitelist Full" guiX="22" guiY="1234" id="SURVEY_WHITELIST_FULL" skipRows="1" type="DATA_READER"/>
+<Node caseSensitive="false" enabled="enabled" guiName="Text Tagger - Whitelist" guiX="537" guiY="1139" id="TEXT_TAGGER_WHITELIST" multiAssignDelimiter="||" overwriteTargetField="false" searchTermMaxCharLength="100" sourceField="SurveyResponse" targetField="SurveyTerms" threads="1" type="TEXT_TAGGER_WHITELIST"/>
+<Edge fromNode="CATEGORY_JOIN:0" guiBendpoints="" guiRouter="Manhattan" id="Edge16" inPort="Port 1 (slave)" metadata="Metadata16" outPort="Port 0 (out)" toNode="PRODUCT_JOIN:1"/>
 <Edge fromNode="CREATE_SPEC:0" guiBendpoints="" guiRouter="Manhattan" id="Edge1" inPort="Port 0 (driver)" metadata="Metadata1" outPort="Port 0 (out)" toNode="JOIN_DIMS_TO_FACTS:0"/>
 <Edge fromNode="DATE_DIM:0" guiBendpoints="" guiRouter="Manhattan" id="Edge10" inPort="Port 3 (slave)" metadata="Metadata9" outPort="Port 0 (output)" toNode="JOIN_DIMS_TO_FACTS:3"/>
 <Edge fromNode="EMPLOYEE_DIM:0" guiBendpoints="" guiRouter="Manhattan" id="Edge2" inPort="Port 1 (slave)" metadata="Metadata2" outPort="Port 0 (output)" toNode="JOIN_DIMS_TO_FACTS:1"/>
@@ -780,6 +1113,10 @@ function integer transform() {
 <Edge fromNode="JOIN_DIMS_TO_FACTS:0" guiBendpoints="" guiRouter="Manhattan" id="Edge3" inPort="Port 0 (driver)" metadata="Metadata3" outPort="Port 0 (out)" toNode="JOIN_SURVEY_RESPONSES:0"/>
 <Edge fromNode="JOIN_GEOGRAPHY_TO_RESELLER:0" guiBendpoints="" guiRouter="Manhattan" id="Edge12" inPort="Port 4 (slave)" metadata="Metadata12" outPort="Port 0 (out)" toNode="JOIN_DIMS_TO_FACTS:4"/>
 <Edge fromNode="JOIN_SURVEY_RESPONSES:0" guiBendpoints="" guiRouter="Manhattan" id="Edge6" inPort="Port 0 (in)" metadata="Metadata5" outPort="Port 0 (out)" toNode="BULK_LOAD_TO_DATA_STORE:0"/>
+<Edge fromNode="PRODUCT_CATEGORY_DIM:0" guiBendpoints="" guiRouter="Manhattan" id="Edge14" inPort="Port 1 (slave)" metadata="Metadata14" outPort="Port 0 (output)" toNode="CATEGORY_JOIN:1"/>
+<Edge fromNode="PRODUCT_DIM:0" guiBendpoints="" guiRouter="Manhattan" id="Edge17" inPort="Port 0 (driver)" metadata="Metadata13" outPort="Port 0 (output)" toNode="PRODUCT_JOIN:0"/>
+<Edge fromNode="PRODUCT_JOIN:0" guiBendpoints="" guiRouter="Manhattan" id="Edge18" inPort="Port 5 (slave)" metadata="Metadata18" outPort="Port 0 (out)" toNode="JOIN_DIMS_TO_FACTS:5"/>
+<Edge fromNode="PRODUCT_SUBCATEGORY_DIM:0" guiBendpoints="" guiRouter="Manhattan" id="Edge13" inPort="Port 0 (driver)" metadata="Metadata15" outPort="Port 0 (output)" toNode="CATEGORY_JOIN:0"/>
 <Edge debugMode="true" fromNode="RESELLER_DIM:0" guiBendpoints="" guiRouter="Manhattan" id="Edge9" inPort="Port 0 (driver)" metadata="Metadata10" outPort="Port 0 (output)" toNode="JOIN_GEOGRAPHY_TO_RESELLER:0"/>
 <Edge debugMode="true" fromNode="SALES_FACTS:0" guiBendpoints="" guiRouter="Manhattan" id="Edge0" inPort="Port 0 (in)" metadata="Metadata0" outPort="Port 0 (output)" toNode="CREATE_SPEC:0"/>
 <Edge fromNode="SALES_TERRITORY_DIM:0" guiBendpoints="" guiRouter="Manhattan" id="Edge5" inPort="Port 2 (slave)" metadata="Metadata8" outPort="Port 0 (output)" toNode="JOIN_DIMS_TO_FACTS:2"/>
