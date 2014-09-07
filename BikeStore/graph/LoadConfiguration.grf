@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?><Graph author="mbrandwein" created="Mon Dec 12 14:28:31 PST 2011" guiVersion="3.4.1.P" id="1323814373361" licenseType="Commercial" modified="Sun Sep 07 08:35:31 EDT 2014" modifiedBy="oracle" name="LoadConfiguration" revision="1.181" showComponentDetails="true">
+<Global>
+<Metadata id="Metadata1" previewAttachment="${CONFIGIN_DIR}/AttributeFormatting.csv" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="," label="AttributeFormatting.csv" name="AttributeFormatting_csv" previewAttachment="${CONFIGIN_DIR}/AttributeFormatting.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\r\n\\|\n" skipSourceRows="0" type="delimited">
+<Field name="Format" type="string"/>
+<Field name="AvailableAggregations" type="string"/>
+<Field name="DefaultAggregation" type="string"/>
+<Field name="Description" type="string"/>
+<Field eofAsDelimiter="false" name="FormatSettings" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata7" previewAttachment="${CONFIGIN_DIR}/AttributeGroups.csv" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="," label="AttributeGroups.csv" name="AttributeGroups_csv" previewAttachment="${CONFIGIN_DIR}/AttributeGroups.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="both" quotedStrings="false" recordDelimiter="\r\n\\|\n" skipSourceRows="0" type="delimited">
+<Field name="GroupName" type="string"/>
+<Field name="GroupDisplayName" type="string"/>
+<Field eofAsDelimiter="false" name="AttributeName" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata6" previewAttachment="${CONFIGIN_DIR}/AttributeMetadata.csv" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="," label="AttributeMetadata.csv" name="AttributeMetadata_csv" previewAttachment="${CONFIGIN_DIR}/AttributeMetadata.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="both" quotedStrings="false" recordDelimiter="\r\n\\|\n" skipSourceRows="0" type="delimited">
+<Field name="AttributeKey" type="string"/>
+<Field name="DisplayName" type="string"/>
+<Field name="Type" type="string"/>
+<Field eofAsDelimiter="false" name="Profile" type="string"/>
+<Field name="Format" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata3" previewAttachment="${CONFIGIN_DIR}/AttributeProfiles.csv" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="," label="AttributeProfiles.csv" name="AttributeProfiles_csv" previewAttachment="${CONFIGIN_DIR}/AttributeProfiles.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="both" quotedStrings="false" recordDelimiter="\r\n\\|\n" skipSourceRows="0" type="delimited">
+<Field name="Profile" type="string"/>
+<Field name="SelectType" type="string"/>
+<Field name="RankingType" type="string"/>
+<Field name="ShowRecordCounts" type="string"/>
+<Field name="IsValueSearchable" type="string"/>
+<Field name="IsRecordSearchable" type="string"/>
+<Field name="SnippetSize" type="string"/>
+<Field name="IsUnique" type="string"/>
+<Field name="IsSingleAssign" type="string"/>
+<Field name="IsDimension" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata0" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="|" name="recordName1" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\r\n" type="delimited">
+<Field name="mdex_property_Key" type="string"/>
+<Field name="system_eid_isDimension" type="boolean"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata5" previewAttachment="./config-in/AttributeMetadata.csv" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="," name="TransAttributeMetadata" previewAttachment="./config-in/AttributeMetadata.csv" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" recordSize="-1" skipSourceRows="1" type="delimited">
+<Field eofAsDelimiter="false" name="Key" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DisplayName" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="Type" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="IsSingleAssign" nullable="true" shift="0" size="0" type="boolean"/>
+<Field eofAsDelimiter="false" name="SelectType" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="SortOrder" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="ShowRecordCounts" nullable="true" shift="0" size="0" type="boolean"/>
+<Field eofAsDelimiter="false" name="IsValueSearchable" nullable="true" shift="0" size="0" type="boolean"/>
+<Field eofAsDelimiter="false" name="IsTextSearchable" nullable="true" shift="0" size="0" type="boolean"/>
+<Field eofAsDelimiter="false" name="IsUnique" nullable="true" shift="0" size="0" type="boolean"/>
+<Field eofAsDelimiter="false" name="SnippetSize" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="Format" nullable="true" shift="0" size="0" type="string"/>
+<Field name="AvailableAggregations" type="string"/>
+<Field name="DefaultAggregation" type="string"/>
+<Field name="Description" type="string"/>
+<Field name="FormatSettings" type="string"/>
+<Field name="IsDimension" type="boolean"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata2" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="|" name="XMLStream" previewAttachmentCharset="ISO-8859-1" type="delimited">
+<Field name="key" type="integer"/>
+<Field delimiter="\n" name="xml" type="string"/>
+</Record>
+</Metadata>
+<Property fileURL="workspace.prm" id="GraphParameter0"/>
+<Note alignment="1" backgroundColorB="225" backgroundColorG="225" backgroundColorR="225" enabled="false" folded="false" height="181" id="Note0" textColorB="0" textColorG="0" textColorR="0" textFontSize="8" title="Load Search Configurations" titleColorB="0" titleColorG="0" titleColorR="0" titleFontSize="10" width="711" x="536" y="290"/>
+<Note alignment="1" backgroundColorB="225" backgroundColorG="225" backgroundColorR="225" enabled="false" folded="false" height="267" id="Note3" textColorB="0" textColorG="0" textColorR="0" textFontSize="8" title="Load Attribute Metadata" titleColorB="0" titleColorG="0" titleColorR="0" titleFontSize="10" width="557" x="538" y="8"/>
+<Note alignment="1" backgroundColorB="225" backgroundColorG="225" backgroundColorR="225" enabled="true" folded="false" height="157" id="Note4" textColorB="0" textColorG="0" textColorR="0" textFontSize="8" title="Load Attribute Groups" titleColorB="0" titleColorG="0" titleColorR="0" titleFontSize="10" width="793" x="463" y="491"/>
+<Dictionary/>
+</Global>
+<Phase number="0">
+<Node enabled="disabled" guiName="Attribute Profiles" guiX="193" guiY="62" id="ATTRIBUTE_PROFILES" joinKey="$Profile=$Profile#$Format=$Format" joinType="leftOuter" type="EXT_HASH_JOIN">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {
+	$out.0.Key = $0.AttributeKey;
+	$out.0.DisplayName = $0.DisplayName;
+	$out.0.Type = $0.Type;
+	$out.0.IsSingleAssign = iif(upperCase($1.IsSingleAssign) == "TRUE", true, false);
+	$out.0.SelectType = $1.SelectType;
+	$out.0.SortOrder = $1.RankingType;
+	$out.0.ShowRecordCounts = iif(upperCase($1.ShowRecordCounts) == "TRUE", true, false);
+	$out.0.IsValueSearchable = iif(upperCase($1.IsValueSearchable) == "TRUE", true, false);
+	$out.0.IsTextSearchable = iif(upperCase($1.IsRecordSearchable) == "TRUE", true, false);
+	$out.0.IsUnique = iif(upperCase($1.IsUnique) == "TRUE", true, false);
+	$out.0.SnippetSize = str2integer($1.SnippetSize);
+	$out.0.Format = $in.0.Format;
+	$out.0.AvailableAggregations = $in.2.AvailableAggregations;
+	$out.0.DefaultAggregation = $in.2.DefaultAggregation;
+	$out.0.Description = $in.2.Description;
+	$out.0.FormatSettings = $in.2.FormatSettings;
+	$out.0.IsDimension = iif(upperCase($1.IsDimension) == "TRUE", true, false);
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+</Node>
+<Node enabled="disabled" guiName="SimpleCopy" guiX="358" guiY="60" id="Copy" type="SIMPLE_COPY"/>
+<Node enabled="disabled" fileURL="${CONFIGIN_DIR}/AttributeMetadata.csv" guiName="Read Attributes" guiX="22" guiY="35" id="READ_ATTRIBUTES" skipRows="1" type="DATA_READER"/>
+<Node enabled="disabled" fileURL="${CONFIGIN_DIR}/AttributeFormatting.csv" guiName="Read Formatting" guiX="22" guiY="255" id="READ_FORMATTING" skipRows="1" type="DATA_READER"/>
+<Node enabled="disabled" fileURL="${CONFIGIN_DIR}/AttributeProfiles.csv" guiName="Read Profiles" guiX="22" guiY="148" id="READ_PROFILES" skipRows="1" type="DATA_READER"/>
+<Node enabled="disabled" guiName="Seed Formatting Records" guiX="875" guiY="63" id="SEED_FORMATTING_RECORDS" operationName="{http://www.endeca.com/MDEX/config/services/config/3}Config#ConfigPort#DoConfigTransaction" type="WEB_SERVICE_CLIENT" wsdlURL="http://${ENDECA_SERVER_HOST}:${ENDECA_SERVER_PORT}/${ENDECA_SERVER_CONTEXT}/ws/config/${DATA_DOMAIN_NAME}?wsdl">
+<attr name="namespaceBindings"><![CDATA[0=http\://www.endeca.com/MDEX/config/services/types/3/0
+01=http\://www.endeca.com/MDEX/ingest/3/0
+09=http\://www.endeca.com/MDEX/config/XQuery/2009/09
+XMLS=http\://www.w3.org/2001/XMLSchema
+incl=http\://www.w3.org/2004/08/xop/include
+]]></attr>
+<attr name="requestStructure"><![CDATA[		<ns:configTransaction xmlns:ns="http://www.endeca.com/MDEX/config/services/types/3/0" xmlns:ns1="http://www.endeca.com/MDEX/config/XQuery/2009/09">
+			<ns:updateProperties>
+				<ns1:record>
+					<mdex-property_DisplayName>availableAggregations</mdex-property_DisplayName>
+					<mdex-property_IsTextSearchable>false</mdex-property_IsTextSearchable>
+					<mdex-property_IsPropertyValueSearchable>false</mdex-property_IsPropertyValueSearchable>
+					<mdex-property_Type>mdex:string</mdex-property_Type>
+					<mdex-property_Key>system-eid_available_aggregations</mdex-property_Key>
+				</ns1:record>
+				<ns1:record>
+					<mdex-property_DisplayName>defaultAggregation</mdex-property_DisplayName>
+					<mdex-property_IsTextSearchable>false</mdex-property_IsTextSearchable>
+					<mdex-property_IsPropertyValueSearchable>false</mdex-property_IsPropertyValueSearchable>
+					<mdex-property_Type>mdex:string</mdex-property_Type>
+					<mdex-property_Key>system-eid_default_aggregation</mdex-property_Key>
+				</ns1:record>
+				<ns1:record>
+					<mdex-property_DisplayName>description</mdex-property_DisplayName>
+					<mdex-property_IsTextSearchable>false</mdex-property_IsTextSearchable>
+					<mdex-property_IsPropertyValueSearchable>false</mdex-property_IsPropertyValueSearchable>
+					<mdex-property_Type>mdex:string</mdex-property_Type>
+					<mdex-property_Key>system-eid_description</mdex-property_Key>
+				</ns1:record>
+				<ns1:record>
+					<mdex-property_DisplayName>formatSettings</mdex-property_DisplayName>
+					<mdex-property_IsTextSearchable>false</mdex-property_IsTextSearchable>
+					<mdex-property_IsPropertyValueSearchable>false</mdex-property_IsPropertyValueSearchable>
+					<mdex-property_Type>mdex:string</mdex-property_Type>
+					<mdex-property_Key>system-eid_formatSettings</mdex-property_Key>
+				</ns1:record>
+				<ns1:record>
+					<mdex-property_DisplayName>localizedDn</mdex-property_DisplayName>
+					<mdex-property_IsTextSearchable>false</mdex-property_IsTextSearchable>
+					<mdex-property_IsPropertyValueSearchable>false</mdex-property_IsPropertyValueSearchable>
+					<mdex-property_Type>mdex:string</mdex-property_Type>
+					<mdex-property_Key>system-eid_localizedDn</mdex-property_Key>
+				</ns1:record>
+				<ns1:record>
+					<mdex-property_DisplayName>localizedDescription</mdex-property_DisplayName>
+					<mdex-property_IsTextSearchable>false</mdex-property_IsTextSearchable>
+					<mdex-property_IsPropertyValueSearchable>false</mdex-property_IsPropertyValueSearchable>
+					<mdex-property_Type>mdex:string</mdex-property_Type>
+					<mdex-property_Key>system-eid_localizedDescription</mdex-property_Key>
+				</ns1:record>
+				<ns1:record>
+					<mdex-property_DisplayName>isDimension</mdex-property_DisplayName>
+					<mdex-property_IsTextSearchable>false</mdex-property_IsTextSearchable>
+					<mdex-property_IsPropertyValueSearchable>false</mdex-property_IsPropertyValueSearchable>
+					<mdex-property_Type>mdex:boolean</mdex-property_Type>
+					<mdex-property_Key>system-eid_isDimension</mdex-property_Key>
+				</ns1:record>
+			</ns:updateProperties>
+		</ns:configTransaction>]]></attr>
+</Node>
+<Edge debugMode="false" fromNode="ATTRIBUTE_PROFILES:0" guiBendpoints="" guiRouter="Manhattan" id="Edge4" inPort="Port 0 (in)" metadata="Metadata5" outPort="Port 0 (out)" toNode="Copy:0"/>
+<Edge fromNode="Copy:0" guiBendpoints="" guiRouter="Manhattan" id="Edge0" inPort="Port 0 (in)" metadata="Metadata5" outPort="Port 0 (out)" toNode="BUILD_SCHEMA:0"/>
+<Edge fromNode="Copy:1" guiBendpoints="" guiRouter="Manhattan" id="Edge5" inPort="Port 0 (in)" metadata="Metadata5" outPort="Port 1 (out)" toNode="EXT_FILTER0:0"/>
+<Edge debugMode="false" fromNode="READ_ATTRIBUTES:0" guiBendpoints="" guiRouter="Manhattan" id="Edge2" inPort="Port 0 (driver)" metadata="Metadata6" outPort="Port 0 (output)" toNode="ATTRIBUTE_PROFILES:0"/>
+<Edge debugMode="false" fromNode="READ_FORMATTING:0" guiBendpoints="" guiRouter="Manhattan" id="Edge7" inPort="Port 2 (slave)" metadata="Metadata1" outPort="Port 0 (output)" toNode="ATTRIBUTE_PROFILES:2"/>
+<Edge debugMode="false" fromNode="READ_PROFILES:0" guiBendpoints="" guiRouter="Manhattan" id="Edge3" inPort="Port 1 (slave)" metadata="Metadata3" outPort="Port 0 (output)" toNode="ATTRIBUTE_PROFILES:1"/>
+</Phase>
+<Phase number="1">
+<Node enabled="disabled" guiName="Build Schema" guiX="544" guiY="159" id="BUILD_SCHEMA" type="REFORMAT">
+<attr name="transform"><![CDATA[//#CTL2
+
+integer n = 1;
+integer aggrKey = 0;
+
+// Transforms input record into output record.
+function integer transform() {
+	string pdrRecord = "<mdex:record>";
+	pdrRecord = pdrRecord + "<mdex-property_Key>" + $0.Key + "</mdex-property_Key>";
+	pdrRecord = pdrRecord + "<mdex-property_DisplayName>" + $0.DisplayName + "</mdex-property_DisplayName>";
+	pdrRecord = pdrRecord + "<mdex-property_IsSingleAssign>" + $0.IsSingleAssign + "</mdex-property_IsSingleAssign>";
+	pdrRecord = pdrRecord + "<mdex-property_IsUnique>" + $0.IsUnique + "</mdex-property_IsUnique>";
+	pdrRecord = pdrRecord + "<mdex-property_IsTextSearchable>" + $0.IsTextSearchable + "</mdex-property_IsTextSearchable>";
+	pdrRecord = pdrRecord + "<mdex-property_IsPropertyValueSearchable>" + $0.IsValueSearchable + "</mdex-property_IsPropertyValueSearchable>";
+	pdrRecord = pdrRecord + "<mdex-property_Type>" + $0.Type + "</mdex-property_Type>";
+	pdrRecord = pdrRecord + "<system-navigation_Select>" + $0.SelectType + "</system-navigation_Select>";
+	pdrRecord = pdrRecord + "<system-navigation_ShowRecordCounts>" + $0.ShowRecordCounts + "</system-navigation_ShowRecordCounts>";
+	pdrRecord = pdrRecord + "<system-navigation_Sorting>" + $0.SortOrder + "</system-navigation_Sorting>";
+	pdrRecord = pdrRecord + '<system-eid_isDimension type="mdex:boolean" xmlns="">' + $0.IsDimension + '</system-eid_isDimension>';
+		
+	if ( $in.0.Format != 'Default')
+	{	
+	pdrRecord = pdrRecord + '<system-eid_available_aggregations type="mdex:string" xmlns="">' + $0.AvailableAggregations + '</system-eid_available_aggregations>';
+	pdrRecord = pdrRecord + '<system-eid_default_aggregation type="mdex:string" xmlns="">' + $0.DefaultAggregation + '</system-eid_default_aggregation>';
+    pdrRecord = pdrRecord + '<system-eid_description type="mdex:string" xmlns=""/>';
+	pdrRecord = pdrRecord + '<system-eid_formatSettings type="mdex:string" xmlns="">' + $0.FormatSettings + '</system-eid_formatSettings>';
+	}
+	
+	$0.xml = pdrRecord + "</mdex:record>";
+	
+	/* Batch up the web service requests: one request for every 20 input records.
+	 *
+	 * Why? When all the records are sent in a single large batch, the request will
+	 * be so large that it will exceed the Web Service Client Component's internal
+	 * buffer. 
+	 * Thus, we must either batch up the requests, or modify the defaultProperties
+	 * file to have a higher value in DataFormatter.FIELD_BUFFER_LENGTH
+	 */
+	$0.key = aggrKey;
+	n++;
+	if (n % 20 == 0) {
+		aggrKey++;
+	}
+
+	return ALL;
+}
+
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+</Node>
+<Node enabled="disabled" guiName="Generate Request" guiX="717" guiY="159" id="GENERATE_REQUEST" key="key" order="Auto" type="DENORMALIZER">
+<attr name="denormalize"><![CDATA[//#CTL2
+// This transformation defines the way in which multiple input records 
+// (with the same key) are denormalized into one output record. 
+
+// This function is called for each input record from a group of records
+// with the same key.
+integer n = 0;
+string value = "";
+
+function integer append() {
+	value = value + $0.xml + "\n";
+	n++;
+	return n;
+}
+
+// This function is called once after the append() function was called for all records
+// of a group of input records defined by the key.
+// It creates a single output record for the whole group.
+function integer transform() {
+	$0.xml = value;
+	value = "";
+	return OK;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if append() throws an exception.
+// function integer appendOnError(string errorMessage, string stackTrace) {
+// }
+
+// Called only if transform() throws an exception.
+//function integer transformOnError(string errorMessage, string stackTrace) {
+//}
+
+// Called after transform() to return the resources that have been used to their initial state
+// so that next group of records with different key may be parsed.
+// function void clean() {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+</Node>
+<Node enabled="disabled" guiName="Load Attributes" guiX="881" guiY="159" id="LOAD_ATTRIBUTES" operationName="{http://www.endeca.com/MDEX/config/services/config/3}Config#ConfigPort#DoConfigTransaction" type="WEB_SERVICE_CLIENT" wsdlURL="http://${ENDECA_SERVER_HOST}:${ENDECA_SERVER_PORT}/${ENDECA_SERVER_CONTEXT}/ws/config/${DATA_DOMAIN_NAME}?wsdl">
+<attr name="namespaceBindings"><![CDATA[0=http\://www.endeca.com/MDEX/config/services/types/3/0
+09=http\://www.endeca.com/MDEX/config/XQuery/2009/09
+XMLS=http\://www.w3.org/2001/XMLSchema
+incl=http\://www.w3.org/2004/08/xop/include
+]]></attr>
+<attr name="requestStructure"><![CDATA[<config-service:configTransaction xmlns:config-service="http://www.endeca.com/MDEX/config/services/types/3/0">
+    <config-service:updateProperties xmlns:mdex="http://www.endeca.com/MDEX/XQuery/2009/09">
+        $xml
+    </config-service:updateProperties>
+</config-service:configTransaction>]]></attr>
+</Node>
+<Edge debugMode="false" fromNode="BUILD_SCHEMA:0" guiBendpoints="" guiRouter="Manhattan" id="Edge10" inPort="Port 0 (in)" metadata="Metadata2" outPort="Port 0 (out)" toNode="GENERATE_REQUEST:0"/>
+<Edge debugMode="false" fromNode="GENERATE_REQUEST:0" guiBendpoints="" guiRouter="Manhattan" id="Edge11" inPort="Port 0 (request)" metadata="Metadata2" outPort="Port 0 (out)" toNode="LOAD_ATTRIBUTES:0"/>
+</Phase>
+<Phase number="2">
+<Node enabled="disabled" guiName="Set default language" guiX="1065" guiY="320" id="SET_DEFAULT_LANGUAGE" operationName="{http://www.endeca.com/MDEX/config/services/config/3}Config#ConfigPort#DoConfigTransaction" type="WEB_SERVICE_CLIENT" wsdlURL="http://${ENDECA_SERVER_HOST}:${ENDECA_SERVER_PORT}/${ENDECA_SERVER_CONTEXT}/ws/config/${DATA_DOMAIN_NAME}?wsdl">
+<attr name="namespaceBindings"><![CDATA[0=http\://www.endeca.com/MDEX/config/services/types/3/0
+09=http\://www.endeca.com/MDEX/config/XQuery/2009/09
+XMLS=http\://www.w3.org/2001/XMLSchema
+incl=http\://www.w3.org/2004/08/xop/include
+]]></attr>
+<attr name="requestStructure"><![CDATA[<config-service:configTransaction xmlns:config-service="http://www.endeca.com/MDEX/config/services/types/3/0">
+    <config-service:setPropertyDefaultLanguage>${DEFAULT_LANGUAGE}</config-service:setPropertyDefaultLanguage>
+</config-service:configTransaction>
+]]></attr>
+</Node>
+</Phase>
+<Phase number="3">
+<Node enabled="disabled" guiName="Filter by Searchability" guiX="556" guiY="397" id="EXT_FILTER0" type="EXT_FILTER">
+<attr name="filterExpression"><![CDATA[//#CTL2
+$0.IsTextSearchable==true]]></attr>
+</Node>
+<Node enabled="disabled" guiName="Generate Request" guiX="898" guiY="397" id="GENERATE_REQUEST1" key="key" order="Auto" type="DENORMALIZER">
+<attr name="denormalize"><![CDATA[//#CTL2
+// This transformation defines the way in which multiple input records 
+// (with the same key) are denormalized into one output record. 
+string value = "";
+string nameOfInterface = "All";
+
+// This function is called for each input record from a group of records
+// with the same key.
+function integer append() {
+	value = value + $0.xml;
+	return 0;
+}
+
+// This function is called once after the append() function was called for all records
+// of a group of input records defined by the key.
+// It creates a single output record for the whole group.
+function integer transform() {
+	$0.xml = "<SEARCH_INTERFACE NAME=\"" + nameOfInterface + "\">"
+					+ value 
+					+ "</SEARCH_INTERFACE>";
+	$0.key = 0;	// constant (aggregate everything into one request)
+	
+	return OK;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if append() throws an exception.
+// function integer appendOnError(string errorMessage, string stackTrace) {
+// }
+
+// Called only if transform() throws an exception.
+//function integer transformOnError(string errorMessage, string stackTrace) {
+//}
+
+// Called after transform() to return the resources that have been used to their initial state
+// so that next group of records with different key may be parsed.
+// function void clean() {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+</Node>
+<Node enabled="disabled" guiName="Load Search Interfaces" guiX="1065" guiY="397" id="LOAD_SEARCH_INTERFACES" operationName="{http://www.endeca.com/MDEX/config/services/config/3}Config#ConfigPort#DoConfigTransaction" type="WEB_SERVICE_CLIENT" wsdlURL="http://${ENDECA_SERVER_HOST}:${ENDECA_SERVER_PORT}/${ENDECA_SERVER_CONTEXT}/ws/config/${DATA_DOMAIN_NAME}?wsdl">
+<attr name="namespaceBindings"><![CDATA[0=http\://www.endeca.com/MDEX/config/services/types/3/0
+09=http\://www.endeca.com/MDEX/config/XQuery/2009/09
+XMLS=http\://www.w3.org/2001/XMLSchema
+incl=http\://www.w3.org/2004/08/xop/include
+]]></attr>
+<attr name="requestStructure"><![CDATA[<config-service:configTransaction xmlns:config-service="http://www.endeca.com/MDEX/config/services/types/3/0">
+<config-service:putConfigDocuments  xmlns:config-service="http://www.endeca.com/MDEX/config/services/types/3/0" xmlns:mdex="http://www.endeca.com/MDEX/XQuery/2009/09">
+<mdex:configDocument name="recsearch_config">
+<RECSEARCH_CONFIG>
+  $xml
+</RECSEARCH_CONFIG>
+</mdex:configDocument>
+</config-service:putConfigDocuments>
+</config-service:configTransaction>]]></attr>
+</Node>
+<Node enabled="disabled" guiName="Reformat" guiX="734" guiY="397" id="REFORMAT0" type="REFORMAT">
+<attr name="transform"><![CDATA[//#CTL2
+
+integer relRank = 0;
+
+// Transforms input record into output record.
+function integer transform() {
+	$0.key = 0;
+	$0.xml = "<MEMBER_NAME RELEVANCE_RANK='" + num2str(relRank++) + "' SNIPPET_SIZE='" + $0.SnippetSize + "'>" + $0.Key + "</MEMBER_NAME>";
+	
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+</Node>
+<Edge debugMode="false" fromNode="EXT_FILTER0:0" guiBendpoints="" guiRouter="Manhattan" id="Edge13" inPort="Port 0 (in)" metadata="Metadata5" outPort="Port 0 (accepted)" toNode="REFORMAT0:0"/>
+<Edge debugMode="false" fromNode="GENERATE_REQUEST1:0" guiBendpoints="" guiRouter="Manhattan" id="Edge17" inPort="Port 0 (request)" metadata="Metadata2" outPort="Port 0 (out)" toNode="LOAD_SEARCH_INTERFACES:0"/>
+<Edge debugMode="false" fromNode="REFORMAT0:0" guiBendpoints="" guiRouter="Manhattan" id="Edge9" inPort="Port 0 (in)" metadata="Metadata2" outPort="Port 0 (out)" toNode="GENERATE_REQUEST1:0"/>
+</Phase>
+<Phase number="4">
+<Node enabled="enabled" guiName="Build Attribute Groups" guiX="880" guiY="526" id="BUILD_ATTRIBUTE_GROUPS" key="GroupName" order="Auto" type="DENORMALIZER">
+<attr name="denormalize"><![CDATA[//#CTL2
+// This transformation defines the way in which multiple input records 
+// (with the same key) are denormalized into one output record. 
+integer n = 0;
+string value = "";
+boolean first = true;
+
+// This function is called for each input record from a group of records
+// with the same key.
+function integer append() {
+	n++;
+	if (first) {
+		// autogenerate a key based on the display name
+		// in the future we can expose this as a configurable option 
+		string key = replace($0.GroupName, " ", "-");
+		value = "<mdex:group key='" + key + "' displayName='" + $0.GroupDisplayName + "'>";
+	}
+	
+	value = value + "<mdex-property_Key>" + $0.AttributeName + "</mdex-property_Key>";
+
+	first = false;
+	return n;
+}
+
+// This function is called once after the append() function was called for all records
+// of a group of input records defined by the key.
+// It creates a single output record for the whole group.
+function integer transform() {
+	$0.xml = value + "</mdex:group>";
+	first = true;
+	n = 0;
+	return OK;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if append() throws an exception.
+// function integer appendOnError(string errorMessage, string stackTrace) {
+// }
+
+// Called only if transform() throws an exception.
+//function integer transformOnError(string errorMessage, string stackTrace) {
+//}
+
+// Called after transform() to return the resources that have been used to their initial state
+// so that next group of records with different key may be parsed.
+// function void clean() {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+</Node>
+<Node enabled="enabled" guiName="Load Groups" guiX="1119" guiY="526" id="LOAD_GROUPS" operationName="{http://www.endeca.com/MDEX/config/services/config/3}Config#ConfigPort#DoConfigTransaction" type="WEB_SERVICE_CLIENT" wsdlURL="http://${ENDECA_SERVER_HOST}:${ENDECA_SERVER_PORT}/${ENDECA_SERVER_CONTEXT}/ws/config/${DATA_DOMAIN_NAME}?wsdl">
+<attr name="namespaceBindings"><![CDATA[0=http\://www.endeca.com/MDEX/config/services/types/3/0
+09=http\://www.endeca.com/MDEX/config/XQuery/2009/09
+XMLS=http\://www.w3.org/2001/XMLSchema
+incl=http\://www.w3.org/2004/08/xop/include
+]]></attr>
+<attr name="requestStructure"><![CDATA[<config-service:configTransaction xmlns:config-service="http://www.endeca.com/MDEX/config/services/types/3/0">
+<config-service:putGroups xmlns:config-service="http://www.endeca.com/MDEX/config/services/types/3/0" xmlns:mdex="http://www.endeca.com/MDEX/XQuery/2009/09">
+$xml
+</config-service:putGroups>
+</config-service:configTransaction>]]></attr>
+</Node>
+<Node enabled="enabled" fileURL="${CONFIGIN_DIR}/AttributeGroups.csv" guiName="Read Attribute Groups" guiX="477" guiY="526" id="READ_ATTRIBUTE_GROUPS1" skipRows="1" type="DATA_READER"/>
+<Node enabled="enabled" guiName="Sort" guiX="713" guiY="526" id="SORT" sortKey="GroupName(a);GroupDisplayName(a)" type="EXT_SORT"/>
+<Edge debugMode="false" fromNode="BUILD_ATTRIBUTE_GROUPS:0" guiBendpoints="" guiRouter="Manhattan" id="Edge16" inPort="Port 0 (request)" metadata="Metadata2" outPort="Port 0 (out)" toNode="LOAD_GROUPS:0"/>
+<Edge debugMode="false" fromNode="READ_ATTRIBUTE_GROUPS1:0" guiBendpoints="" guiRouter="Manhattan" id="Edge1" inPort="Port 0 (in)" metadata="Metadata7" outPort="Port 0 (output)" toNode="SORT:0"/>
+<Edge debugMode="false" fromNode="SORT:0" guiBendpoints="" guiRouter="Manhattan" id="Edge19" inPort="Port 0 (in)" metadata="Metadata7" outPort="Port 0 (out)" toNode="BUILD_ATTRIBUTE_GROUPS:0"/>
+</Phase>
+</Graph>

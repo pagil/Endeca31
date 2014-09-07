@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><Graph author="oracle" created="Fri Aug 01 11:28:41 EDT 2014" guiVersion="3.4.1.P" id="1406907332316" licenseType="Commercial" modified="Mon Aug 04 22:35:10 EDT 2014" modifiedBy="oracle" name="LoadData" revision="1.96" showComponentDetails="true">
+<?xml version="1.0" encoding="UTF-8"?><Graph author="oracle" created="Fri Aug 01 11:28:41 EDT 2014" guiVersion="3.4.1.P" id="1406907332316" licenseType="Commercial" modified="Sun Sep 07 09:10:39 EDT 2014" modifiedBy="oracle" name="LoadData" revision="1.107" showComponentDetails="true">
 <Global>
 <Metadata id="Metadata9" previewAttachment="${DATAIN_DIR}/DimDate.csv" previewAttachmentCharset="ISO-8859-1">
 <Record fieldDelimiter="," label="DimDate.csv" name="DimDate" previewAttachment="${DATAIN_DIR}/DimDate.csv" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\r\n" skipSourceRows="0" type="delimited">
@@ -226,11 +226,11 @@
 <Field eofAsDelimiter="false" name="ProductSubcategoryName" nullable="true" shift="0" size="0" type="string"/>
 <Field eofAsDelimiter="false" name="ProductCategoryKey" nullable="true" shift="0" size="0" type="integer"/>
 <Field eofAsDelimiter="false" name="ProductCategoryAlternateKey" nullable="true" shift="0" size="0" type="string"/>
-<Field eofAsDelimiter="false" name="ProductCategoryName" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="EnglishProductCategoryName" nullable="true" shift="0" size="0" type="string"/>
 </Record>
 </Metadata>
 <Metadata id="Metadata18">
-<Record fieldDelimiter="|" name="ProductCategoryJoined" recordDelimiter="\n" type="delimited">
+<Record fieldDelimiter="|" name="ProductCategoryJoined" recordDelimiter="\n" recordSize="-1" type="delimited">
 <Field eofAsDelimiter="false" name="ProductKey" nullable="true" shift="0" size="0" type="integer"/>
 <Field eofAsDelimiter="false" name="ProductAlternateKey" nullable="true" shift="0" size="0" type="string"/>
 <Field eofAsDelimiter="false" name="ProductSubcategoryKey" nullable="true" shift="0" size="0" type="integer"/>
@@ -260,7 +260,7 @@
 <Field eofAsDelimiter="false" name="ProductSubcategoryName" nullable="true" shift="0" size="0" type="string"/>
 <Field eofAsDelimiter="false" name="ProductCategoryKey" nullable="true" shift="0" size="0" type="integer"/>
 <Field eofAsDelimiter="false" name="ProductCategoryAlternateKey" nullable="true" shift="0" size="0" type="string"/>
-<Field eofAsDelimiter="false" name="ProductCategoryName" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="EnglishProductCategoryName" nullable="true" shift="0" size="0" type="string"/>
 </Record>
 </Metadata>
 <Metadata id="Metadata12" previewAttachmentCharset="ISO-8859-1">
@@ -422,7 +422,7 @@
 <Field eofAsDelimiter="false" name="ProductSubcategoryName" nullable="true" shift="0" size="0" type="string"/>
 <Field eofAsDelimiter="false" name="ProductCategoryKey" nullable="true" shift="0" size="0" type="integer"/>
 <Field eofAsDelimiter="false" name="ProductCategoryAlternateKey" nullable="true" shift="0" size="0" type="string"/>
-<Field eofAsDelimiter="false" name="ProductCategoryName" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="EnglishProductCategoryName" nullable="true" shift="0" size="0" type="string"/>
 </Record>
 </Metadata>
 <Metadata id="Metadata5" previewAttachmentCharset="ISO-8859-1">
@@ -527,7 +527,7 @@
 <Field eofAsDelimiter="false" name="ProductSubcategoryKey" nullable="true" shift="0" size="0" type="integer"/>
 <Field eofAsDelimiter="false" name="WeightUnitMeasureCode" nullable="true" shift="0" size="0" type="string"/>
 <Field eofAsDelimiter="false" name="SizeUnitMeasureCode" nullable="true" shift="0" size="0" type="string"/>
-<Field eofAsDelimiter="false" name="ProductName" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="EnglishProductName" nullable="true" shift="0" size="0" type="string"/>
 <Field eofAsDelimiter="false" name="StandardCost" nullable="true" shift="0" size="0" type="string"/>
 <Field eofAsDelimiter="false" name="FinishedGoodsFlag" nullable="true" shift="0" size="0" type="string"/>
 <Field eofAsDelimiter="false" name="Color" nullable="true" shift="0" size="0" type="string"/>
@@ -551,7 +551,7 @@
 <Field eofAsDelimiter="false" name="ProductSubcategoryName" nullable="true" shift="0" size="0" type="string"/>
 <Field eofAsDelimiter="false" name="ProductCategoryKey" nullable="true" shift="0" size="0" type="integer"/>
 <Field eofAsDelimiter="false" name="ProductCategoryAlternateKey" nullable="true" shift="0" size="0" type="string"/>
-<Field eofAsDelimiter="false" name="ProductCategoryName" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="EnglishProductCategoryName" nullable="true" shift="0" size="0" type="string"/>
 <Field eofAsDelimiter="false" name="SalesOrderNumber" nullable="true" shift="0" size="0" type="string"/>
 <Field eofAsDelimiter="false" name="SurveyResponse" nullable="true" shift="0" size="0" type="string"/>
 <Field eofAsDelimiter="false" name="SurveyTerms" nullable="true" shift="0" size="0" type="string"/>
@@ -591,7 +591,7 @@ function integer transform() {
 	$out.0.ProductSubcategoryName = $in.0.EnglishProductSubcategoryName;
 	$out.0.ProductCategoryKey = $in.0.ProductCategoryKey;
 	$out.0.ProductCategoryAlternateKey = $in.1.ProductCategoryAlternateKey;
-	$out.0.ProductCategoryName = $in.1.EnglishProductCategoryName;
+	$out.0.EnglishProductCategoryName = $in.1.EnglishProductCategoryName;
 
 	return ALL;
 }
@@ -800,7 +800,7 @@ function integer transform() {
 	$out.0.ProductSubcategoryName = $in.5.ProductSubcategoryName;
 	$out.0.ProductCategoryKey = $in.5.ProductCategoryKey;
 	$out.0.ProductCategoryAlternateKey = $in.5.ProductCategoryAlternateKey;
-	$out.0.ProductCategoryName = $in.5.ProductCategoryName;
+	$out.0.EnglishProductCategoryName = $in.5.EnglishProductCategoryName;
 
 	return ALL;
 }
@@ -989,7 +989,7 @@ function integer transform() {
 	$out.0.ProductSubcategoryKey = $in.0.ProductSubcategoryKey;
 	$out.0.WeightUnitMeasureCode = $in.0.WeightUnitMeasureCode;
 	$out.0.SizeUnitMeasureCode = $in.0.SizeUnitMeasureCode;
-	$out.0.ProductName = $in.0.ProductName;
+	$out.0.EnglishProductName = $in.0.ProductName;
 	$out.0.StandardCost = $in.0.StandardCost;
 	$out.0.FinishedGoodsFlag = $in.0.FinishedGoodsFlag;
 	$out.0.Color = $in.0.Color;
@@ -1013,7 +1013,7 @@ function integer transform() {
 	$out.0.ProductSubcategoryName = $in.0.ProductSubcategoryName;
 	$out.0.ProductCategoryKey = $in.0.ProductCategoryKey;
 	$out.0.ProductCategoryAlternateKey = $in.0.ProductCategoryAlternateKey;
-	$out.0.ProductCategoryName = $in.0.ProductCategoryName;
+	$out.0.EnglishProductCategoryName = $in.0.EnglishProductCategoryName;
 
 	return ALL;
 }
@@ -1073,7 +1073,7 @@ function integer transform() {
 	$out.0.ProductSubcategoryName = $in.1.ProductSubcategoryName;
 	$out.0.ProductCategoryKey = $in.1.ProductCategoryKey;
 	$out.0.ProductCategoryAlternateKey = $in.1.ProductCategoryAlternateKey;
-	$out.0.ProductCategoryName = $in.1.ProductCategoryName;
+	$out.0.EnglishProductCategoryName = $in.1.EnglishProductCategoryName;
 
 	return ALL;
 }
@@ -1100,7 +1100,7 @@ function integer transform() {
 <Node enabled="enabled" fileURL="${DATAIN_DIR}/DimProductSubCategory.csv" guiName="Product Subcategory Dim" guiX="18" guiY="793" id="PRODUCT_SUBCATEGORY_DIM" skipRows="1" type="DATA_READER"/>
 <Node enabled="enabled" fileURL="${DATAIN_DIR}/DimReseller.csv" guiName="Reseller Dim" guiX="18" guiY="461" id="RESELLER_DIM" quotedStrings="true" skipRows="1" type="DATA_READER"/>
 <Node enabled="enabled" fileURL="${DATAIN_DIR}/FactSales.csv" guiName="Sales Facts" guiX="18" guiY="12" id="SALES_FACTS" quotedStrings="false" skipRows="1" type="DATA_READER"/>
-<Node enabled="enabled" fileURL="${DATAIN_DIR}/DimSalesTerritory.csv" guiName="Sales Territory Dim" guiX="18" guiY="235" id="SALES_TERRITORY_DIM" quotedStrings="true" skipRows="1" type="DATA_READER"/>
+<Node enabled="enabled" fileURL="${DATAIN_DIR}/DimSalesTerritory.csv" guiName="Sales Territory Dim" guiX="18" guiY="230" id="SALES_TERRITORY_DIM" quotedStrings="true" skipRows="1" type="DATA_READER"/>
 <Node enabled="enabled" fileURL="${DATAIN_DIR}/SurveyResponses.csv" guiName="Survey Responses" guiX="22" guiY="1015" id="SURVEY_RESPONSES" skipRows="1" type="DATA_READER"/>
 <Node enabled="disabled" fileURL="${DATAIN_DIR}/SurveyWhitelist.csv" guiName="Survey Whitelist" guiX="22" guiY="1124" id="SURVEY_WHITELIST" quotedStrings="true" skipRows="1" type="DATA_READER"/>
 <Node enabled="enabled" fileURL="${DATAIN_DIR}/SurveyWhitelistFull.csv" guiName="Survey Whitelist Full" guiX="22" guiY="1234" id="SURVEY_WHITELIST_FULL" skipRows="1" type="DATA_READER"/>

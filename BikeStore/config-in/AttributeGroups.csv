@@ -1,0 +1,57 @@
+GroupName,GroupDisplayName,AttributeName
+Sales Transaction,Sales Transaction,FactSales_SalesOrderNumber
+Sales Transaction,Sales Transaction,FactSales_SalesOrderLineNumber
+Sales Transaction,Sales Transaction,FactSales_RevisionNumber
+Sales Transaction,Sales Transaction,FactSales_OrderQuantity
+Sales Transaction,Sales Transaction,FactSales_UnitPrice
+Sales Transaction,Sales Transaction,FactSales_ExtendedAmount
+Sales Transaction,Sales Transaction,FactSales_UnitPriceDiscountPct
+Sales Transaction,Sales Transaction,FactSales_DiscountAmount
+Sales Transaction,Sales Transaction,FactSales_ProductStandardCost
+Sales Transaction,Sales Transaction,FactSales_TotalProductCost
+Sales Transaction,Sales Transaction,FactSales_SalesAmount
+Sales Transaction,Sales Transaction,FactSales_TaxAmt
+Sales Transaction,Sales Transaction,FactSales_Freight
+Sales Transaction,Sales Transaction,FactSales_CarrierTrackingNumber
+Sales Transaction,Sales Transaction,FactSales_CustomerPONumer
+Date,Date,DimDate_FiscalYear
+Date,Date,DimDate_FiscalQuarter
+Date,Date,DimDate_CalendarYear
+Date,Date,DimDate_CalendarQuarter
+Date,Date,DimDate_MonthName
+Employee,Employee,DimEmployee_DepartmentName
+Employee,Employee,DimEmployee_FullName
+Employee,Employee,DimEmployee_Status
+Employee,Employee,DimEmployee_SalesPersonFlag
+Employee,Employee,DimEmployee_SalariedFlag
+Employee,Employee,DimEmployee_Title
+Employee,Employee,DimEmployee_Gender
+Employee,Employee,DimEmployee_MaritalStatus
+Sale Geography,Sale Geography,DimGeography_CountryRegionName
+Sale Geography,Sale Geography,DimGeography_StateProvinceName
+Sale Geography,Sale Geography,DimGeography_City
+Sale Geography,Sale Geography,DimGeography_PostalCode
+Sale Geography,Sale Geography,DimSalesTerritory_SalesTerritoryCountry
+Sale Geography,Sale Geography,DimSalesTerritory_SalesTerritoryGroup
+Sale Geography,Sale Geography,DimSalesTerritory_SalesTerritoryRegion
+Reseller,Reseller,DimReseller_ResellerName
+Reseller,Reseller,DimReseller_BusinessType
+Reseller,Reseller,DimReseller_FirstOrderYear
+Reseller,Reseller,DimReseller_LastOrderYear
+Reseller,Reseller,DimReseller_YearOpened
+Reseller,Reseller,DimReseller_OrderFrequency
+Reseller,Reseller,DimReseller_OrderMonth
+Reseller,Reseller,DimReseller_BankName
+Reseller,Reseller,DimReseller_MinPaymentAmount
+Reseller,Reseller,DimReseller_MinPaymentType
+Reseller,Reseller,DimReseller_ProductLine
+Product,Product,ProductCategoryName
+Product,Product,ProductSubcategoryName
+Product,Product,ProductName
+Product,Product,ModelName
+Product,Product,Color
+Product,Product,SizeRange
+Product,Product,Class
+Product,Product,Style
+Product,Product,StandardCost
+Product,Product,ProductLine
