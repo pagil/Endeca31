@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="|" name="Data_In_Sheet2" recordDelimiter="\n" type="delimited">
+<Field format="" label="ID" name="ID" type="long"/>
+<Field format="" label="SCCM_ID" name="SCCM_ID" type="long"/>
+<Field format="" label="SCCM_CLIENT_INSTALLED" name="SCCM_CLIENT_INSTALLED" type="string"/>
+<Field format="" label="LASTSCCM_HW_SCAN" name="LASTSCCM_HW_SCAN" type="string"/>
+<Field format="" label="PC_NAME" name="PC_NAME" type="string"/>
+<Field format="" label="SERIAL_NUMBER" name="SERIAL_NUMBER" type="string"/>
+<Field format="excel:m/d/yy h:mm" label="BIOS_RELEASE_DATE" name="BIOS_RELEASE_DATE" type="date"/>
+<Field format="" label="LAST_LOGGED_ON_USERID" name="LAST_LOGGED_ON_USERID" type="string"/>
+<Field format="" label="USER_DOMAIN" name="USER_DOMAIN" type="string"/>
+<Field format="" label="TOP_CONSOLE_USER_DOMAIN" name="TOP_CONSOLE_USER_DOMAIN" type="string"/>
+<Field format="" label="TOP_CONSOLE_USERID" name="TOP_CONSOLE_USERID" type="string"/>
+<Field format="" label="ACTIVEDIR_NAME" name="ACTIVEDIR_NAME" type="string"/>
+<Field format="" label="MAKE" name="MAKE" type="string"/>
+<Field format="" label="MODEL" name="MODEL" type="string"/>
+<Field format="" label="TOTAL_PHYSICAL_MEMORY" name="TOTAL_PHYSICAL_MEMORY" type="long"/>
+<Field format="" label="OPERSYSTEM" name="OPERSYSTEM" type="string"/>
+<Field format="" label="OPERSYSTEM_SERVPACK" name="OPERSYSTEM_SERVPACK" type="string"/>
+<Field format="" label="DOMAIN_OR_WORKGROUP_NAME" name="DOMAIN_OR_WORKGROUP_NAME" type="string"/>
+<Field format="" label="LINENO" name="LINENO" type="long"/>
+<Field format="" label="DHCP_SERVER" name="DHCP_SERVER" type="string"/>
+<Field format="" label="RESOURCE_ID" name="RESOURCE_ID" type="long"/>
+<Field format="" label="DHCP_ENABLED" name="DHCP_ENABLED" type="long"/>
+<Field format="" label="DNS_HOSTNAME" name="DNS_HOSTNAME" type="string"/>
+<Field format="" label="IP_ADDRESS" name="IP_ADDRESS" type="string"/>
+<Field format="" label="IP_SUBNET" name="IP_SUBNET" type="string"/>
+<Field format="" label="MAC_ADDRESS" name="MAC_ADDRESS" type="string"/>
+<Field format="" label="AUDITSTARTDATE" name="AUDITSTARTDATE" type="string"/>
+<Field format="" label="TOP_CONSOLE_USER_TIME" name="TOP_CONSOLE_USER_TIME" type="long"/>
+<Field format="" label="NUMBER_OF_CONSOLE_USERS" name="NUMBER_OF_CONSOLE_USERS" type="long"/>
+<Field format="" label="TOTAL_CONSOLE_TIME" name="TOTAL_CONSOLE_TIME" type="long"/>
+<Field format="" label="UPDATEDSAT" name="UPDATEDSAT" type="string"/>
+<Field format="" label="ISACTIVE" name="ISACTIVE" type="string"/>
+<Field format="excel:m/d/yy h:mm" label="REGISTRATION_TIME" name="REGISTRATION_TIME" type="date"/>
+<Field format="" label="REGISTRATIONTRUEUPYEAR" name="REGISTRATIONTRUEUPYEAR" type="long"/>
+<Field format="" label="DAYSSINCEUSE" name="DAYSSINCEUSE" type="long"/>
+<Field format="" label="MONTHSSINCEUSE" name="MONTHSSINCEUSE" type="long"/>
+<Field format="" label="CHARGECODE" name="CHARGECODE" type="string"/>
+<Field format="" label="CHARGECODE_RULE" name="CHARGECODE_RULE" type="string"/>
+<Field format="" label="LANID" name="LANID" type="string"/>
+<Field format="" label="USER_NAME" name="USER_NAME" type="string"/>
+<Field label="PROFILECOMMENTS" name="PROFILECOMMENTS" type="string"/>
+<Field format="excel:m/d/yy h:mm" label="PROFILELASTUPDATED" name="PROFILELASTUPDATED" type="date"/>
+</Record>
