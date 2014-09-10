@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><Graph author="oracle" created="Wed Sep 10 02:13:22 EDT 2014" guiVersion="3.4.1.P" id="1410329923726" licenseType="Commercial" modified="Wed Sep 10 02:33:27 EDT 2014" modifiedBy="oracle" name="TestLoadData" revision="1.9" showComponentDetails="true">
+<Global>
+<Metadata fileURL="${META_DIR}/Data_In_Metadata.fmt" id="Metadata0"/>
+<Property fileURL="workspace.prm" id="GraphParameter0"/>
+<Dictionary/>
+</Global>
+<Phase number="0">
+<Node enabled="enabled" guiName="Trash" guiX="595" guiY="114" id="TRASH" type="TRASH"/>
+<Node enabled="enabled" fileURL="${DATAIN_DIR}/Data-In.xlsx" guiName="XLSDataReader" guiX="199" guiY="99" id="XLSDATA_READER" metadataRow="0" parser="XLSX" sheetName="Sheet2" skipRows="1" type="XLS_READER"/>
+<Edge debugMode="true" fromNode="XLSDATA_READER:0" guiBendpoints="" guiRouter="Manhattan" id="Edge1" inPort="Port 0 (in)" metadata="Metadata0" outPort="Port 0 (out)" toNode="TRASH:0"/>
+</Phase>
+</Graph>

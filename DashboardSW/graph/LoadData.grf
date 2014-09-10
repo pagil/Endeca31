@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><Graph author="oracle" created="Wed Sep 10 02:13:22 EDT 2014" guiVersion="3.4.1.P" id="1410329648911" licenseType="Commercial" modified="Wed Sep 10 03:20:09 EDT 2014" modifiedBy="oracle" name="LoadData" revision="1.11" showComponentDetails="true">
+<Global>
+<Metadata fileURL="${META_DIR}/Data_In_Metadata_Spec.fmt" id="Metadata1"/>
+<Metadata fileURL="${META_DIR}/Data_In_Metadata.fmt" id="Metadata0"/>
+<Property fileURL="workspace.prm" id="GraphParameter0"/>
+<Dictionary/>
+</Global>
+<Phase number="0">
+<Node collectionName="SWUsageCollectionKey" dataDomainName="${DATA_DOMAIN_NAME}" enabled="enabled" endecaServerContextRoot="/${ENDECA_SERVER_CONTEXT}" endecaServerHost="${ENDECA_SERVER_HOST}" endecaServerPort="${ENDECA_SERVER_PORT}" guiName="Bulk Add/Replace Records" guiX="591" guiY="124" id="BULK_ADD_REPLACE_RECORDS" milliSecondsTimeout="90000" multiAssignDelimiter="" specProperty="SWUsage_RecordSpec" type="ENDECA_BULK_ADD_OR_REPLACE_RECORDS"/>
+<Node enabled="enabled" guiName="Create Spec" guiX="414" guiY="261" id="CREATE_SPEC" type="REFORMAT">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {
+	$out.0.ID = $in.0.ID;
+	$out.0.SCCM_ID = $in.0.SCCM_ID;
+	$out.0.SCCM_CLIENT_INSTALLED = $in.0.SCCM_CLIENT_INSTALLED;
+	$out.0.LASTSCCM_HW_SCAN = $in.0.LASTSCCM_HW_SCAN;
+	$out.0.PC_NAME = $in.0.PC_NAME;
+	$out.0.SERIAL_NUMBER = $in.0.SERIAL_NUMBER;
+	$out.0.BIOS_RELEASE_DATE = $in.0.BIOS_RELEASE_DATE;
+	$out.0.LAST_LOGGED_ON_USERID = $in.0.LAST_LOGGED_ON_USERID;
+	$out.0.USER_DOMAIN = $in.0.USER_DOMAIN;
+	$out.0.TOP_CONSOLE_USER_DOMAIN = $in.0.TOP_CONSOLE_USER_DOMAIN;
+	$out.0.TOP_CONSOLE_USERID = $in.0.TOP_CONSOLE_USERID;
+	$out.0.ACTIVEDIR_NAME = $in.0.ACTIVEDIR_NAME;
+	$out.0.MAKE = $in.0.MAKE;
+	$out.0.MODEL = $in.0.MODEL;
+	$out.0.TOTAL_PHYSICAL_MEMORY = $in.0.TOTAL_PHYSICAL_MEMORY;
+	$out.0.OPERSYSTEM = $in.0.OPERSYSTEM;
+	$out.0.OPERSYSTEM_SERVPACK = $in.0.OPERSYSTEM_SERVPACK;
+	$out.0.DOMAIN_OR_WORKGROUP_NAME = $in.0.DOMAIN_OR_WORKGROUP_NAME;
+	$out.0.LINENO = $in.0.LINENO;
+	$out.0.DHCP_SERVER = $in.0.DHCP_SERVER;
+	$out.0.RESOURCE_ID = $in.0.RESOURCE_ID;
+	$out.0.DHCP_ENABLED = $in.0.DHCP_ENABLED;
+	$out.0.DNS_HOSTNAME = $in.0.DNS_HOSTNAME;
+	$out.0.IP_ADDRESS = $in.0.IP_ADDRESS;
+	$out.0.IP_SUBNET = $in.0.IP_SUBNET;
+	$out.0.MAC_ADDRESS = $in.0.MAC_ADDRESS;
+	$out.0.AUDITSTARTDATE = $in.0.AUDITSTARTDATE;
+	$out.0.TOP_CONSOLE_USER_TIME = $in.0.TOP_CONSOLE_USER_TIME;
+	$out.0.NUMBER_OF_CONSOLE_USERS = $in.0.NUMBER_OF_CONSOLE_USERS;
+	$out.0.TOTAL_CONSOLE_TIME = $in.0.TOTAL_CONSOLE_TIME;
+	$out.0.UPDATEDSAT = $in.0.UPDATEDSAT;
+	$out.0.ISACTIVE = $in.0.ISACTIVE;
+	$out.0.REGISTRATION_TIME = $in.0.REGISTRATION_TIME;
+	$out.0.REGISTRATIONTRUEUPYEAR = $in.0.REGISTRATIONTRUEUPYEAR;
+	$out.0.DAYSSINCEUSE = $in.0.DAYSSINCEUSE;
+	$out.0.MONTHSSINCEUSE = $in.0.MONTHSSINCEUSE;
+	$out.0.CHARGECODE = $in.0.CHARGECODE;
+	$out.0.CHARGECODE_RULE = $in.0.CHARGECODE_RULE;
+	$out.0.LANID = $in.0.LANID;
+	$out.0.USER_NAME = $in.0.USER_NAME;
+	$out.0.PROFILECOMMENTS = $in.0.PROFILECOMMENTS;
+	$out.0.PROFILELASTUPDATED = $in.0.PROFILELASTUPDATED;
+	$out.0.SWUsage_RecordSpec = $in.0.ID + "_" + $in.0.SCCM_ID + "_" + $in.0.PC_NAME;
+
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+</Node>
+<Node enabled="enabled" fileURL="${DATAIN_DIR}/Data-In.xlsx" guiName="XLSDataReader" guiX="209" guiY="109" id="XLSDATA_READER" metadataRow="0" parser="XLSX" sheetName="Sheet2" skipRows="1" type="XLS_READER"/>
+<Edge debugMode="true" fromNode="CREATE_SPEC:0" guiBendpoints="" guiRouter="Manhattan" id="Edge1" inPort="Port 0 (in)" metadata="Metadata1" outPort="Port 0 (out)" toNode="BULK_ADD_REPLACE_RECORDS:0"/>
+<Edge debugMode="true" fromNode="XLSDATA_READER:0" guiBendpoints="" guiRouter="Manhattan" id="Edge0" inPort="Port 0 (in)" metadata="Metadata0" outPort="Port 0 (out)" toNode="CREATE_SPEC:0"/>
+</Phase>
+</Graph>
