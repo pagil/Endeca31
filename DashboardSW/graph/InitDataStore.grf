@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><Graph author="oracle" created="Wed Sep 10 03:06:24 EDT 2014" guiVersion="3.4.1.P" id="1410333658569" licenseType="Commercial" modified="Wed Sep 10 03:46:07 EDT 2014" modifiedBy="oracle" name="InitDataStore" revision="1.1" showComponentDetails="true">
+<Global>
+<Property fileURL="workspace.prm" id="GraphParameter0"/>
+<Note alignment="1" backgroundColorB="225" backgroundColorG="255" backgroundColorR="255" enabled="true" folded="false" height="279" id="Note0" textColorB="0" textColorG="0" textColorR="0" textFontSize="8" title="Create New Data Store/Data Domain in MDEX Server" titleColorB="0" titleColorG="0" titleColorR="0" titleFontSize="10" width="740" x="42" y="14">
+<attr name="text"><![CDATA[This is WebServiceClient component from the Other tab. It uses "Create Data Domain" Operation to create a new Data Domain which was called Data Store in Latitude v.2.2.2.
+]]></attr>
+</Note>
+<Dictionary/>
+</Global>
+<Phase number="0">
+<Node enabled="enabled" guiName="WebServiceClient" guiX="329" guiY="207" id="WEB_SERVICE_CLIENT" operationName="{http://www.endeca.com/endeca-server/manage/2}manage#managePort#createDataDomain" type="WEB_SERVICE_CLIENT" wsdlURL="http://${ENDECA_SERVER_HOST}:${ENDECA_SERVER_PORT}/${ENDECA_SERVER_CONTEXT}/ws/manage?wsdl">
+<attr name="namespaceBindings"><![CDATA[0=http://www.endeca.com/endeca-server/manage/2/0
+incl=http://www.w3.org/2004/08/xop/include
+XMLS=http://www.w3.org/2001/XMLSchema]]></attr>
+<attr name="requestStructure"><![CDATA[<ns:createDataDomain xmlns:ns="http://www.endeca.com/endeca-server/manage/2/0">
+  <ns:name>${DATA_DOMAIN_NAME}</ns:name>
+  <!-- The values below were taken from the BikeStore project -->
+  <ns:ddProfileName>default</ns:ddProfileName>
+  <ns:enabled>true</ns:enabled>
+</ns:createDataDomain>
+
+]]></attr>
+</Node>
+</Phase>
+</Graph>

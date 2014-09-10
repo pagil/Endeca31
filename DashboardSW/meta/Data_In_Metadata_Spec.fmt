@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="|" name="Data_In_Sheet2" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" label="ID" name="ID" nullable="true" shift="0" size="0" type="long"/>
+<Field eofAsDelimiter="false" label="SCCM_ID" name="SCCM_ID" nullable="true" shift="0" size="0" type="long"/>
+<Field eofAsDelimiter="false" label="SCCM_CLIENT_INSTALLED" name="SCCM_CLIENT_INSTALLED" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" label="LASTSCCM_HW_SCAN" name="LASTSCCM_HW_SCAN" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" label="PC_NAME" name="PC_NAME" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" label="SERIAL_NUMBER" name="SERIAL_NUMBER" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" format="excel:m/d/yy h:mm" label="BIOS_RELEASE_DATE" name="BIOS_RELEASE_DATE" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" label="LAST_LOGGED_ON_USERID" name="LAST_LOGGED_ON_USERID" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" label="USER_DOMAIN" name="USER_DOMAIN" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" label="TOP_CONSOLE_USER_DOMAIN" name="TOP_CONSOLE_USER_DOMAIN" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" label="TOP_CONSOLE_USERID" name="TOP_CONSOLE_USERID" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" label="ACTIVEDIR_NAME" name="ACTIVEDIR_NAME" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" label="MAKE" name="MAKE" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" label="MODEL" name="MODEL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" label="TOTAL_PHYSICAL_MEMORY" name="TOTAL_PHYSICAL_MEMORY" nullable="true" shift="0" size="0" type="long"/>
+<Field eofAsDelimiter="false" label="OPERSYSTEM" name="OPERSYSTEM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" label="OPERSYSTEM_SERVPACK" name="OPERSYSTEM_SERVPACK" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" label="DOMAIN_OR_WORKGROUP_NAME" name="DOMAIN_OR_WORKGROUP_NAME" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" label="LINENO" name="LINENO" nullable="true" shift="0" size="0" type="long"/>
+<Field eofAsDelimiter="false" label="DHCP_SERVER" name="DHCP_SERVER" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" label="RESOURCE_ID" name="RESOURCE_ID" nullable="true" shift="0" size="0" type="long"/>
+<Field eofAsDelimiter="false" label="DHCP_ENABLED" name="DHCP_ENABLED" nullable="true" shift="0" size="0" type="long"/>
+<Field eofAsDelimiter="false" label="DNS_HOSTNAME" name="DNS_HOSTNAME" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" label="IP_ADDRESS" name="IP_ADDRESS" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" label="IP_SUBNET" name="IP_SUBNET" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" label="MAC_ADDRESS" name="MAC_ADDRESS" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" label="AUDITSTARTDATE" name="AUDITSTARTDATE" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" label="TOP_CONSOLE_USER_TIME" name="TOP_CONSOLE_USER_TIME" nullable="true" shift="0" size="0" type="long"/>
+<Field eofAsDelimiter="false" label="NUMBER_OF_CONSOLE_USERS" name="NUMBER_OF_CONSOLE_USERS" nullable="true" shift="0" size="0" type="long"/>
+<Field eofAsDelimiter="false" label="TOTAL_CONSOLE_TIME" name="TOTAL_CONSOLE_TIME" nullable="true" shift="0" size="0" type="long"/>
+<Field eofAsDelimiter="false" label="UPDATEDSAT" name="UPDATEDSAT" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" label="ISACTIVE" name="ISACTIVE" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" format="excel:m/d/yy h:mm" label="REGISTRATION_TIME" name="REGISTRATION_TIME" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" label="REGISTRATIONTRUEUPYEAR" name="REGISTRATIONTRUEUPYEAR" nullable="true" shift="0" size="0" type="long"/>
+<Field eofAsDelimiter="false" label="DAYSSINCEUSE" name="DAYSSINCEUSE" nullable="true" shift="0" size="0" type="long"/>
+<Field eofAsDelimiter="false" label="MONTHSSINCEUSE" name="MONTHSSINCEUSE" nullable="true" shift="0" size="0" type="long"/>
+<Field eofAsDelimiter="false" label="CHARGECODE" name="CHARGECODE" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" label="CHARGECODE_RULE" name="CHARGECODE_RULE" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" label="LANID" name="LANID" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" label="USER_NAME" name="USER_NAME" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" label="PROFILECOMMENTS" name="PROFILECOMMENTS" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" format="excel:m/d/yy h:mm" label="PROFILELASTUPDATED" name="PROFILELASTUPDATED" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" name="SWUsage_RecordSpec" nullable="true" shift="0" size="0" type="string"/>
+</Record>
